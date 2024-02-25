@@ -1,4 +1,12 @@
 body {
+  scroll-behavior: smooth;
+  scroll-margin: 0;
+  background-color: #CAF0F7;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -11,3 +19,65 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.container{
+  margin: 1rem;
+  text-align: center;
+}
+
+.nav {
+  background-color: #ff5990;
+  height: 75px;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+  gap: 2rem;
+}
+
+.site-title{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.nav ul{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+}
+.nav a{
+  color: inherit;
+  text-decoration: none;
+  height:100%;
+  display:flex;
+  align-items: center;
+  padding: .25rem;
+}
+
+.nav li.active{
+  color: #00ddff;
+  text-decoration: none;
+}
+
+.nav li:hover, li:focus{
+  color: #00ddff;
+}
+
+
+
+

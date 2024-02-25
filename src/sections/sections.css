@@ -1,0 +1,72 @@
+.header{
+    text-align: center;
+}
+.about-me-section{
+    margin-top: 100vh;
+    background-color: purple;
+
+}
+.contact-section{
+    margin-top: 200vh;
+}
+
+.Nav2{
+    height: 50px;
+    background-color: lightgreen;
+}
+
+.AboutMe{
+    margin-top: 500px;
+    height: 600px;
+    background-color: lightpink;
+}
+
+.Contact{
+    
+    height: 600px;
+    background-color: lightseagreen;
+}
+
+
+
+.link{
+    text-align: center;
+    text-decoration: none;
+    display: inline;
+    padding: 20px 20px;
+    font-weight: bold;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.link:hover{
+    color: #00ddff;
+}
+
+/* scroll to top button */
+.top-btn-position {
+    position: fixed;
+    bottom: 15px;
+    right: 20px;
+}
+  
+.top-btn-style {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 2px solid #333;
+    background-color: #fff;
+    color: #333;
+    cursor: pointer;
+}
+  
+.top-btn-style:hover {
+    animation: none;
+    background-color: #00ddff;
+    color: black;
+    border: 2px solid #fff;
+}
+
+
+
+
