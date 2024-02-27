@@ -6,7 +6,8 @@ import Contact from './pages/Contact';
 import { Route, Routes } from "react-router-dom"
 import Grid from '@mui/material/Grid';
 import Paper from '@mui/material/Paper';
-import Navbar2 from './sections/Navbar2';
+
+
 
 export default function App() {
   return ( 
@@ -15,6 +16,7 @@ export default function App() {
       
       <div className='container'>
         <Routes>
+          <Route path=""element={<Home/>} />
           <Route path="/Home"element={<Home/>} />
           <Route path="/About"element={<About/>} />
           <Route path="/Contact"element={<Contact/>} />
@@ -29,9 +31,6 @@ export default function App() {
             <Paper>1</Paper>
           </Grid>
         </Grid>
-        <p>hi my name is alan</p>
-
-        <Navbar2></Navbar2>
       </body>
       </>
   )
