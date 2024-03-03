@@ -1,10 +1,9 @@
 .header{
     text-align: center;
+    color: white;
 }
 .about-me-section{
     margin-top: 100vh;
-    background-color: purple;
-
 }
 .contact-section{
     margin-top: 200vh;
@@ -12,32 +11,34 @@
 
 .Nav2{
     height: 50px;
+    position:fixed;
     
 }
 
 .AboutMe{
     margin-top: 960px;
     height: 100vh;
-    background-color: White;
+
 }
 
 .Contact{
     margin-top:960px;
     height: 100vh;
-    background-color: White;
+
 }
 .link{
-    text-align: center;
     text-decoration: none;
     display: inline;
     padding: 20px 20px;
-    font-weight: bold;
-    font-size: 25px;
     cursor: pointer;
+    font-size: 20px;
+    vertical-align: middle;
+    color: #00ddff;
 }
 
+
 .link:hover{
-    color: #00ddff;
+    color: white;
 }
 
 .top-btn-position {
@@ -51,14 +52,14 @@
     width: 40px;
     border-radius: 50%;
     border: 2px solid #333;
-    background-color: #fff;
+    background-color: #00ddff;
     color: #333;
     cursor: pointer;
 }
   
 .top-btn-style:hover {
     animation: none;
-    background-color: #00ddff;
+    background-color: white;
     color: black;
     border: 2px solid #fff;
 }
@@ -74,6 +75,9 @@
     height:auto;
     
 }
+
+
+
 
 
 

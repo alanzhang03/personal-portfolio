@@ -4,16 +4,14 @@ import Home from './pages/Home';
 import Projects from './pages/Projects';
 import Contact from './pages/Contact';
 import { Route, Routes } from "react-router-dom"
-import Grid from '@mui/material/Grid';
-import Paper from '@mui/material/Paper';
-
-
+import StarField from './StarField';
 
 export default function App() {
   return ( 
       <>
+      <div className='background'></div>
+      <StarField></StarField>
       <Navbar></Navbar>
-      
       <div className='container'>
         <Routes>
           <Route path=""element={<Home/>} />
@@ -26,11 +24,7 @@ export default function App() {
 
       
       <body>
-        <Grid container>
-          <Grid item xs ={12} md={10}>
-            <Paper>1</Paper>
-          </Grid>
-        </Grid>
+        
       </body>
       </>
   )

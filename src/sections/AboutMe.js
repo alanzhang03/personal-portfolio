@@ -1,8 +1,12 @@
+import StarField from '../StarField';
 import './sections.css';
 
 export default function AboutMe() {
     return (
-        <h1>About Me</h1>
-    
+        <>
+        <h1 className='header'>About Me</h1>
+        <StarField></StarField>
+        
+        </>
     )
 }

@@ -22,9 +22,15 @@ export default function Navbar2() {
             <ScrollToTop />
             <div className="Nav2">
                 <ul2>
-                    <li2 onClick={() => scrollToSection(aboutMeRef)} className="link">About me</li2>
-                    <li2 onClick={() => scrollToSection(projectsRef)} className="link">Projects</li2>
-                    <li2 onClick={() => scrollToSection(contactRef)} className="link">Contact</li2>
+                    <li2 onClick={() => scrollToSection(aboutMeRef)} className="link">
+                        <i class="fa-solid fa-circle"></i>
+                    </li2>
+                    <li2 onClick={() => scrollToSection(projectsRef)} className="link">
+                        <i class="fa-solid fa-circle"></i>
+                    </li2>
+                    <li2 onClick={() => scrollToSection(contactRef)} className="link">
+                        <i class="fa-solid fa-circle"></i>
+                    </li2>
                 </ul2>
             </div>
             <div ref={aboutMeRef} className="AboutMe">
@@ -38,7 +44,6 @@ export default function Navbar2() {
             <div ref={contactRef} className="Contact">
                 <Contact />
             </div>
-
         </>
     );  
 }
