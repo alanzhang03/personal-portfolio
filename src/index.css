@@ -7,22 +7,16 @@ body {
     background-color: #010010;
 }
 
-
-
-
-
 .container{
   margin: 1rem;
   text-align: center;
 }
 
 .nav {
-  height: 75px;
-  display:flex;
+  display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 1rem;
-  gap: 2rem;
+  padding: 0 20px;
 }
 
 .title{
@@ -37,6 +31,7 @@ body {
 }
 
 .nav ul{
+  
   padding: 0;
   margin: 0;
   list-style: none;
@@ -71,13 +66,15 @@ body {
   position: static;
 }
 
-@keyframes moveStar {
-  from {
-    transform: translateX(0);
-  }
-  to {
-    transform: translateX(100vw);
-  }
+
+.star-field {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  z-index: -1; 
 }
 
 .star {
@@ -87,6 +84,15 @@ body {
   background-color: white;
   border-radius: 50%;
   animation: moveStar linear infinite;
+}
+
+@keyframes moveStar {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(100vw); 
+  }
 }
 
 

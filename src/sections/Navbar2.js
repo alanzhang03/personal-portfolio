@@ -4,6 +4,7 @@ import ScrollToTop from "./ScrollToTop";
 import AboutMe from "./AboutMe"; 
 import Contact from "./Contact";
 import Projects from "./Projects";
+import StarField from "../StarField";
 
 export default function Navbar2() {
     const aboutMeRef = useRef(null); 
@@ -35,6 +36,8 @@ export default function Navbar2() {
             </div>
             <div ref={aboutMeRef} className="AboutMe">
                 <AboutMe />
+                <StarField></StarField>
+                
             </div>
 
             <div ref={projectsRef} className="Projects">

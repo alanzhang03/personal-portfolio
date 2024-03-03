@@ -3,7 +3,7 @@ import './sections.css';
 export default function Projects() {
     return (
         <>
-        <h1>Projects section!</h1>
+        <h1 className='header'>Projects section!</h1>
         </>
     )
 }

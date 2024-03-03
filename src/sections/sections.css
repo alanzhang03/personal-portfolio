@@ -1,24 +1,18 @@
 .header{
     text-align: center;
     color: white;
-}
-.about-me-section{
-    margin-top: 100vh;
-}
-.contact-section{
-    margin-top: 200vh;
-}
-
-.Nav2{
-    height: 50px;
-    position:fixed;
-    
+    font-size: 50px;
 }
 
 .AboutMe{
     margin-top: 960px;
     height: 100vh;
 
+
+}
+.Project{
+    margin-top:960px;
+    height: 100vh;
 }
 
 .Contact{
@@ -26,16 +20,26 @@
     height: 100vh;
 
 }
-.link{
-    text-decoration: none;
-    display: inline;
-    padding: 20px 20px;
-    cursor: pointer;
-    font-size: 20px;
-    vertical-align: middle;
-    color: #00ddff;
+
+
+.Nav2{
+  display: flex;
+  position: fixed; 
+  bottom: 0;
+  right: 0;
+
 }
 
+
+
+.link {
+    display: flex;
+    padding: 20px; 
+    cursor: pointer;
+    font-size: 20px;
+    color: #00ddff;
+    flex-direction: column;
+}
 
 .link:hover{
     color: white;
@@ -43,13 +47,12 @@
 
 .top-btn-position {
     position: fixed;
-    top: 50px;
+    bottom: 50px;
     left: 50px;
 }
   
 .top-btn-style {
-    height: 40px;
-    width: 40px;
+    font-size: 40px;
     border-radius: 50%;
     border: 2px solid #333;
     background-color: #00ddff;
@@ -63,18 +66,13 @@
     color: black;
     border: 2px solid #fff;
 }
-
 .flex-container{
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
 }
-.img {
-    width:400px;
-    height:auto;
-    
-}
+
 
 
 

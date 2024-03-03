@@ -1,14 +1,16 @@
 import { Link, useMatch, useResolvedPath } from "react-router-dom"
+import StarField from "../StarField"
 
 export default function Navbar(){
     return <nav className="nav">
         <ul>
             <Link to="/"className="title">Alan Zhang</Link>
         </ul>
+        <StarField></StarField>
         <ul>
             <CustomLink to=""></CustomLink>
             <CustomLink to="/Home">Home</CustomLink>
-            <CustomLink to="/About">About</CustomLink>
+            <CustomLink to="/Resume">Resume</CustomLink>
             <CustomLink to="/Projects">Projects</CustomLink>
             <CustomLink to="/Contact">Contact</CustomLink>          
         </ul>

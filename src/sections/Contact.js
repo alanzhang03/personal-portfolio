@@ -4,7 +4,7 @@ export default function Contact() {
     return (
         <>
         
-        <h1>Contact Me!</h1>
+        <h1 className='header'>Contact Me!</h1>
         </>
     )
 }

@@ -4,9 +4,10 @@ import './sections.css';
 export default function AboutMe() {
     return (
         <>
-        <h1 className='header'>About Me</h1>
-        <StarField></StarField>
-        
+        <div>
+            <h1 className='header'>About Me</h1>
+            <StarField></StarField>
+        </div> 
         </>
     )
 }

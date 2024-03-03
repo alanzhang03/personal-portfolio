@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
-import './index.css';
+import './index.css'; // Make sure to import the CSS
 
-const StarField = ({ numberOfStars = 200 }) => {
+const StarField = ({ numberOfStars = 300 }) => {
   const [stars, setStars] = useState([]);
 
   useEffect(() => {
@@ -10,15 +10,15 @@ const StarField = ({ numberOfStars = 200 }) => {
       const style = {
         left: `${Math.random() * 100}%`,
         top: `${Math.random() * 100}%`,
-        animationDuration: `${Math.random() * 10 + 40}s`,
-        animationDelay: `-${Math.random() * 10}s`,
+        animationDuration: `${Math.random() * 30 + 30}s`, // Random duration between 30s and 60s
+        animationDelay: `-${Math.random() * 30}s`, // Random delay to offset the starting point
       };
       newStars.push(<div className="star" style={style} key={i} />);
     }
     setStars(newStars);
   }, [numberOfStars]);
 
-  return <div>{stars}</div>;
+  return <div className="star-field">{stars}</div>;
 };
 
 export default StarField;
