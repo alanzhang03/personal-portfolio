@@ -1,5 +1,5 @@
 import React from 'react';
-import ResumePic from './ResumePic.jpg';
+import ResumePic from '../Assets/ResumePic.jpg';
 
 export default function Resume(){
     return (

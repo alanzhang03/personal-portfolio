@@ -5,6 +5,7 @@ import Projects from './pages/Projects';
 import Contact from './pages/Contact';
 import { Route, Routes } from "react-router-dom"
 import StarField from './StarField';
+import Footer from './Footer';
 
 
 export default function App() {
@@ -22,6 +23,8 @@ export default function App() {
           <Route path="/Projects"element={<Projects/>} />
         </Routes>
       </div>
+
+      <Footer></Footer>
 
       
       <body>
