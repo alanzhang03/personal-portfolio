@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import './index.css'; // Make sure to import the CSS
 
-const StarField = ({ numberOfStars = 300 }) => {
+const StarField = ({ numberOfStars = 100 }) => {
   const [stars, setStars] = useState([]);
 
   useEffect(() => {

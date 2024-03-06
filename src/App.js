@@ -8,12 +8,12 @@ import StarField from './StarField';
 import Footer from './Footer';
 
 
+
 export default function App() {
   return ( 
       <>
       <Navbar></Navbar>
-
-      <StarField numberOfStars={300}></StarField>
+      <StarField numberOfStars={100}></StarField>
       <div className='container'>
         <Routes>
           <Route path=""element={<Home/>} />
@@ -22,14 +22,14 @@ export default function App() {
           <Route path="/Contact"element={<Contact/>} />
           <Route path="/Projects"element={<Projects/>} />
         </Routes>
-      </div>
-
-      <Footer></Footer>
-
-      
+      </div>   
       <body>
+        <div>
+        </div>
         
       </body>
+
+      <Footer></Footer>
       </>
   )
 }

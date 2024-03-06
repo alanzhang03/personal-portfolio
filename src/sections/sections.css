@@ -23,46 +23,51 @@
 
 
 .Nav2{
-  display: flex;
-  position: fixed; 
-  bottom: 0;
-  right: 0;
-
+    display: flex;
+    position: fixed;
+    top: 50%;
+    left: auto;
+    right: 0;
+    justify-content: flex-end; 
+    align-items: center; 
+    transform: translateY(-50%);
 }
 
 
 
 .link {
     display: flex;
-    padding: 20px; 
+    justify-content: right; 
+    align-items: center; 
+    padding: 20px;
     cursor: pointer;
     font-size: 20px;
-    color: #00ddff;
+    color: white;
     flex-direction: column;
 }
 
 .link:hover{
-    color: white;
+    color: #8A2BE2;
 }
 
 .top-btn-position {
     position: fixed;
-    bottom: 50px;
-    left: 50px;
+    bottom: 19px; 
+    right: 10px;
 }
   
 .top-btn-style {
     font-size: 40px;
     border-radius: 50%;
     border: 2px solid #333;
-    background-color: #00ddff;
+    background-color: white;
     color: #333;
     cursor: pointer;
 }
   
 .top-btn-style:hover {
     animation: none;
-    background-color: white;
+    background-color: #8A2BE2;
     color: black;
     border: 2px solid #fff;
 }
@@ -71,6 +76,12 @@
     justify-content: center;
     align-items: center;
     width: 100%;
+}
+
+.description {
+    color: white;
+    font-size: 45px;
+
 }
 
 
