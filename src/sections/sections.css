@@ -41,13 +41,18 @@
     align-items: center; 
     padding: 20px;
     cursor: pointer;
-    font-size: 20px;
+    font-size: 10px;
     color: white;
     flex-direction: column;
 }
 
-.link:hover{
-    color: #8A2BE2;
+.link.active {
+    color: #aa4eff; 
+
+}
+
+.link:not(.active):hover {
+    color: #aa4eff; 
 }
 
 .top-btn-position {
@@ -67,7 +72,7 @@
   
 .top-btn-style:hover {
     animation: none;
-    background-color: #8A2BE2;
+    background-color: #aa4eff;
     color: black;
     border: 2px solid #fff;
 }
@@ -80,7 +85,15 @@
 
 .description {
     color: white;
-    font-size: 45px;
+    font-size: 35px;
+}
+
+
+
+.purple-text{
+    color: #aa4eff;
+    font-size: 50px;
+    font-weight: bold;
 
 }
 
