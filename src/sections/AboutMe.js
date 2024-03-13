@@ -1,4 +1,4 @@
-import StarField from '../StarField';
+import StarField from '../pages/StarField';
 import './sections.css';
 
 

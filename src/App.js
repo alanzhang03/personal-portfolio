@@ -4,7 +4,7 @@ import Home from './pages/Home';
 import Projects from './pages/Projects';
 import Contact from './pages/Contact';
 import { Route, Routes } from "react-router-dom"
-import StarField from './StarField';
+import StarField from './pages/StarField';
 import Footer from './pages/Footer';
 
 

@@ -4,7 +4,7 @@ import ScrollToTop from "./ScrollToTop";
 import AboutMe from "./AboutMe"; 
 import Contact from "./Contact";
 import Projects from "./Projects";
-import StarField from "../StarField";
+import StarField from "../pages/StarField";
 
 export default function Navbar2() {
     const aboutMeRef = useRef(null); 

@@ -1,5 +1,5 @@
 import { Link, useMatch, useResolvedPath } from "react-router-dom"
-import StarField from "../StarField"
+import StarField from "./StarField"
 
 export default function Navbar(){
     return <nav className="nav">
