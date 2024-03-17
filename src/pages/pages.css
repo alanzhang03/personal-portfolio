@@ -4,6 +4,8 @@ body, html{
   height: 100%;
 }
 
+
+
 .typewriter-effect{
     color: #8a2be2; 
     font-size: 50px;
@@ -49,7 +51,7 @@ body, html{
 
 .footer {
   margin-top: auto;
-  background-color: rgb(18, 18, 45);
+  background: #1a1a2e; 
   text-align: center;
   padding: 15px 0;
   width: 100%;
@@ -78,3 +80,37 @@ body, html{
   font-size: 25px;
   font-weight: bold;
 }
+
+.linkedin-icon{
+  color: black;
+  width: 60px; 
+  height: 60px; 
+}
+
+.github-icon{
+  color: black;
+  width: 50px; 
+  height: 50px; 
+}
+
+.twitter-icon{
+  color: black;
+  width: 50px; 
+  height: 50px; 
+}
+
+.social-icons-divide {
+  display: flex;
+  gap: 50px;
+  margin-top: 10px;
+  height: 50px;
+  align-items: center;
+  justify-content: center; 
+}
+
+.social-icons-divide a {
+  display: inline-block;
+}
+
+
+

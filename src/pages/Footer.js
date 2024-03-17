@@ -1,7 +1,7 @@
 import React from "react";
-import '../index.css';
-import GithubPic from '../Assets/Github.png'
-import LinkedinPic from '../Assets/Linkedin Logo.png'
+import { IoLogoGithub } from "react-icons/io";
+import { TiSocialLinkedinCircular } from "react-icons/ti";
+import { AiFillTwitterCircle } from "react-icons/ai";
 
 
 export default function Footer() {
@@ -9,13 +9,16 @@ export default function Footer() {
         <div class="footer-container">
             <footer className="footer">
                 <div className="footer-content">
-                    <div className="footer-text">Contact me!</div>
-                    <div className="social-icons">
+                    <div className="footer-text">My Socials!</div>
+                    <div className="social-icons-divide">
                         <a href="https://github.com/alanzhang03" target="_blank" rel="noopener noreferrer">
-                            <img className="social-icons" src={GithubPic} alt="GithubPic"></img>
+                            <IoLogoGithub className="github-icon"/>
                         </a>
                         <a href="https://www.linkedin.com/in/alan-zhang-a254b8233/" target="_blank" rel="noopener noreferrer">
-                            <img className="social-icons" src={LinkedinPic} alt="LinkedinPic"></img>
+                            <TiSocialLinkedinCircular className="linkedin-icon"/>    
+                        </a>
+                        <a href="https://twitter.com/cloudeelol" target="_blank" rel="noopener noreferrer">
+                            <AiFillTwitterCircle className="twitter-icon"/>    
                         </a>
                     </div>
                 </div>

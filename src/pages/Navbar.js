@@ -1,5 +1,8 @@
 import { Link, useMatch, useResolvedPath } from "react-router-dom"
 import StarField from "./StarField"
+import { FaHouseChimney } from "react-icons/fa6";
+
+
 
 export default function Navbar(){
     return <nav className="nav">
@@ -9,7 +12,7 @@ export default function Navbar(){
         <StarField></StarField>
         <ul>
             <CustomLink to=""></CustomLink>
-            <CustomLink to="/Home">Home</CustomLink>
+            <CustomLink to="/Home"><FaHouseChimney /> Home</CustomLink>
             <CustomLink to="/Resume">Resume</CustomLink>
             <CustomLink to="/Projects">Projects</CustomLink>
             <CustomLink to="/Contact">Contact</CustomLink>          
