@@ -6,7 +6,7 @@ import { AiFillTwitterCircle } from "react-icons/ai";
 
 export default function Footer() {
     return (
-        <div class="footer-container">
+        <div className="footer-container">
             <footer className="footer">
                 <div className="footer-content">
                     <div className="footer-text">My Socials!</div>
