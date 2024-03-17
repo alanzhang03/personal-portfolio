@@ -112,5 +112,7 @@ body, html{
   display: inline-block;
 }
 
-
+.link-icon {
+  margin-right: 5px; 
+}
 

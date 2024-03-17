@@ -1,8 +1,9 @@
 import { Link, useMatch, useResolvedPath } from "react-router-dom"
 import StarField from "./StarField"
-import { FaHouseChimney } from "react-icons/fa6";
-
-
+import { IoHomeOutline } from "react-icons/io5";
+import { GrDocumentText } from "react-icons/gr";
+import { AiOutlineFundProjectionScreen } from "react-icons/ai";
+import { BsTelephone } from "react-icons/bs";
 
 export default function Navbar(){
     return <nav className="nav">
@@ -12,10 +13,22 @@ export default function Navbar(){
         <StarField></StarField>
         <ul>
             <CustomLink to=""></CustomLink>
-            <CustomLink to="/Home"><FaHouseChimney /> Home</CustomLink>
-            <CustomLink to="/Resume">Resume</CustomLink>
-            <CustomLink to="/Projects">Projects</CustomLink>
-            <CustomLink to="/Contact">Contact</CustomLink>          
+
+            <CustomLink to="/Home"> 
+                <IoHomeOutline className="link-icon" /> Home
+            </CustomLink>
+
+            <CustomLink to="/Resume">
+                <GrDocumentText className="link-icon" /> Resume
+            </CustomLink>
+
+            <CustomLink to="/Projects">
+                <AiOutlineFundProjectionScreen className="link-icon" /> Projects
+            </CustomLink>
+
+            <CustomLink to="/Contact">
+                <BsTelephone className="link-icon" /> Contact
+            </CustomLink>          
         </ul>
     </nav>
 }
