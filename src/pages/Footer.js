@@ -9,7 +9,7 @@ export default function Footer() {
         <div class="footer-container">
             <footer className="footer">
                 <div className="footer-content">
-                    <div>HI!</div>
+                    <div className="footer-text">Contact me!</div>
                     <div className="social-icons">
                         <a href="https://github.com/alanzhang03" target="_blank" rel="noopener noreferrer">
                             <img className="social-icons" src={GithubPic} alt="GithubPic"></img>

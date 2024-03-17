@@ -9,14 +9,8 @@ export default function Home() {
 
   return (
     <>
-      <center>
-        <h1 className='header'>Alan's React portfolio</h1>
-      </center>
       <body>
-        
         <div className="flex-container">
-
-        
           <div className="typewriter-effect">
             <p className='description'> Hi my name is <br></br><span className="purple-text">Alan Zhang</span></p>
             <Typewriter textArray={roles} typingDelay={100} backspaceDelay={100} />

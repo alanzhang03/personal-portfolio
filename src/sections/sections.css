@@ -5,19 +5,23 @@
 }
 
 .AboutMe{
-    margin-top: 960px;
+    margin-top: 300px;
     height: 100vh;
+    padding-top: 150px;
+
 
 
 }
 .Project{
     margin-top:960px;
     height: 100vh;
+    padding-top: 150px;
 }
 
 .Contact{
     margin-top:960px;
     height: 100vh;
+    padding-top: 150px;
 
 }
 
