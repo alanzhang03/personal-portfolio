@@ -23,12 +23,6 @@ export default function App() {
           <Route path="/Projects"element={<Projects/>} />
         </Routes>
       </div>   
-      <body>
-        <div>
-        </div>
-        
-      </body>
-      
       <Footer></Footer>
       </>
   )

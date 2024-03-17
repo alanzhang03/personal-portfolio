@@ -1,6 +1,7 @@
 body, html{
   margin: 0;
   padding: 0;
+  height: 100%;
 }
 
 .typewriter-effect{
@@ -23,7 +24,10 @@ body, html{
   align-items: flex-start;
   justify-content: space-around; 
   padding: 20px; 
+  padding-top: 150px;
   gap: 20px; 
+  box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 .Resume{
@@ -45,7 +49,7 @@ body, html{
 
 .footer {
   margin-top: auto;
-  background-color: rgb(18, 18, 15);
+  background-color: rgb(18, 18, 45);
   text-align: center;
   padding: 15px 0;
   width: 100%;

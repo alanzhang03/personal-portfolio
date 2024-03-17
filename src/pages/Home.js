@@ -21,7 +21,6 @@ export default function Home() {
           </div>
         </div>
       </body>
-
       <Navbar2></Navbar2>
     </>
   );
