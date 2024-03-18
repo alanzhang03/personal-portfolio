@@ -7,17 +7,19 @@ body, html{
 
 
 .typewriter-effect{
-    color: #8a2be2; 
+    color: #aa4eff; 
     font-size: 50px;
     font-weight: bold;
     flex:1;
     white-space: nowrap;
+    z-index: 1;
 }
 
 .MainPic {
     flex:1;
     height: auto;
     padding-right: 250px;
+
 }
 
 .flex-container{
@@ -30,23 +32,28 @@ body, html{
   gap: 20px; 
   box-sizing: border-box;
   overflow-x: hidden;
+
 }
 
 .Resume{
   box-shadow: 0 10px 15px #aa4eff;
   margin: auto; 
   transition: transform 0.3s ease;
-  display: inline-block; 
+  display: inline-block;
+
 }
 
 .Resume:hover{
   transform: scale(0.98);
   box-shadow: 0 20px 30px #aa4eff;
+
 }
 
 .ResumePic{
   display: block;
   width: 100%; 
+
+
 }
 
 .footer {
@@ -56,6 +63,7 @@ body, html{
   padding: 15px 0;
   width: 100%;
 
+  
 }
 
 .footer-content {
@@ -114,5 +122,22 @@ body, html{
 
 .link-icon {
   margin-right: 5px; 
+}
+
+@keyframes flicker {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+.typewriter-cursor {
+  display: inline-block;
+  opacity: 1;
+  animation: flicker 0.7s infinite;
+  color: #8a2be2; 
+  margin-left: 5px; 
+}
+
+.testing{
+  display: inline-flex;
 }
 

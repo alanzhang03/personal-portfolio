@@ -10,25 +10,29 @@ export default function Navbar(){
         <ul>
             <Link to="/"className="title">Alan Zhang</Link>
         </ul>
+
         <StarField></StarField>
+
         <ul>
+
             <CustomLink to=""></CustomLink>
 
             <CustomLink to="/Home"> 
                 <IoHomeOutline className="link-icon" /> Home
+            </CustomLink>
+            
+            <CustomLink to="/Projects">
+                <AiOutlineFundProjectionScreen className="link-icon" /> Projects
             </CustomLink>
 
             <CustomLink to="/Resume">
                 <GrDocumentText className="link-icon" /> Resume
             </CustomLink>
 
-            <CustomLink to="/Projects">
-                <AiOutlineFundProjectionScreen className="link-icon" /> Projects
-            </CustomLink>
-
             <CustomLink to="/Contact">
                 <BsTelephone className="link-icon" /> Contact
-            </CustomLink>          
+            </CustomLink>  
+                    
         </ul>
     </nav>
 }

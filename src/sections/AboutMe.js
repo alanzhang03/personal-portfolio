@@ -1,4 +1,3 @@
-import StarField from '../pages/StarField';
 import './sections.css';
 
 
@@ -7,7 +6,8 @@ export default function AboutMe() {
         <>
         <div>
             <h1 className='header'>About Me</h1>
-            <StarField></StarField>
+
+           
 
         </div> 
         </>
