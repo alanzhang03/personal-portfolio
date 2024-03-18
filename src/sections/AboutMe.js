@@ -5,7 +5,8 @@ export default function AboutMe() {
     return (
         <>
         <div>
-            <h1 className='header'>About Me</h1>
+            <h1 className='intro-header'>Hi, I'm Alan Zhang, a dedicated full-stack developer!</h1>
+            <p className='about-me-description'></p>
 
            
 

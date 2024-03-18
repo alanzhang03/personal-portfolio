@@ -1,28 +1,16 @@
-.header{
-    text-align: center;
-    color: white;
-    font-size: 50px;
-}
-
 .AboutMe{
     margin-top: 300px;
     height: 100vh;
-    padding-top: 150px;
-
-
 
 }
-.Project{
-    margin-top:960px;
+.Skills{
     height: 100vh;
     padding-top: 150px;
 }
 
 .Contact{
-    margin-top:960px;
     height: 100vh;
     padding-top: 150px;
-
 }
 
 
@@ -87,9 +75,9 @@
     width: 100%;
 }
 
-.description {
+.intro-header {
     color: white;
-    font-size: 35px;
+    font-size: 50px;
 }
 
 
@@ -98,8 +86,23 @@
     color: #aa4eff;
     font-size: 50px;
     font-weight: bold;
+}
+
+.AboutMe {
+    margin: 300px auto 0 auto; 
+    max-width: 800px; 
+    height: 100vh;
+    padding-top: 150px;
+    box-sizing: border-box; 
+}
+
+.description{
+    font-size: 30px;
+    color: white;
 
 }
+
+
 
 
 

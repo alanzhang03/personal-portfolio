@@ -3,13 +3,13 @@ import './sections.css';
 import ScrollToTop from "./ScrollToTop";
 import AboutMe from "./AboutMe"; 
 import Contact from "./Contact";
-import Projects from "./Projects";
+import Skills from "./Skills";
 import StarField from "../pages/StarField";
 
 export default function Navbar2() {
     const aboutMeRef = useRef(null); 
     const contactRef = useRef(null);
-    const projectsRef = useRef(null);
+    const skillsRef = useRef(null);
 
     const scrollToSection = (elementRef) => {
         window.scrollTo({
@@ -26,7 +26,7 @@ export default function Navbar2() {
                     <li2 onClick={() => scrollToSection(aboutMeRef)} className="link">
                         <i class="fa-solid fa-circle"></i>
                     </li2>
-                    <li2 onClick={() => scrollToSection(projectsRef)} className="link">
+                    <li2 onClick={() => scrollToSection(skillsRef)} className="link">
                         <i class="fa-solid fa-circle"></i>
                     </li2>
                     <li2 onClick={() => scrollToSection(contactRef)} className="link">
@@ -40,8 +40,8 @@ export default function Navbar2() {
                 
             </div>
 
-            <div ref={projectsRef} className="Projects">
-                <Projects />
+            <div ref={skillsRef} className="Skills">
+                <Skills />
             </div>
 
             <div ref={contactRef} className="Contact">

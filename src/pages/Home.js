@@ -12,8 +12,11 @@ export default function Home() {
       <body>
         <div className="flex-container">
           <div className="typewriter-effect">
-            <p className='description'> Hi my name is <br></br>
-            <span className="purple-text">Alan Zhang</span></p>
+            <p className='intro-header'> Welcome to <br></br>
+            <span className="purple-text">Alan Zhang's</span><br></br>
+            Web Portfolio!     
+            </p>
+            
 
             <div className='testing'>
               <Typewriter textArray={roles} typingDelay={100} backspaceDelay={100} />
