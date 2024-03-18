@@ -16,9 +16,8 @@ export default function Home() {
         
         <div className="flex-container">
           <div className="typewriter-effect">
-            <p className='intro-header'> Full Stack Developer<br></br>
-            <span className="purple-text">Alan Zhang's</span><br></br>
-            Web Portfolio!<PiHandWaving className='wave-hand'></PiHandWaving>
+            <p className='intro-header'> Welcome to my Portfolio!<br></br>
+            <p>I am <span className="purple-text">Alan Zhang</span><PiHandWaving className='wave-hand'></PiHandWaving></p>
             </p>
             <div className='typing'>
               <Typewriter textArray={roles} typingDelay={100} backspaceDelay={100} />
