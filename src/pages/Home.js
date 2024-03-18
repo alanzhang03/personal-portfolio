@@ -14,7 +14,7 @@ export default function Home() {
       <body>
         <div className="flex-container">
           <div className="typewriter-effect">
-            <p className='intro-header'> Full Stack Developer <br></br>
+            <p className='intro-header'> Full Stack Developer<br></br>
             <span className="purple-text">Alan Zhang's</span><br></br>
             Web Portfolio!     
             </p>

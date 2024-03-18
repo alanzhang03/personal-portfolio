@@ -5,9 +5,9 @@ export default function AboutMe() {
     return (
         <>
         <div>
-            <h1 className='intro-header'>Hi, I'm Alan Zhang, a dedicated full-stack web developer!</h1>
+            <h1 className='intro-header'>Hi, I'm <span className='purple-text'>Alan</span>, a dedicated full-stack<span className='purple-text'>  web developer!</span></h1>
             <p className='about-me-description'>
-                I have always has a passion for bringing my ideas to life through code. 
+                As a full-stack developer, I possess 
             </p>
 
            
