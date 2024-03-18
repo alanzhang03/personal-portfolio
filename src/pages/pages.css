@@ -1,24 +1,19 @@
 body, html{
-  margin: 0;
   padding: 0;
   height: 100%;
+
 }
 
 
-
-.typewriter-effect{
-    color: #aa4eff; 
-    font-size: 50px;
-    font-weight: bold;
-    flex:1;
-    white-space: nowrap;
-    z-index: 1;
+.header{
+  color: #aa4eff;
+  font-size: 50px;
 }
 
 .MainPic {
-    flex:1;
-    height: auto;
-    padding-right: 250px;
+  flex:1;
+  height: auto;
+  padding-right: 250px;
 
 }
 
@@ -33,6 +28,18 @@ body, html{
   box-sizing: border-box;
   overflow-x: hidden;
 
+}
+
+/*resume content*/
+.resume-container{
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  justify-content: space-around; 
+  padding: 20px; 
+  gap: 20px; 
+  box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 .Resume{
@@ -52,18 +59,39 @@ body, html{
 .ResumePic{
   display: block;
   width: 100%; 
-
-
 }
 
+/*Download Button*/
+.download-button {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 10px 0;
+  background-color: #aa4eff; 
+  color: white;
+  text-decoration: none; 
+  border-radius: 5px; 
+  font-size: 16px; 
+  transition: background-color 0.3s ease; 
+}
+
+.download-button:hover,
+.download-button:focus {
+  background-color: #927bea;
+  color: white;
+  text-decoration: none; 
+}
+
+.download-button i {
+  margin-right: 5px; 
+}
+
+/*footer content*/
 .footer {
   margin-top: auto;
   background: #1a1a2e; 
   text-align: center;
   padding: 15px 0;
   width: 100%;
-
-  
 }
 
 .footer-content {
@@ -88,6 +116,9 @@ body, html{
   font-size: 25px;
   font-weight: bold;
 }
+
+
+/*social icons*/
 
 .linkedin-icon{
   color: black;
@@ -124,6 +155,9 @@ body, html{
   margin-right: 5px; 
 }
 
+
+/*Typing Section*/
+
 @keyframes flicker {
   0%, 100% { opacity: 1; }
   50% { opacity: 0; }
@@ -137,7 +171,35 @@ body, html{
   margin-left: 5px; 
 }
 
-.testing{
+.typing{
   display: inline-flex;
 }
+
+.typewriter-effect{
+  color: #aa4eff; 
+  font-size: 50px;
+  font-weight: bold;
+  flex:1;
+  white-space: nowrap;
+  z-index: 1;
+}
+
+
+/*About me section*/
+
+.about-me-footer{
+  padding-top: 100px;
+}
+
+@keyframes bobbing {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+.arrow-down{
+  animation: bobbing 1s ease-in-out infinite;
+  color: white;
+  height: 100px;
+  width: 100px;
+}
+
 

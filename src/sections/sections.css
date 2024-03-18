@@ -78,6 +78,7 @@
 .intro-header {
     color: white;
     font-size: 50px;
+    font-weight: normal;
 }
 
 
@@ -96,9 +97,10 @@
     box-sizing: border-box; 
 }
 
-.description{
-    font-size: 30px;
+.about-me-description{
+    font-size: 25px;
     color: white;
+    padding-top: 100px;
 
 }
 
