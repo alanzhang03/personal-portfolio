@@ -15,7 +15,7 @@ export default function AboutMe() {
 
             <p className='about-me-description'>
             Originally from the outskirts of <span className='purple-text-description'>Philadelphia, Pennsylvania</span>, 
-            I am currently immersed in the worldof technology and innovation at the 
+            I am currently immersed in the world of technology and innovation at the 
             <span className='purple-text-description'> University of Maryland, College Park</span>, and am on track to 
             graduate in <span className='purple-text-description'> May 2025</span>. 
             <br></br><br></br>
@@ -35,7 +35,7 @@ export default function AboutMe() {
 
             As I naviagte through my education at the <span className='purple-text-description'>University of Maryland</span>, 
             I'm always looking for the next <span className='purple-text-description'>challenge </span>  to tackle or 
-            problem to solve. Each project is an opportunity to showcase my creativity and innovative mind. Every 
+            problem to solve. Each project is an opportunity to showcase my <span className='purple-text-description'> creativity and innovative mind </span> . Every 
             line of code is a step towards the future in which 
             I am <span className='purple-text-description'> eager </span> to help build.
             </p> 
