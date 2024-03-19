@@ -6,7 +6,6 @@ export default function AboutMe() {
         <>
         <div>
             <h1 className='intro-header'>
-
             Hi, I'm <span className='purple-text'>Alan</span>, 
             a dedicated full-stack
             <span className='purple-text'>  web developer!</span>

@@ -1,23 +1,22 @@
 
 .Skills{
-    height: 200vh;
-
+    padding-top: 50px;
 }
 
 .Contact{
-    height: 100vh;
+    padding-top: 50px;
 
 }
 
 /*About me section*/
 .AboutMe{
-    margin-top: 300px;
-    height: 100vh;
+    padding-top: 50px;
+
 }
 
 .about-me-footer{
     padding-top: 100px;
-  }
+}
   
   @keyframes bobbing {
     0%, 100% { transform: translateY(0); }
@@ -33,6 +32,7 @@
 
 
 
+  /*Nav2 section*/
 .Nav2{
     display: flex;
     position: fixed;
