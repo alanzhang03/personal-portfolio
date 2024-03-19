@@ -9,7 +9,7 @@ import './pages.css';
 
 
 export default function Home() {
-  const roles = ["Full Stack Developer 💻", "Avid Gamer 🎮", "Soccer Enthusiast ⚽"];
+  const roles = ["Full Stack Developer", "Avid Gamer", "Soccer Enthusiast ⚽"];
 
   return (
     <>

@@ -166,21 +166,27 @@ body, html{
 /*social icons*/
 
 .linkedin-icon{
-  color: black;
-  width: 60px; 
-  height: 60px; 
+  color: #aa4eff;
+  width: 65px; 
+  height: 65px; 
+  transition: color 0.3s, transform 0.3s, box-shadow 0.3s;
+  border-radius: 50%;
 }
 
 .github-icon{
-  color: black;
+  color: #aa4eff;
   width: 50px; 
   height: 50px; 
+  transition: color 0.3s, transform 0.3s, box-shadow 0.3s;
+  border-radius: 50%;
 }
 
 .twitter-icon{
-  color: black;
+  color: #aa4eff;
   width: 50px; 
   height: 50px; 
+  transition: color 0.3s, transform 0.3s, box-shadow 0.3s;
+  border-radius: 50%;
 }
 
 .social-icons-divide {
@@ -194,6 +200,25 @@ body, html{
 
 .social-icons-divide a {
   display: inline-block;
+}
+
+.linkedin-icon:hover,
+.linkedin-icon:focus {
+  color: #aa4eff; 
+  transform: scale(1.1); 
+  box-shadow: 0 0 20px #aa4eff; 
+}
+.github-icon:hover,
+.twitter-icon:hover {
+  color: #aa4eff; 
+  transform: scale(1.1); 
+  box-shadow: 0 0 20px #aa4eff; 
+}
+.github-icon:focus,
+.twitter-icon:focus {
+  color: #aa4eff; 
+  transform: scale(1.1); 
+  box-shadow: 0 0 15px #aa4eff;
 }
 
 .link-icon {
