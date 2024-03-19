@@ -155,8 +155,16 @@
     box-shadow: 0 8px 16px #aa4eff;
     border-color: #aa4eff; 
     border-width: 3px;
-
 }
+
+.skill-name,
+.tech-name {
+    color: #aa4eff;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
 
 
 
