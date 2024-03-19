@@ -10,12 +10,13 @@
 
 /*About me section*/
 .AboutMe{
-    position: relative;
-    top: 80vh; /* Adjust this value to place it at the bottom of the viewport */
+    padding-top: 50px;
+
 }
 
 .about-me-footer{
-    padding-top: 100px;
+    position: relative;
+    top: 10vh; /* Adjust this value to place it at the bottom of the viewport */
 }
   
   @keyframes bobbing {
