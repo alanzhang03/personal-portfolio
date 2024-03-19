@@ -10,6 +10,51 @@ body, html{
   font-size: 50px;
 }
 
+/*Nav Section*/
+
+.nav ul{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+  font-size: 25px;
+  color: white;
+  font-weight: bold;
+  z-index: 2;
+}
+.nav a {
+  color: inherit;
+  text-decoration: none;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: .25rem;
+  position: relative; 
+}
+
+.nav a::after {
+  content: '';
+  position: absolute;
+  height: 5px; 
+  left: 0;
+  right: 0; 
+  bottom: 0;
+  background: #aa4eff;
+  transition: transform 0.2s; 
+  transform: scaleX(0); 
+  transform-origin: bottom left; 
+}
+
+.nav a:hover::after,
+.nav a:focus::after { 
+  transform: scaleX(1); 
+}
+
+
 .MainPic {
   flex:1;
   height: auto;
@@ -218,5 +263,6 @@ body, html{
 .wave-hand {
   animation: waveAnimation 2s ease-in-out infinite;
 }
+
 
 

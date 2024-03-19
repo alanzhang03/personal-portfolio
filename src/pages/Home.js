@@ -7,24 +7,23 @@ import { PiHandWaving } from "react-icons/pi";
 import './pages.css';
 
 
+
 export default function Home() {
-  const roles = ["Full Stack Developer", "", "Backend Developer"]; 
+  const roles = ["Full Stack Developer 💻", "Avid Gamer 🎮", "Soccer Enthusiast ⚽"];
 
   return (
     <>
-      <body>
-        
+      <body> 
         <div className="flex-container">
           <div className="typewriter-effect">
             <p className='intro-header'> Welcome to my Portfolio!<br></br>
-            <p>I am <span className="purple-text">Alan Zhang</span><PiHandWaving className='wave-hand'></PiHandWaving></p>
+            <p>I am <span className="purple-text">Alan Zhang </span><PiHandWaving className='wave-hand'></PiHandWaving></p>
             </p>
             <div className='typing'>
               <Typewriter textArray={roles} typingDelay={100} backspaceDelay={100} />
               <span className="typewriter-cursor">|</span>
             </div>  
           </div>
-
           <div>
             <img className="MainPic" src={MainPic} alt="MainPic"></img>
           </div>
