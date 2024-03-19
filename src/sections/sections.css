@@ -1,8 +1,4 @@
-.AboutMe{
-    margin-top: 300px;
-    height: 100vh;
 
-}
 .Skills{
     height: 200vh;
 
@@ -12,6 +8,29 @@
     height: 100vh;
 
 }
+
+/*About me section*/
+.AboutMe{
+    margin-top: 300px;
+    height: 100vh;
+}
+
+.about-me-footer{
+    padding-top: 100px;
+  }
+  
+  @keyframes bobbing {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-20px); }
+  }
+  .arrow-down{
+    animation: bobbing 1s ease-in-out infinite;
+    color: white;
+    height: 100px;
+    width: 100px;
+  }
+
+
 
 
 .Nav2{
@@ -124,10 +143,10 @@
     display: grid;
     grid-template-columns: repeat(5, 1fr); 
     gap: 50px;
-    padding: 20px;
-    max-width: 1200px; /* Increase the max width */
+    padding: 10px;
+    max-width: 1200px; 
     justify-content: center;
-    margin: 0 auto; /* Centering the grid */
+    margin: 0 auto; 
 }
 .skill-item, .technology-item {
     display: flex;

@@ -14,7 +14,6 @@ export default function Navbar(){
         <StarField></StarField>
 
         <ul>
-
             <CustomLink to=""></CustomLink>
 
             <CustomLink to="/Home"> 
@@ -31,8 +30,7 @@ export default function Navbar(){
 
             <CustomLink to="/Contact">
                 <BsTelephone className="link-icon" /> Contact
-            </CustomLink>  
-                    
+            </CustomLink>        
         </ul>
     </nav>
 }
