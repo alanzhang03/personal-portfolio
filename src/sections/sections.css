@@ -110,6 +110,55 @@
 }
 
 
+/*skills section*/
+
+.Skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    width: 100%;
+}
+
+.skills-grid, .technologies-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); 
+    gap: 50px;
+    padding: 20px;
+    max-width: 1200px; /* Increase the max width */
+    justify-content: center;
+    margin: 0 auto; /* Centering the grid */
+}
+.skill-item, .technology-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    background-color: transparent;
+    border-radius: 15px;
+    transition: transform 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border: 2px solid #aa4eff; 
+    opacity: 0.8; 
+}
+
+.skill-item img, .technology-item img {
+    width: 250px; 
+    height: 150px;
+    margin-bottom: 10px;
+}
+
+.skill-item:hover, .technology-item:hover {
+    transform: scale(1.1);
+    opacity: 1;
+    box-shadow: 0 8px 16px #aa4eff;
+    border-color: #aa4eff; 
+    border-width: 3px;
+
+}
+
+
 
 
 

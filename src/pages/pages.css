@@ -206,7 +206,10 @@ body, html{
 .linkedin-icon:focus {
   color: #aa4eff; 
   transform: scale(1.1); 
-  box-shadow: 0 0 20px #aa4eff; 
+  box-shadow: 0 0 20px #aa4eff;
+
+
+
 }
 .github-icon:hover,
 .twitter-icon:hover {
