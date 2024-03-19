@@ -101,7 +101,12 @@
     font-size: 25px;
     color: white;
     padding-top: 100px;
+}
 
+.purple-text-description{
+    color: #aa4eff;
+    font-size: 25px;
+    font-weight: bold;
 }
 
 
