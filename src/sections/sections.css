@@ -10,8 +10,8 @@
 
 /*About me section*/
 .AboutMe{
-    padding-top: 50px;
-
+    position: relative;
+    top: 80vh; /* Adjust this value to place it at the bottom of the viewport */
 }
 
 .about-me-footer{
