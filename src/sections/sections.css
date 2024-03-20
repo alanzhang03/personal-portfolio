@@ -13,6 +13,11 @@
 
 }
 
+.about-me-header{
+    color: #aa4eff;
+    font-size: 4vh;
+}
+
   /*Nav2 section*/
 .Nav2{
     display: flex;
@@ -102,9 +107,7 @@
     color: white;
 }
 
-.about-me-footer{
-    padding-top: 1%;
-}
+
 
 .purple-text-description{
     color: #aa4eff;
