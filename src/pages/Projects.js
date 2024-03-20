@@ -9,7 +9,7 @@ export default function Projects() {
       description: "A weather app tracker that can retrieve weather statistics for a given city.",
       image: WeatherImg,
       demoLink: "https://weatherapp-7fu2.onrender.com/",
-      githubLink: "#github"
+      githubLink: "https://github.com/alanzhang03/weather-app"
     },
     // ... more projects
   ];
@@ -29,7 +29,7 @@ export default function Projects() {
               <p className="project-description">{project.description}</p>
               <div className="project-actions">
                 <a href={project.demoLink} className="button" target="_blank" rel="noopener noreferrer">View Project</a>
-                <a href={project.githubLink} className="button">GitHub</a>
+                <a href={project.githubLink} className="button" target="_blank" rel="noopener noreferrer">GitHub</a>
               </div>
             </div>
           ))}

@@ -8,6 +8,7 @@ body {
   background-color: rgb(18, 18, 26);
   margin: 0;
   padding: 0;
+  height: 100%;
 
 }
 
@@ -110,11 +111,10 @@ body {
 
 /*footer content*/
 .footer {
-  width: 100%;
   background: #1a1a2e; 
+  width: 100%;
   text-align: center;
   padding: 15px 0;
-
 }
 
 .footer-content {

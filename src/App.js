@@ -12,7 +12,7 @@ import Footer from './pages/Footer';
 export default function App() {
   return ( 
       <>
-      <Navbar></Navbar>
+      <Navbar />
       <StarField numberOfStars={100}></StarField>
       <div className='container'>
         <Routes>
@@ -22,8 +22,8 @@ export default function App() {
           <Route path="/Contact"element={<Contact/>} />
           <Route path="/Projects"element={<Projects/>} />
         </Routes>
-      </div>   
-      <Footer></Footer>
+      </div>
+      <Footer />
       </>
   )
 }
