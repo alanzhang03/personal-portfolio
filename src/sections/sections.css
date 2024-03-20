@@ -6,10 +6,7 @@
 /*About me section*/
 
 
-.about-me-footer{
-    position: relative;
-    top: 10vh; 
-}
+
   
 @keyframes bobbing {
 0%, 100% { transform: translateY(0); }
@@ -215,6 +212,8 @@ width: 10vh;
         height: 12px;
     }
 }
+
+
 
 
 

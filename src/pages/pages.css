@@ -12,26 +12,27 @@ body, html{
 
 /*front page*/
 .container{
-  margin: 1rem;
+  margin: 1%;
   text-align: center;
 }
 
 .MainPic {
-  flex:1;
-  height: auto;
-  padding-right: 250px;
+  padding-right: 10vw;
 }
 
-.flex-container{
+.home-container{
   display: flex;
-  flex-direction: row; 
+  flex-direction: row;
   align-items: flex-start;
   justify-content: space-around; 
-  padding: 20px; 
-  padding-top: 150px;
+  padding-top: 5%;
   gap: 20px; 
   box-sizing: border-box;
   overflow-x: hidden;
+}
+
+.about-me-footer{
+  padding-top: 5vh; 
 }
 
 

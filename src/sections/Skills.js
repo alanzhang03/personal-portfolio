@@ -14,7 +14,7 @@ import RustIcon from '../Assets/rust.svg'
 import DjangoIcon from '../Assets/django.svg'
 import GithubIcon from '../Assets/github.svg'
 import OfficeIcon from '../Assets/office.svg'
-
+import NodejsIcon from '../Assets/nodejs.svg'
 
 export default function Skills() {
     const skills = [    
@@ -37,6 +37,7 @@ export default function Skills() {
         { name: 'Django', icon: DjangoIcon },
         { name: 'Github', icon: GithubIcon},
         { name: 'Microsoft Office', icon: OfficeIcon},
+        { name: 'Node', icon: NodejsIcon},
 
     ];
 

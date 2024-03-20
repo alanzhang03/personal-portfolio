@@ -15,7 +15,7 @@ export default function Home() {
   return (
     <>
       <body> 
-        <div className="flex-container">
+        <div className="home-container">
           <div className="typewriter-effect">
             <p className='intro-header'> Welcome to my Portfolio!<br></br>
             <p>I am <span className="purple-text">Alan Zhang </span><PiHandWaving className='wave-hand'></PiHandWaving></p>
