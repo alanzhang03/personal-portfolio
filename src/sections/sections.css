@@ -1,23 +1,16 @@
-
-.Skills, .Contact, .AboutMe {
-    padding-top: 5vh; /* Adjust based on your needs */
-}
-
 /*About me section*/
 
-
-
-  
 @keyframes bobbing {
 0%, 100% { transform: translateY(0); }
 50% { transform: translateY(-20px); }
 }
 
 .arrow-down{
-animation: bobbing 1s ease-in-out infinite;
-color: white;
-height: 10vh;
-width: 10vh;
+    animation: bobbing 1s ease-in-out infinite;
+    color: white;
+    height: 10vh;
+    width: 10vh;
+
 }
 
   /*Nav2 section*/
@@ -97,17 +90,20 @@ width: 10vh;
 }
 
 .AboutMe {
-    margin: 300px auto 0 auto; 
-    max-width: 1000px; 
+    margin: 10vh auto 0 auto; 
+    max-width: 65%; 
     height: 100vh;
-    padding-top: 150px;
+    padding-top: 2%;
     box-sizing: border-box; 
 }
 
 .about-me-description{
     font-size: 1.5vw;
     color: white;
-    padding-top: 100px;
+}
+
+.about-me-footer{
+    padding-top: 3%;
 }
 
 .purple-text-description{
@@ -118,7 +114,7 @@ width: 10vh;
 
 @media (min-width: 1800px) {
     .about-me-description, .purple-text-description {
-        font-size: 1vw;
+        font-size: 1.2vw;
     }
 }
 
@@ -142,7 +138,7 @@ width: 10vh;
     align-items: center;
     color: white;
     width: 100%;
-    padding-top: 10%;
+
 }
 
 .skills-grid, .technologies-grid {
