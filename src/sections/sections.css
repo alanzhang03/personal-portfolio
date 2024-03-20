@@ -19,8 +19,8 @@
 .arrow-down{
 animation: bobbing 1s ease-in-out infinite;
 color: white;
-height: 100px;
-width: 100px;
+height: 10vh;
+width: 10vh;
 }
 
   /*Nav2 section*/
@@ -64,7 +64,7 @@ width: 100px;
 }
   
 .top-btn-style {
-    font-size: 40px;
+    font-size: 4vw;
     border-radius: 50%;
     border: 2px solid #333;
     background-color: white;
@@ -87,7 +87,7 @@ width: 100px;
 
 .intro-header {
     color: white;
-    font-size: 50px;
+    font-size: 3vw;
     font-weight: normal;
 }
 
@@ -95,7 +95,7 @@ width: 100px;
 
 .purple-text{
     color: #aa4eff;
-    font-size: 50px;
+    font-size: 3vw;
     font-weight: bold;
 }
 
@@ -108,14 +108,14 @@ width: 100px;
 }
 
 .about-me-description{
-    font-size: 25px;
+    font-size: 1vw;
     color: white;
     padding-top: 100px;
 }
 
 .purple-text-description{
     color: #aa4eff;
-    font-size: 25px;
+    font-size: 1vw;
     font-weight: bold;
 }
 
