@@ -133,8 +133,8 @@ width: 10vh;
 .skills-grid, .technologies-grid {
     display: grid;
     grid-template-columns: repeat(5, 1fr); 
-    gap: 50px;
-    padding: 10px;
+    gap: 5%;
+    padding: 2%;
     max-width: 1200px; 
     justify-content: center;
     margin: 0 auto; 
@@ -169,12 +169,35 @@ width: 10vh;
 
 .skill-name,
 .tech-name {
-    color: #aa4eff;
-    font-weight: bold;
-    font-size: 20px;
+  color: #aa4eff;
+  font-weight: bold;
+  font-size: calc(1vw + 1vh + 0.5em); 
 }
 
+/* Media queries for responsiveness */
+@media only screen and (max-width: 1200px) {
+  .skills-grid, .technologies-grid {
+    grid-template-columns: repeat(3, 1fr); /* Adjust grid for medium screens */
+  }
+}
 
+@media only screen and (max-width: 768px) {
+  .skills-grid, .technologies-grid {
+    grid-template-columns: repeat(2, 1fr); /* Adjust grid for small screens */
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .skills-grid, .technologies-grid {
+    grid-template-columns: 1fr; /* Single column for extra small screens */
+  }
+
+  /* Adjust font-size for smaller screens if necessary */
+  .skill-name,
+  .tech-name {
+    font-size: calc(2vw + 2vh); /* Larger font size for readability */
+  }
+}
 
 
 
