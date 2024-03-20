@@ -1,5 +1,5 @@
 import './sections.css';
-
+import { FaArrowDownLong } from "react-icons/fa6";
 
 export default function AboutMe() {
     return (
@@ -38,6 +38,11 @@ export default function AboutMe() {
             line of code is a step towards the future in which 
             I am <span className='purple-text-description'> eager </span> to help build.
             </p> 
+
+            <div className='about-me-footer'>
+                <h1 className='about-me-header'>My Tech Stack!</h1>
+            <FaArrowDownLong className='arrow-down'></FaArrowDownLong>
+      </div>
 
         </div> 
         </>
