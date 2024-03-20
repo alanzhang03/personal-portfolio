@@ -1,9 +1,13 @@
+
+
 body {
   scroll-behavior: smooth;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   background-color: rgb(18, 18, 26);
+  margin: 0;
+  padding: 0;
 
 }
 
@@ -106,11 +110,11 @@ body {
 
 /*footer content*/
 .footer {
-  margin-top: auto;
+  width: 100%;
   background: #1a1a2e; 
   text-align: center;
   padding: 15px 0;
-  width: 100%;
+
 }
 
 .footer-content {
