@@ -171,25 +171,28 @@ width: 10vh;
 .tech-name {
   color: #aa4eff;
   font-weight: bold;
-  font-size: calc(1vw + 1vh + 0.5em); 
+  font-size: calc(.5vw + .5vh + 0.5em); 
 }
 
 
-@media (min-width: 1200px) {
+@media (min-width: 1600px) {
     .skill-item img, .technology-item img {
         width: 250px; /* Fixed width for larger screens */
+        height: 150px;
     }
 }
 
-@media (max-width: 1199px) and (min-width: 768px) {
+@media (max-width: 1599px) and (min-width: 900px) {
     .skill-item img, .technology-item img {
-        width: 200px; /* Slightly smaller width for medium screens */
+        width: 100px; 
+        height: 60px;
     }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 899px) {
     .skill-item img, .technology-item img {
-        width: 150px; /* Even smaller width for small screens */
+        width: 20px; 
+        height: 12px;
     }
 }
 
