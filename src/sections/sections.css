@@ -64,7 +64,7 @@ width: 10vh;
 }
   
 .top-btn-style {
-    font-size: 4vw;
+    font-size: 2vw;
     border-radius: 50%;
     border: 2px solid #333;
     background-color: white;
@@ -174,30 +174,25 @@ width: 10vh;
   font-size: calc(1vw + 1vh + 0.5em); 
 }
 
-/* Media queries for responsiveness */
-@media only screen and (max-width: 1200px) {
-  .skills-grid, .technologies-grid {
-    grid-template-columns: repeat(3, 1fr); /* Adjust grid for medium screens */
-  }
+
+@media (min-width: 1200px) {
+    .skill-item img, .technology-item img {
+        width: 250px; /* Fixed width for larger screens */
+    }
 }
 
-@media only screen and (max-width: 768px) {
-  .skills-grid, .technologies-grid {
-    grid-template-columns: repeat(2, 1fr); /* Adjust grid for small screens */
-  }
+@media (max-width: 1199px) and (min-width: 768px) {
+    .skill-item img, .technology-item img {
+        width: 200px; /* Slightly smaller width for medium screens */
+    }
 }
 
-@media only screen and (max-width: 480px) {
-  .skills-grid, .technologies-grid {
-    grid-template-columns: 1fr; /* Single column for extra small screens */
-  }
-
-  /* Adjust font-size for smaller screens if necessary */
-  .skill-name,
-  .tech-name {
-    font-size: calc(2vw + 2vh); /* Larger font size for readability */
-  }
+@media (max-width: 767px) {
+    .skill-item img, .technology-item img {
+        width: 150px; /* Even smaller width for small screens */
+    }
 }
+
 
 
 
