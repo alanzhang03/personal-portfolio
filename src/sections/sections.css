@@ -1,37 +1,27 @@
 
-.Skills{
-    padding-top: 50px;
-}
-
-.Contact{
-    padding-top: 50px;
-
+.Skills, .Contact, .AboutMe {
+    padding-top: 5vh; /* Adjust based on your needs */
 }
 
 /*About me section*/
-.AboutMe{
-    padding-top: 50px;
 
-}
 
 .about-me-footer{
     position: relative;
-    top: 10vh; /* Adjust this value to place it at the bottom of the viewport */
+    top: 10vh; 
 }
   
-  @keyframes bobbing {
-    0%, 100% { transform: translateY(0); }
-    50% { transform: translateY(-20px); }
-  }
-  .arrow-down{
-    animation: bobbing 1s ease-in-out infinite;
-    color: white;
-    height: 100px;
-    width: 100px;
-  }
+@keyframes bobbing {
+0%, 100% { transform: translateY(0); }
+50% { transform: translateY(-20px); }
+}
 
-
-
+.arrow-down{
+animation: bobbing 1s ease-in-out infinite;
+color: white;
+height: 100px;
+width: 100px;
+}
 
   /*Nav2 section*/
 .Nav2{
@@ -58,12 +48,12 @@
     flex-direction: column;
 }
 
-.link.active {
+.link:active {
     color: #aa4eff; 
 
 }
 
-.link:not(.active):hover {
+.link:hover {
     color: #aa4eff; 
 }
 
