@@ -51,8 +51,8 @@ body {
   left: 0;
   right: 0; 
   bottom: 0;
-  background: #aa4eff;
-  transition: transform 0.2s; 
+  background: #cd54eb;
+  transition: transform 0.4s; 
   transform: scaleX(0); 
   transform-origin: bottom left; 
 }
@@ -104,7 +104,7 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #aa4eff; 
+  background-color: #cd54eb; 
   border-radius: 5px; 
 }
 
@@ -131,7 +131,7 @@ body {
 }
 
 .footer-text{
-  color: #aa4eff;
+  color: #cd54eb;
   gap: 1rem;
   font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
   'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -144,7 +144,7 @@ body {
   /*social icons*/
 
 .linkedin-icon{
-  color: #aa4eff;
+  color: #cd54eb;
   width: 65px; 
   height: 65px; 
   transition: color 0.3s, transform 0.3s, box-shadow 0.3s;
@@ -152,7 +152,7 @@ body {
 }
 
 .github-icon{
-  color: #aa4eff;
+  color: #cd54eb;
   width: 50px; 
   height: 50px; 
   transition: color 0.3s, transform 0.3s, box-shadow 0.3s;
@@ -160,7 +160,7 @@ body {
 }
 
 .twitter-icon{
-  color: #aa4eff;
+  color: #cd54eb;
   width: 50px; 
   height: 50px; 
   transition: color 0.3s, transform 0.3s, box-shadow 0.3s;
@@ -182,24 +182,24 @@ body {
 
 .linkedin-icon:hover,
 .linkedin-icon:focus {
-  color: #aa4eff; 
+  color: #cd54eb; 
   transform: scale(1.1); 
-  box-shadow: 0 0 20px #aa4eff;
+  box-shadow: 0 0 20px #cd54eb;
 
 
 
 }
 .github-icon:hover,
 .twitter-icon:hover {
-  color: #aa4eff; 
+  color: #cd54eb; 
   transform: scale(1.1); 
-  box-shadow: 0 0 20px #aa4eff; 
+  box-shadow: 0 0 20px #cd54eb; 
 }
 .github-icon:focus,
 .twitter-icon:focus {
-  color: #aa4eff; 
+  color: #cd54eb; 
   transform: scale(1.1); 
-  box-shadow: 0 0 15px #aa4eff;
+  box-shadow: 0 0 15px #cd54eb;
 }
 
 .link-icon {

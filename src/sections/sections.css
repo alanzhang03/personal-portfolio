@@ -14,7 +14,7 @@
 }
 
 .about-me-header{
-    color: #aa4eff;
+    color: #cd54eb;
     font-size: 4vh;
 }
 
@@ -44,12 +44,12 @@
 }
 
 .link:active {
-    color: #aa4eff; 
+    color: #cd54eb; 
 
 }
 
 .link:hover {
-    color: #aa4eff; 
+    color: #cd54eb; 
 }
 
 .top-btn-position {
@@ -69,7 +69,7 @@
   
 .top-btn-style:hover {
     animation: none;
-    background-color: #aa4eff;
+    background-color: #cd54eb;
     color: black;
     border: 2px solid #fff;
 }
@@ -89,7 +89,7 @@
 
 
 .purple-text{
-    color: #aa4eff;
+    color: #cd54eb;
     font-size: 3vw;
     font-weight: bold;
 }
@@ -110,7 +110,7 @@
 
 
 .purple-text-description{
-    color: #aa4eff;
+    color: #cd54eb;
     font-size: 1vw;
     font-weight: bold;
 }
@@ -163,7 +163,7 @@
     border-radius: 15px;
     transition: transform 0.3s ease;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    border: 2px solid #aa4eff; 
+    border: 2px solid #cd54eb; 
     opacity: 0.8; 
 }
 
@@ -176,14 +176,14 @@
 .skill-item:hover, .technology-item:hover {
     transform: scale(1.1);
     opacity: 1;
-    box-shadow: 0 8px 16px #aa4eff;
-    border-color: #aa4eff; 
+    box-shadow: 0 8px 16px #cd54eb;
+    border-color: #cd54eb; 
     border-width: 3px;
 }
 
 .skill-name,
 .tech-name {
-  color: #aa4eff;
+  color: #cd54eb;
   font-weight: bold;
   font-size: calc(.5vw + .5vh + 0.5em); 
 }

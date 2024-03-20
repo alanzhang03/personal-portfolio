@@ -6,7 +6,7 @@ body, html{
 
 
 .header{
-  color: #aa4eff;
+  color: #cd54eb;
   font-size: 50px;
   
 }
@@ -59,7 +59,7 @@ body, html{
   display: inline-block;
   opacity: 1;
   animation: flicker 0.7s infinite;
-  color: #8a2be2; 
+  color: #cd54eb; 
   margin-left: 5px; 
 }
 
@@ -68,7 +68,7 @@ body, html{
 }
 
 .typewriter-effect{
-  color: #aa4eff; 
+  color: #cd54eb; 
   font-size: 50px;
   font-weight: bold;
   flex:1;
@@ -91,7 +91,7 @@ body, html{
 }
 
 .Resume{
-  box-shadow: 0 10px 15px #aa4eff;
+  box-shadow: 0 10px 15px #cd54eb;
   margin: auto; 
   transition: transform 0.3s ease;
   display: inline-block;
@@ -100,7 +100,7 @@ body, html{
 
 .Resume:hover{
   transform: scale(0.98);
-  box-shadow: 0 20px 30px #aa4eff;
+  box-shadow: 0 20px 30px #cd54eb;
 
 }
 
@@ -114,7 +114,7 @@ body, html{
   display: inline-block;
   padding: 10px 20px;
   margin: 10px 0;
-  background-color: #aa4eff; 
+  background-color: #cd54eb; 
   color: white;
   text-decoration: none; 
   border-radius: 5px; 
