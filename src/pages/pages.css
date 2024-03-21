@@ -203,9 +203,12 @@ body, html{
 
 /*Contact Page*/
 .contact-container {
-  max-width: 800px;
+  height: 90vh; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 1000px;
   margin: 0 auto;
-  padding: 20px;
   color: #cd54eb;
 }
 
@@ -213,17 +216,20 @@ body, html{
   text-align: center;
   margin-bottom: 2rem;
   color: #cd54eb;
+  font-size: 3vh;
 }
 
 .form-container {
   background: #1a1a2e;
-  padding: 2rem;
+  padding: 3rem;
   border-radius: 8px;
+  width: 100%; /* Set width to 100% */
+  max-width: 900px; /* Optional: you can set a max-width if you like */
 }
 
 .contact-form {
   display: grid;
-  grid-gap: 1rem;
+  grid-gap: 2rem;
 }
 
 .form-group {
@@ -237,6 +243,8 @@ body, html{
 
 .form-group label {
   color: #cd54eb;
+  font-size: 3vh;
+  font-weight: bold;
 }
 
 .form-group input,
@@ -247,10 +255,11 @@ body, html{
   border-bottom: 2px solid #cd54eb;
   color: white;
   margin-top: 0.5rem;
+  font-size: 1.5vh;
 }
 
 .form-group textarea {
-  min-height: 150px;
+  min-height: 30vh;
   resize: vertical;
 }
 
@@ -265,7 +274,7 @@ body, html{
 }
 
 .send-button:hover {
-  background-color: #a43edf;
+  background-color: #927bea;
 }
 
 
