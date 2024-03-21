@@ -34,7 +34,7 @@ export default function AboutMe() {
 
             As I navigate through my education at the <span className='purple-text-description'>University of Maryland</span>, 
             I'm always looking for the next <span className='purple-text-description'>challenge </span>  to tackle or 
-            problem to solve. Each project is an opportunity to showcase my <span className='purple-text-description'> creativity and innovative mind </span> . Every 
+            problem to solve. Each project is an opportunity to showcase my <span className='purple-text-description'> creativity and innovative mind</span>. Every 
             line of code is a step towards the future in which 
             I am <span className='purple-text-description'> eager </span> to help build.
             </p> 
