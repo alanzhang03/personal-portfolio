@@ -19,9 +19,9 @@ export default function AboutMe() {
             graduate in <span className='purple-text-description'> May 2025</span>. 
             <br></br><br></br>
 
-            As a dedicated developed, I enjoy crafting <span className='purple-text-description'> elegant </span> 
+            As a dedicated developer, I enjoy crafting <span className='purple-text-description'> elegant </span> 
             solutions through code. My <span className='purple-text-description'> academic journey </span> has
-            thus far been accompanied with a number of personal projects that not only help to chellenge my 
+            thus far been accompanied with a number of personal projects that not only help to challenge my 
             understanding but also <span className='purple-text-description'> amplify my skills </span> 
             in software development.
             <br></br><br></br>
