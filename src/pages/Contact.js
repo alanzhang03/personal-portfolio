@@ -2,14 +2,12 @@ import React, { useState } from 'react';
 import axios from 'axios';
 
 export default function Contact() {
-    // State to hold form data
     const [formData, setFormData] = useState({
         name: '',
         email: '',
         message: ''
     });
 
-    // Function to update state when form fields change
     const handleChange = (e) => {
         const { name, value } = e.target;
         setFormData(prevState => ({
@@ -18,17 +16,14 @@ export default function Contact() {
         }));
     };
 
-    // Function to handle the form submission
     const handleSubmit = async (e) => {
-        e.preventDefault(); // Prevents the default form submit action
+        e.preventDefault(); 
         try {
-            // Retrieve the API URL from the environment variable
+
             const apiURL = process.env.REACT_APP_BACKEND_URL;
             const response = await axios.post(`${apiURL}/send-email`, formData);
             console.log(response.data);
-            // Handle successful form submission here (e.g., show a success message)
         } catch (error) {
-            // Handle errors here (e.g., show an error message)
             console.error('There was an error sending the message:', error);
         }
     };

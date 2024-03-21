@@ -268,7 +268,7 @@ body, html{
   background-color: #a43edf;
 }
 
-/* Add styles for screen responsiveness */
+
 @media (max-width: 768px) {
   .contact-form {
     grid-template-columns: 1fr;
