@@ -32,7 +32,7 @@ export default function AboutMe() {
             the journey of learning on platforms like <span className='purple-text-description'>YouTube</span>. 
             <br></br><br></br>
 
-            As I naviagte through my education at the <span className='purple-text-description'>University of Maryland</span>, 
+            As I navigate through my education at the <span className='purple-text-description'>University of Maryland</span>, 
             I'm always looking for the next <span className='purple-text-description'>challenge </span>  to tackle or 
             problem to solve. Each project is an opportunity to showcase my <span className='purple-text-description'> creativity and innovative mind </span> . Every 
             line of code is a step towards the future in which 
