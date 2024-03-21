@@ -35,8 +35,8 @@ app.post('/send-email', (req, res) => {
   const confirmationMailOptions = {
     from: process.env.EMAIL,
     to: email, 
-    subject: `We received your message!`,
-    text: `Hello ${name},\n\nWe received your message and will get back to you soon. Here's what you sent us:\n\n${message}`,
+    subject: `I received your message!`,
+    text: `Hello ${name},\n\nI received your message and will get back to you soon. Here's what you sent me:\n\n${message}`,
   };
 
   transporter.sendMail(mailOptions, (error, info) => {

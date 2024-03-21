@@ -188,7 +188,7 @@
 
 @media (min-width: 1800px) {
     .skill-item img, .technology-item img {
-        width: 250px; /* Fixed width for larger screens */
+        width: 250px; 
         height: 150px;
     }
 }
