@@ -181,25 +181,14 @@ body {
 }
 
 .linkedin-icon:hover,
-.linkedin-icon:focus {
-  color: #cd54eb; 
-  transform: scale(1.1); 
-  box-shadow: 0 0 20px #cd54eb;
-
-
-
-}
 .github-icon:hover,
-.twitter-icon:hover {
-  color: #cd54eb; 
-  transform: scale(1.1); 
-  box-shadow: 0 0 20px #cd54eb; 
-}
+.twitter-icon:hover,
+.linkedin-icon:focus,
 .github-icon:focus,
 .twitter-icon:focus {
-  color: #cd54eb; 
-  transform: scale(1.1); 
-  box-shadow: 0 0 15px #cd54eb;
+  color: white; 
+  transform: scale(1.2); 
+
 }
 
 .link-icon {
