@@ -1,16 +1,17 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 
-
 export default function Contact() {
     const [formData, setFormData] = useState({
         name: '',
         email: '',
         message: ''
     });
+    const [isEmailSent, setIsEmailSent] = useState(false);
 
     const handleChange = (e) => {
         const { name, value } = e.target;
+        setIsEmailSent(false); // Reset email sent state on form change
         setFormData(prevState => ({
             ...prevState,
             [name]: value
@@ -18,22 +19,23 @@ export default function Contact() {
     };
 
     const handleSubmit = async (e) => {
-        e.preventDefault(); 
+        e.preventDefault();
         try {
-
             const apiURL = process.env.REACT_APP_BACKEND_URL;
-            console.log('API URL:', process.env.REACT_APP_BACKEND_URL);
             const response = await axios.post(`${apiURL}/send-email`, formData);
             console.log(response.data);
+            setIsEmailSent(true); // Set email sent state to true
         } catch (error) {
             console.error('There was an error sending the message:', error);
+            setIsEmailSent(false);
         }
     };
 
     return (
         <div className="contact-container">
             <h1 className="header">Send me a message!</h1>
-            <p className="contact-description">Got a question or proposal, or just want to say hello? Go ahead.</p>
+            <p className="contact-description">Got a question, or just want to say hello? Go ahead!</p>
+            {isEmailSent && <p className="success-message">Your message has been sent successfully!</p>}
             <div className="form-container">
                 <form className="contact-form" onSubmit={handleSubmit}>
                     <div className="form-group">
