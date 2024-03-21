@@ -201,6 +201,83 @@ body, html{
   background-color: #9370db; 
 }
 
+/*Contact Page*/
+.contact-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  color: #cd54eb;
+}
+
+.contact-description {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #cd54eb;
+}
+
+.form-container {
+  background: #1a1a2e;
+  padding: 2rem;
+  border-radius: 8px;
+}
+
+.contact-form {
+  display: grid;
+  grid-gap: 1rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group.full {
+  grid-column: span 2;
+}
+
+.form-group label {
+  color: #cd54eb;
+}
+
+.form-group input,
+.form-group textarea {
+  padding: 0.5rem;
+  background: #0e0e14;
+  border: none;
+  border-bottom: 2px solid #cd54eb;
+  color: white;
+  margin-top: 0.5rem;
+}
+
+.form-group textarea {
+  min-height: 150px;
+  resize: vertical;
+}
+
+.send-button {
+  background-color: #cd54eb;
+  color: white;
+  border: none;
+  padding: 1rem 2rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  
+}
+
+.send-button:hover {
+  background-color: #a43edf;
+}
+
+/* Add styles for screen responsiveness */
+@media (max-width: 768px) {
+  .contact-form {
+    grid-template-columns: 1fr;
+  }
+  .form-group.full {
+    grid-column: span 1;
+  }
+}
+
 
 
 
