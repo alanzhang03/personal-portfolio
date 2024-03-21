@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 
+
 export default function Contact() {
     const [formData, setFormData] = useState({
         name: '',
@@ -21,6 +22,7 @@ export default function Contact() {
         try {
 
             const apiURL = process.env.REACT_APP_BACKEND_URL;
+            console.log('API URL:', process.env.REACT_APP_BACKEND_URL);
             const response = await axios.post(`${apiURL}/send-email`, formData);
             console.log(response.data);
         } catch (error) {

@@ -1,3 +1,5 @@
+require('dotenv').config({ path: '../.env' });
+
 const express = require('express');
 const nodemailer = require('nodemailer');
 const cors = require('cors');
@@ -13,18 +15,22 @@ app.use(bodyParser.json());
 const transporter = nodemailer.createTransport({
   service: 'gmail',
   auth: {
-    user: process.env.EMAIL, // Use environment variables
-    pass: process.env.PASSWORD, // Use environment variables
+    user: process.env.EMAIL, 
+    pass: process.env.APP_SPECIFIC_PASSWORD, 
   }
 });
 
-// POST route to send emails
+if (!process.env.EMAIL || !process.env.APP_SPECIFIC_PASSWORD) {
+  console.error('The EMAIL and PASSWORD environment variables must be set.');
+  process.exit(1); 
+}
+
 app.post('/send-email', (req, res) => {
   const { name, email, message } = req.body;
 
   const mailOptions = {
     from: email,
-    to: 'alan.s.zhang@gmail.com', // Your receiving email address
+    to: 'alan.s.zhang@gmail.com',
     subject: `New message from ${name}`,
     text: message,
   };
@@ -40,7 +46,7 @@ app.post('/send-email', (req, res) => {
   });
 });
 
-// Start the server
+
 const PORT = process.env.PORT || 3001;
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
