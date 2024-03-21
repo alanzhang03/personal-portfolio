@@ -46,7 +46,7 @@ body, html{
   animation: waveAnimation 2s ease-in-out infinite;
 }
 
-  /*Typing Section*/
+/*Typing Section*/
 
 @keyframes flicker {
   0%, 100% { opacity: 1; }
@@ -210,6 +210,7 @@ body, html{
   max-width: 1000px;
   margin: 0 auto;
   color: #cd54eb;
+  padding-bottom: 5%;
 }
 
 .contact-description {
@@ -223,8 +224,8 @@ body, html{
   background: #1a1a2e;
   padding: 3rem;
   border-radius: 8px;
-  width: 100%; /* Set width to 100% */
-  max-width: 900px; /* Optional: you can set a max-width if you like */
+  width: 100%;
+  max-width: 900px; 
 }
 
 .contact-form {
@@ -270,7 +271,7 @@ body, html{
   padding: 1rem 2rem;
   cursor: pointer;
   transition: background-color 0.3s;
-  
+
 }
 
 .send-button:hover {

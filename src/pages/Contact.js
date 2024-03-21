@@ -11,7 +11,7 @@ export default function Contact() {
 
     const handleChange = (e) => {
         const { name, value } = e.target;
-        setIsEmailSent(false); // Reset email sent state on form change
+        setIsEmailSent(false);
         setFormData(prevState => ({
             ...prevState,
             [name]: value
@@ -24,7 +24,7 @@ export default function Contact() {
             const apiURL = process.env.REACT_APP_BACKEND_URL;
             const response = await axios.post(`${apiURL}/send-email`, formData);
             console.log(response.data);
-            setIsEmailSent(true); // Set email sent state to true
+            setIsEmailSent(true); 
         } catch (error) {
             console.error('There was an error sending the message:', error);
             setIsEmailSent(false);
