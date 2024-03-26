@@ -183,9 +183,11 @@ body {
 .linkedin-icon:hover,
 .github-icon:hover,
 .twitter-icon:hover,
+.facebook-icon:hover
 .linkedin-icon:focus,
 .github-icon:focus,
-.twitter-icon:focus {
+.twitter-icon:focus 
+.facebook-icon:focus  {
   color: white; 
   transform: scale(1.2); 
 
