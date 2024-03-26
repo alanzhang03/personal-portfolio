@@ -161,16 +161,16 @@ body {
 
 .twitter-icon{
   color: #cd54eb;
-  width: 50px; 
-  height: 50px; 
+  width: 52px; 
+  height: 52px; 
   transition: color 0.3s, transform 0.3s, box-shadow 0.3s;
   border-radius: 50%;
 }
 
 .facebook-icon{
   color: #cd54eb;
-  width: 50px; 
-  height: 50px; 
+  width: 45px; 
+  height: 45px; 
   transition: color 0.3s, transform 0.3s, box-shadow 0.3s;
   border-radius: 50%;
 }
