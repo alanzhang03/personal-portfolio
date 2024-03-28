@@ -35,10 +35,11 @@ export default function Skills() {
 
     const technologies = [
         { name: 'React', icon: ReactIcon },
+        { name: 'Node', icon: NodejsIcon},
         { name: 'Django', icon: DjangoIcon },
         { name: 'Github', icon: GithubIcon},
         { name: 'Microsoft Office', icon: OfficeIcon},
-        { name: 'Node', icon: NodejsIcon},
+        
 
     ];
 
