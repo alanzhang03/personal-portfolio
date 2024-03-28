@@ -10,11 +10,11 @@ import JavaIcon from '../Assets/java.svg'
 import RIcon from '../Assets/r.svg'
 import MatlabIcon from '../Assets/matlab.svg'
 import ReactIcon from '../Assets/react.svg'
-import RustIcon from '../Assets/rust.svg'
 import DjangoIcon from '../Assets/django.svg'
 import GithubIcon from '../Assets/github.svg'
 import OfficeIcon from '../Assets/office.svg'
 import NodejsIcon from '../Assets/nodejs.svg'
+import CSharpIcon from '../Assets/csharp.svg'
 
 export default function Skills() {
     const skills = [    
@@ -22,12 +22,13 @@ export default function Skills() {
         { name: 'Html', icon: HtmlIcon },
         { name: 'Css', icon: CssIcon },
         { name: 'Python', icon: PythonIcon},
+        { name: 'C#', icon: CSharpIcon},
         { name: 'C', icon: CIcon },
         { name: 'Ocaml', icon: OcamlIcon },
         { name: 'Java', icon: JavaIcon },
         { name: 'R', icon: RIcon },
         { name: 'Matlab', icon: MatlabIcon},
-        { name: 'Rust', icon: RustIcon},
+        
 
 
     ];
