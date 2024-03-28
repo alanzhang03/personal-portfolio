@@ -10,7 +10,7 @@ import './pages.css';
 
 
 export default function Home() {
-  const roles = ["React Expert", "Soccer Enthusiast", ""];
+  const roles = ["Full Stack Developer","React Expert", "Soccer Enthusiast",];
 
   return (
     <>
