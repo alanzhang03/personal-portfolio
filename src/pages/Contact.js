@@ -70,7 +70,7 @@ export default function Contact() {
                             placeholder="Enter your message"
                         ></textarea>
                     </div>
-                    <button type="submit" className="send-button">Shoot →</button>
+                    <button type="submit" className="send-button">Send →</button>
                 </form>
             </div>
         </div>
