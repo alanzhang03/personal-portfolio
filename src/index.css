@@ -176,6 +176,14 @@ body {
   border-radius: 50%;
 }
 
+.insta-icon{
+  color: #cd54eb;
+  width: 100px; 
+  height: 100px; 
+  transition: color 0.3s, transform 0.3s, box-shadow 0.3s;
+  border-radius: 50%;
+}
+
 .social-icons-divide {
   display: flex;
   gap: 50px;
@@ -193,10 +201,12 @@ body {
 .github-icon:hover,
 .twitter-icon:hover,
 .facebook-icon:hover,
+.insta-icon:hover,
 .linkedin-icon:focus,
 .github-icon:focus,
 .twitter-icon:focus,
-.facebook-icon:focus  {
+.facebook-icon:focus,
+.insta-icon:focus {
   color: white; 
   transform: scale(1.2); 
 
