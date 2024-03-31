@@ -28,6 +28,10 @@ export default function Footer() {
                         <a href="https://www.facebook.com/profile.php?id=100009265073408" target="_blank" rel="noopener noreferrer">
                             <FaFacebook className="facebook-icon"/>  
                         </a>
+
+                        <a href="https://www.instagram.com/_alanzhang_3/" target="_blank" rel="noopener noreferrer">
+                            <FaFacebook className="facebook-icon"/>  
+                        </a>
                         
                     </div>
                 </div>
