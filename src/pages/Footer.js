@@ -3,7 +3,7 @@ import { IoLogoGithub } from "react-icons/io";
 import { TiSocialLinkedinCircular } from "react-icons/ti";
 import { AiFillTwitterCircle } from "react-icons/ai";
 import { FaFacebook } from "react-icons/fa6";
-import { CiInstagram } from "react-icons/ci";
+import { SiInstagram } from "react-icons/si";
 
 
 export default function Footer() {
@@ -26,7 +26,7 @@ export default function Footer() {
                             <AiFillTwitterCircle className="twitter-icon"/>    
                         </a>
                         <a href="https://www.instagram.com/_alanzhang_3/" target="_blank" rel="noopener noreferrer">
-                            <CiInstagram  className="insta-icon" />
+                            <SiInstagram className="insta-icon" />
                         </a>
 
                         <a href="https://www.facebook.com/profile.php?id=100009265073408" target="_blank" rel="noopener noreferrer">
