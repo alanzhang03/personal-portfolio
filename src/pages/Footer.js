@@ -25,13 +25,16 @@ export default function Footer() {
                         <a href="https://twitter.com/cloudeelol" target="_blank" rel="noopener noreferrer">
                             <AiFillTwitterCircle className="twitter-icon"/>    
                         </a>
+                        
+                        <a href="https://www.facebook.com/profile.php?id=100009265073408" target="_blank" rel="noopener noreferrer">
+                            <FaFacebook className="facebook-icon"/>  
+                        </a>
+
                         <a href="https://www.instagram.com/_alanzhang_3/" target="_blank" rel="noopener noreferrer">
                             <SiInstagram className="insta-icon" />
                         </a>
 
-                        <a href="https://www.facebook.com/profile.php?id=100009265073408" target="_blank" rel="noopener noreferrer">
-                            <FaFacebook className="facebook-icon"/>  
-                        </a>
+
 
 
                         
