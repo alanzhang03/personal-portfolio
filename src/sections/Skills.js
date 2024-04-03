@@ -16,6 +16,8 @@ import OfficeIcon from '../Assets/office.svg'
 import NodejsIcon from '../Assets/nodejs.svg'
 import CSharpIcon from '../Assets/csharp.svg'
 import gitIcon from '../Assets/git.svg'
+import viteIcon from '../Assets/vitejs.svg'
+import vueIcon from '../Assets/vue.svg'
 
 export default function Skills() {
     const skills = [    
@@ -37,6 +39,8 @@ export default function Skills() {
     const technologies = [
         { name: 'React', icon: ReactIcon },
         { name: 'Node', icon: NodejsIcon},
+        { name: 'Vite', icon: viteIcon},
+        { name: 'Vue', icon: vueIcon},
         { name: 'Django', icon: DjangoIcon },
         { name: 'Github', icon: GithubIcon},  
         { name: 'git', icon: gitIcon},
