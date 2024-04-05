@@ -21,8 +21,11 @@ export default function AboutMe() {
 
             I began my software development journey in Python through an AP course offered at my Highschool called 
             "AP Computer Science Principles" and later branched out into java through the course "AP Computer Science A"
-            , both of which I thoroughly enjoyed.
+            , both of which I thoroughly enjoyed, sparking my initial love for Computer Science.
             <br></br><br></br>
+
+            Currently in College, I am pursuing a bachelores degree in Computer Science at the University of Maryland,
+            College Park. I have taken classes which included concepts about 
 
             Outside of programming, I enjoy watching and playing soccer and 
             Just as much as I take pleasure in a thrilling match or engaging gameplay session, I equally savor 
@@ -35,7 +38,7 @@ export default function AboutMe() {
             line of code is a step towards the future in which 
             I am <span className='purple-text-description'> eager </span> to help build.
             </p> 
-            <br></br><br></br>
+
 
             <div className='about-me-footer'>
                 <h1 className='about-me-header'>My Tech Stack!</h1>
