@@ -14,20 +14,17 @@ export default function AboutMe() {
 
             <p className='about-me-description'>
             Originally from the outskirts of <span className='purple-text-description'>Philadelphia, Pennsylvania</span>, 
-            I am currently immersed in the world of technology and innovation at the 
-            <span className='purple-text-description'> University of Maryland, College Park</span>, and am on track to 
-            graduate in <span className='purple-text-description'> May 2025</span>. 
+            I attended Conestoga High School located in Berwyn, Pennsylvania and am now currently attending the 
+            <span className='purple-text-description'> University of Maryland, College Park</span>, 
+            on track to graduate in <span className='purple-text-description'> May 2025</span>. 
             <br></br><br></br>
 
-            As a dedicated developer, I enjoy crafting <span className='purple-text-description'> elegant </span> 
-            solutions through code. My <span className='purple-text-description'> academic journey </span> has
-            thus far been accompanied with a number of personal projects that not only help to challenge my 
-            understanding but also <span className='purple-text-description'> amplify my skills </span> 
-            in software development.
+            I began my software development journey in Python through an AP course offered at my Highschool called 
+            "AP Computer Science Principles" and later branched out into java through the course "AP Computer Science A"
+            , both of which I thoroughly enjoyed.
             <br></br><br></br>
 
-            Outside of programming, I enjoy competing on the <span className='purple-text-description'>soccer </span>
-            field and in the virtual realms of <span className='purple-text-description'>video games</span>.
+            Outside of programming, I enjoy watching and playing soccer and 
             Just as much as I take pleasure in a thrilling match or engaging gameplay session, I equally savor 
             the journey of learning on platforms like <span className='purple-text-description'>YouTube</span>. 
             <br></br><br></br>
@@ -38,6 +35,7 @@ export default function AboutMe() {
             line of code is a step towards the future in which 
             I am <span className='purple-text-description'> eager </span> to help build.
             </p> 
+            <br></br><br></br>
 
             <div className='about-me-footer'>
                 <h1 className='about-me-header'>My Tech Stack!</h1>
