@@ -8,7 +8,7 @@ export default function AboutMe() {
             <h1 className='intro-header'>
             Hi, I'm <span className='purple-text'>Alan</span>, 
             a dedicated full-stack
-            <span className='purple-text'>  web developer!</span>
+            <span className='purple-text'> Software Developer!</span>
 
             </h1>
 
@@ -31,8 +31,14 @@ export default function AboutMe() {
             Systems in the near future.
             <br></br><br></br>
 
-            Recently, I have taken a particular liking in web development, which I first discovered over the Summer of 
-            2023. I was especially interested in what the process was to create a front end
+            Throughout my software development journey thus far, I was particularlly interested in web development
+            which I first discovered over the Summer of 2023. I was especially interested in what the process was 
+            like, creating an eye catching and responsive page (front end) as well as some of the core features 
+            behind how these websites were deployed and running in the background (backend). This led to my interest
+            in learning about technologies like React and Nodejs, which I decided to use to build this Web Portfolio.
+            <br></br><br></br>
+
+            
 
             Outside of programming, I enjoy watching and playing soccer, working out and spending time with my friends.
             I also dabble in
