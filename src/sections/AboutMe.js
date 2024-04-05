@@ -25,18 +25,21 @@ export default function AboutMe() {
             <br></br><br></br>
 
             Currently in College, I am pursuing a bachelores degree in Computer Science at the University of Maryland,
-            College Park. I have taken classes which included concepts about 
-
-            Outside of programming, I enjoy watching and playing soccer and 
-            Just as much as I take pleasure in a thrilling match or engaging gameplay session, I equally savor 
-            the journey of learning on platforms like <span className='purple-text-description'>YouTube</span>. 
+            College Park, on track to graduate in May 2025. I have taken classes which included core conecepts 
+            such as Alorithms, OOP, Operating Systems, Memory Management and Time Complexity Analysis just to name 
+            a few. I plan on taking courses on AI and Machine Learning, Compilers, and programming with Handheld 
+            Systems in the near future.
             <br></br><br></br>
 
-            As I navigate through my education at the <span className='purple-text-description'>University of Maryland</span>, 
-            I'm always looking for the next <span className='purple-text-description'>challenge </span>  to tackle or 
-            problem to solve. Each project is an opportunity to showcase my <span className='purple-text-description'> creativity and innovative mind</span>. Every 
-            line of code is a step towards the future in which 
-            I am <span className='purple-text-description'> eager </span> to help build.
+            Recently, I have taken a particular liking in web development, which I first discovered over the Summer of 
+            2023. I was especially interested in what the process was to create a front end
+
+            Outside of programming, I enjoy watching and playing soccer, working out and spending time with my friends.
+            I also dabble in
+            <br></br><br></br>
+
+
+
             </p> 
 
 
