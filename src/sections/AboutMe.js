@@ -10,8 +10,8 @@ export default function AboutMe() {
             <br></br>
             <span className='purple-text'> Software Developer!</span>
             </h1>
-            https://apstudents.collegeboard.org/courses/ap-computer-science-a
             
+            {/*1st paragraph*/}
             <p className='about-me-description'>
             Originally from the outskirts of 
             <a target="_blank" rel='noreferrer' className='purple-text-description'
@@ -38,6 +38,7 @@ export default function AboutMe() {
             > Computer Science at the University of Maryland, College Park.</a> 
             <br></br><br></br>
 
+            {/*2nd paragraph*/}
             Currently in College, I am on track to graduate in May 2025. I have taken classes which have covered
             fundamental conecepts such as 
             <a target="_blank" rel='noreferrer' className='purple-text-description'
@@ -82,6 +83,7 @@ export default function AboutMe() {
             
             <br></br><br></br>
 
+            {/*3rd paragraph*/}
             Throughout my software development journey thus far, I was particularlly interested in 
             <a target="_blank" rel='noreferrer' className='purple-text-description'
             href='https://www.geeksforgeeks.org/web-development/' 
@@ -112,8 +114,8 @@ export default function AboutMe() {
 
             <br></br><br></br>
 
+            {/*4th paragraph*/}
             As I approach the end of my academic journey, I am excited and hopeful to apply the 
-            
             <a target="_blank" rel='noreferrer' className='purple-text-description'
             href='https://alanzhang.onrender.com/Resume' 
             > skills and knowledge </a>
@@ -127,9 +129,17 @@ export default function AboutMe() {
             > projects </a>
             and expand upon my current skill set through continuous learning and collaboration,
             and am excited for whats to come.
-            <br></br>
-            If you have any further questions or would just like to say hello, feel free to navigate to the contact 
-            page of this portfolio and shoot me a message!
+            <br></br><br></br>
+            
+            {/*5th paragraph*/}
+            If you have any further questions or would just like to say hello, feel free to navigate to the 
+            <a target="_blank" rel='noreferrer' className='purple-text-description'
+            href='https://alanzhang.onrender.com/Contact' 
+            > contact page </a>of this
+
+            <a target="_blank" rel='noreferrer' className='purple-text-description'
+            href='https://alanzhang.onrender.com/Home' 
+            > portfolio </a>and shoot me a message! 
             </p> 
             
             <div>
