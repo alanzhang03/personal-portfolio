@@ -101,7 +101,7 @@
 
 .about-me-description{
     color: white;
-    
+    font-size: 1vw !important;
 }
 
 
@@ -110,6 +110,7 @@
     color: #cd54eb;
     font-weight: bold;
     text-decoration: none;
+    font-size: 1vw !important;
     
 }
 
