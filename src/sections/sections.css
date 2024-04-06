@@ -101,7 +101,7 @@
 
 .about-me-description{
     color: white;
-    font-size: 1vw !important;
+    
 }
 
 
@@ -110,10 +110,12 @@
     color: #cd54eb;
     font-weight: bold;
     text-decoration: none;
+    
 }
 
 .purple-text-description:hover{
     color: white; 
+
 }
 
 #href{
