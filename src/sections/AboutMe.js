@@ -117,7 +117,7 @@ export default function AboutMe() {
             {/*4th paragraph*/}
             As I approach the end of my academic journey, I am excited and hopeful to apply the 
             <a target="_blank" rel='noreferrer' className='purple-text-description'
-            href='https://alanzhang.onrender.com/Resume' 
+            href='https://alanzhang.onrender.com/' 
             > skills and knowledge </a>
 
             I have gained thus far to solve real-world problems. I am particularly excited about the opportunitites 
@@ -125,7 +125,7 @@ export default function AboutMe() {
             to meaningful 
 
             <a target="_blank" rel='noreferrer' className='purple-text-description'
-            href='https://alanzhang.onrender.com/Projects' 
+            href='https://alanzhang.onrender.com/' 
             > projects </a>
             and expand upon my current skill set through continuous learning and collaboration,
             and am excited for whats to come.
@@ -134,7 +134,7 @@ export default function AboutMe() {
             {/*5th paragraph*/}
             If you have any further questions or would just like to say hello, feel free to navigate to the 
             <a target="_blank" rel='noreferrer' className='purple-text-description'
-            href='https://alanzhang.onrender.com/Contact' 
+            href='https://alanzhang.onrender.com/' 
             > contact page </a>of this
 
             <a target="_blank" rel='noreferrer' className='purple-text-description'
