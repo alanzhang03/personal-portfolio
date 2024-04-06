@@ -4,24 +4,20 @@ import { FaArrowDownLong } from "react-icons/fa6";
 export default function AboutMe() {
     return (
         <>
-        <div>
             <h1 className='intro-header'>
             Hi, I'm <span className='purple-text'>Alan</span>, 
             a dedicated 
             <br></br>
             <span className='purple-text'> Software Developer!</span>
-
             </h1>
+
+            
             <p className='about-me-description'>
             Originally from the outskirts of 
             <a target="_blank" rel='noreferrer' className='purple-text-description'
             href='https://www.google.com/maps/place/Philadelphia,+PA/@40.0026443,-75.2828353,11z/data=!3m1!4b1!4m6!3m5!1s0x89c6b7d8d4b54beb:0x89f514d88c3e58c1!8m2!3d39.9525839!4d-75.1652215!16zL20vMGRjbGc?entry=ttu' 
             > Philadelphia, PA</a>, 
-            I attended Conestoga High School located in Berwyn, Pennsylvania and am now currently attending the 
-            <span className='purple-text-description'> University of Maryland, College Park</span>, 
-            on track to graduate in <span className='purple-text-description'> May 2025</span>. 
-            <br></br><br></br>
-
+            I attended Conestoga High School located in Berwyn, Pennsylvania.
             I began my software development journey in Python through an AP course offered at my Highschool called 
             "AP Computer Science Principles" and later branched out into java through the course "AP Computer Science A"
             , both of which I thoroughly enjoyed, sparking my initial love for Computer Science.
@@ -44,25 +40,18 @@ export default function AboutMe() {
             As I approach the end of my academic journey, I am excited and hopeful to apply the skills and knowledge
             I have gained thus far to solve real-world problems. I am particularly excited about the opportunitites 
             to take on new challenges, meet new people, and use new technologies. I am always seeking to contribute
-            to meaningful projects and expand upon my current skill set through continuous learning and collaboration.
+            to meaningful projects and expand upon my current skill set through continuous learning and collaboration,
+            and am excited for whats to come
             <br></br><br></br>
 
             If you have any further questions or would just like to say hello, feel free to navigate to the contact 
             page of this portfolio and shoot me a message!
-            
-
-
-
-
             </p> 
-
-
+            
             <div>
                 <h1 className='about-me-footer'>My Tech Stack!</h1>
                 <FaArrowDownLong className='arrow-down'></FaArrowDownLong>
             </div>
-
-        </div> 
         </>
     )
 }
