@@ -101,7 +101,7 @@
 
 .about-me-description{
     color: white;
-    font-size: 1vw !important;
+
 }
 
 
@@ -110,7 +110,7 @@
     color: #cd54eb;
     font-weight: bold;
     text-decoration: none;
-    font-size: 1vw !important;
+
     
 }
 
@@ -125,7 +125,7 @@
 
 @media (min-width: 1800px) {
     .about-me-description, .purple-text-description {
-        font-size: 1.2vw;
+        font-size: 1vw;
     }
 }
 
