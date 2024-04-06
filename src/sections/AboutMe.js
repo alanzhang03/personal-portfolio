@@ -41,9 +41,8 @@ export default function AboutMe() {
             I have gained thus far to solve real-world problems. I am particularly excited about the opportunitites 
             to take on new challenges, meet new people, and use new technologies. I am always seeking to contribute
             to meaningful projects and expand upon my current skill set through continuous learning and collaboration,
-            and am excited for whats to come
-            <br></br><br></br>
-
+            and am excited for whats to come.
+            <br></br>
             If you have any further questions or would just like to say hello, feel free to navigate to the contact 
             page of this portfolio and shoot me a message!
             </p> 
