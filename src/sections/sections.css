@@ -107,8 +107,18 @@
 
 .purple-text-description{
     color: #cd54eb;
-    font-size: 1vw;
     font-weight: bold;
+    text-decoration: none;
+}
+
+.purple-text-description:hover{
+    color: white; 
+    transform: scale(1.3); 
+
+}
+
+#href{
+    text-decoration: none;
 }
 
 @media (min-width: 1800px) {
