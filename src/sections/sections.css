@@ -80,6 +80,14 @@
     color: white;
     font-size: 3vw;
     font-weight: normal;
+
+}
+
+.intro-header-technologies{
+    color: white;
+    font-size: 3vw;
+    font-weight: normal;
+    padding-top: 5%;
 }
 
 

@@ -63,7 +63,7 @@ export default function Skills() {
                     
                 ))}
             </div>
-            <h1 className="intro-header">
+            <h1 className="intro-header-technologies">
                 <span className="purple-text">Technologies</span>
             </h1>
             <div className="technologies-grid">
