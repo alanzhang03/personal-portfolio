@@ -7,11 +7,11 @@ export default function AboutMe() {
         <div>
             <h1 className='intro-header'>
             Hi, I'm <span className='purple-text'>Alan</span>, 
-            a dedicated full-stack
+            a dedicated 
+            <br></br>
             <span className='purple-text'> Software Developer!</span>
 
             </h1>
-
             <p className='about-me-description'>
             Originally from the outskirts of <span className='purple-text-description'>Philadelphia, Pennsylvania</span>, 
             I attended Conestoga High School located in Berwyn, Pennsylvania and am now currently attending the 
@@ -32,27 +32,32 @@ export default function AboutMe() {
             <br></br><br></br>
 
             Throughout my software development journey thus far, I was particularlly interested in web development
-            which I first discovered over the Summer of 2023. I was especially interested in what the process was 
-            like, creating an eye catching and responsive page (front end) as well as some of the core features 
-            behind how these websites were deployed and running in the background (backend). This led to my interest
+            a field I first explored in the summer of 2023. I was especially interested in what the process was 
+            like, creating an eye catching and responsive page as well as some of the core features 
+            behind how these websites were deployed and running in the background. This led to my interest
             in learning about technologies like React and Nodejs, which I decided to use to build this Web Portfolio.
             <br></br><br></br>
 
+            As I approach the end of my academic journey, I am excited and hopeful to apply the skills and knowledge
+            I have gained thus far to solve real-world problems. I am particularly excited about the opportunitites 
+            to take on new challenges, meet new people, and use new technologies. I am always seeking to contribute
+            to meaningful projects and expand upon my current skill set through continuous learning and collaboration.
+            <br></br><br></br>
+
+            If you have any further questions or would just like to say hello, feel free to navigate to the contact 
+            page of this portfolio and shoot me a message!
             
 
-            Outside of programming, I enjoy watching and playing soccer, working out and spending time with my friends.
-            I also dabble in
-            <br></br><br></br>
 
 
 
             </p> 
 
 
-            <div className='about-me-footer'>
-                <h1 className='about-me-header'>My Tech Stack!</h1>
-            <FaArrowDownLong className='arrow-down'></FaArrowDownLong>
-      </div>
+            <div>
+                <h1 className='about-me-footer'>My Tech Stack!</h1>
+                <FaArrowDownLong className='arrow-down'></FaArrowDownLong>
+            </div>
 
         </div> 
         </>

@@ -13,9 +13,10 @@
 
 }
 
-.about-me-header{
+.about-me-header, .about-me-footer{
     color: #cd54eb;
     font-size: 4vh;
+    text-align: center;
 }
 
   /*Nav2 section*/
@@ -136,6 +137,7 @@
     align-items: center;
     color: white;
     width: 100%;
+    padding-top: 7.5%;
 
 }
 
