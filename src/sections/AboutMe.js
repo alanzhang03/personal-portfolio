@@ -10,24 +10,83 @@ export default function AboutMe() {
             <br></br>
             <span className='purple-text'> Software Developer!</span>
             </h1>
-
+            https://apstudents.collegeboard.org/courses/ap-computer-science-a
             
             <p className='about-me-description'>
             Originally from the outskirts of 
             <a target="_blank" rel='noreferrer' className='purple-text-description'
             href='https://www.google.com/maps/place/Philadelphia,+PA/@40.0026443,-75.2828353,11z/data=!3m1!4b1!4m6!3m5!1s0x89c6b7d8d4b54beb:0x89f514d88c3e58c1!8m2!3d39.9525839!4d-75.1652215!16zL20vMGRjbGc?entry=ttu' 
             > Philadelphia, PA</a>, 
-            I attended Conestoga High School located in Berwyn, Pennsylvania.
-            I began my software development journey in Python through an AP course offered at my Highschool called 
-            "AP Computer Science Principles" and later branched out into java through the course "AP Computer Science A"
-            , both of which I thoroughly enjoyed, sparking my initial love for Computer Science.
+            I attended 
+            <a target="_blank" rel='noreferrer' className='purple-text-description'
+            href='https://www.usnews.com/education/best-high-schools/pennsylvania/districts/tredyffrin-easttown-school-district/conestoga-high-school-17378' 
+            > Conestoga High School </a> 
+            
+            located in Berwyn, Pennsylvania.
+            I began my software development journey with Python in a high school course titled 
+            <a target="_blank" rel='noreferrer' className='purple-text-description'
+            href='https://apcentral.collegeboard.org/courses/ap-computer-science-principles/course' 
+            > AP Computer Science Principles </a>.
+            This initial experience ignited my passion for Computer Science, leading me to register for the course
+            <a target="_blank" rel='noreferrer' className='purple-text-description'
+            href='https://apstudents.collegeboard.org/courses/ap-computer-science-a' 
+            > AP Computer Science A </a> 
+            the next year, where I learned Java. I found both courses immensely enjoyable, thus leading to my 
+            decision to study 
+            <a target="_blank" rel='noreferrer' className='purple-text-description'
+            href='https://www.cs.umd.edu/' 
+            > Computer Science at the University of Maryland, College Park.</a> 
             <br></br><br></br>
 
-            Currently in College, I am pursuing a bachelores degree in Computer Science at the University of Maryland,
-            College Park, on track to graduate in May 2025. I have taken classes which included core conecepts 
-            such as Alorithms, OOP, Operating Systems, Memory Management and Time Complexity Analysis just to name 
-            a few. I plan on taking courses on AI and Machine Learning, Compilers, and programming with Handheld 
-            Systems in the near future.
+            Currently in College, I am on track to graduate in May 2025. I have taken classes which have covered
+            fundamental conecepts such as 
+            <a target="_blank" rel='noreferrer' className='purple-text-description'
+            href='https://planetterp.com/course/CMSC351' 
+            > Alorithms, </a> 
+             
+            <a target="_blank" rel='noreferrer' className='purple-text-description'
+            href='https://planetterp.com/course/CMSC132' 
+            > OOP, </a> 
+             
+
+            <a target="_blank" rel='noreferrer' className='purple-text-description'
+            href='https://planetterp.com/course/CMSC250' 
+            > Discrete Structures, </a>
+
+            <a target="_blank" rel='noreferrer' className='purple-text-description'
+            href='https://planetterp.com/course/CMSC216' 
+            > Operating Systems,  </a> 
+            
+
+
+            <a target="_blank" rel='noreferrer' className='purple-text-description'
+            href='https://planetterp.com/course/CMSC216' 
+            > Memory Management </a> and
+
+            
+            <a target="_blank" rel='noreferrer' className='purple-text-description'
+            href='https://planetterp.com/course/CMSC351' 
+            > Time Complexity Analysis </a> among others. Looking ahead, I am excited to expand my skillset in 
+             
+
+            
+            <a target="_blank" rel='noreferrer' className='purple-text-description'
+            href='https://planetterp.com/course/CMSC421' 
+            > AI, </a>
+             
+            
+            <a target="_blank" rel='noreferrer' className='purple-text-description'
+            href='https://planetterp.com/course/CMSC422' 
+            > Machine Learning, </a>
+               
+            <a target="_blank" rel='noreferrer' className='purple-text-description'
+            href='https://planetterp.com/course/CMSC430' 
+            > Compilers, </a> and programming with 
+
+            <a target="_blank" rel='noreferrer' className='purple-text-description'
+            href='https://planetterp.com/course/CMSC436' 
+            > Handheld Systems </a> in the near future.
+            
             <br></br><br></br>
 
             Throughout my software development journey thus far, I was particularlly interested in web development
