@@ -48,7 +48,6 @@ export default function AboutMe() {
             href='https://planetterp.com/course/CMSC132' 
             > OOP, </a> 
              
-
             <a target="_blank" rel='noreferrer' className='purple-text-description'
             href='https://planetterp.com/course/CMSC250' 
             > Discrete Structures, </a>
@@ -57,24 +56,18 @@ export default function AboutMe() {
             href='https://planetterp.com/course/CMSC216' 
             > Operating Systems,  </a> 
             
-
-
             <a target="_blank" rel='noreferrer' className='purple-text-description'
             href='https://planetterp.com/course/CMSC216' 
             > Memory Management </a> and
-
-            
+          
             <a target="_blank" rel='noreferrer' className='purple-text-description'
             href='https://planetterp.com/course/CMSC351' 
             > Time Complexity Analysis </a> among others. Looking ahead, I am excited to expand my skillset in 
              
-
-            
             <a target="_blank" rel='noreferrer' className='purple-text-description'
             href='https://planetterp.com/course/CMSC421' 
             > AI, </a>
-             
-            
+               
             <a target="_blank" rel='noreferrer' className='purple-text-description'
             href='https://planetterp.com/course/CMSC422' 
             > Machine Learning, </a>
@@ -89,17 +82,50 @@ export default function AboutMe() {
             
             <br></br><br></br>
 
-            Throughout my software development journey thus far, I was particularlly interested in web development
+            Throughout my software development journey thus far, I was particularlly interested in 
+            <a target="_blank" rel='noreferrer' className='purple-text-description'
+            href='https://www.geeksforgeeks.org/web-development/' 
+            > web development </a>,
+            
             a field I first explored in the summer of 2023. I was especially interested in what the process was 
-            like, creating an eye catching and responsive page as well as some of the core features 
-            behind how these websites were deployed and running in the background. This led to my interest
-            in learning about technologies like React and Nodejs, which I decided to use to build this Web Portfolio.
+            like, creating an 
+
+            <a target="_blank" rel='noreferrer' className='purple-text-description'
+            href='https://www.geeksforgeeks.org/web-development/#front_dev' 
+            > eye catching and responsive </a> page as well as some of the core features behind how these websites were 
+    
+            <a target="_blank" rel='noreferrer' className='purple-text-description'
+            href='https://www.geeksforgeeks.org/web-development/#back_dev' 
+            > deployed and running in the background. </a> This led to my interest in learning about technologies like
+
+            <a target="_blank" rel='noreferrer' className='purple-text-description'
+            href='https://react.dev/' 
+            > React </a> and
+
+            <a target="_blank" rel='noreferrer' className='purple-text-description'
+            href='https://nodejs.org/en' 
+            > Nodejs, </a> which I decided to use to build this 
+
+            <a target="_blank" rel='noreferrer' className='purple-text-description'
+            href='https://alanzhang.onrender.com/' 
+            > Web Portfolio.</a>
+
             <br></br><br></br>
 
-            As I approach the end of my academic journey, I am excited and hopeful to apply the skills and knowledge
+            As I approach the end of my academic journey, I am excited and hopeful to apply the 
+            
+            <a target="_blank" rel='noreferrer' className='purple-text-description'
+            href='https://alanzhang.onrender.com/Resume' 
+            > skills and knowledge </a>
+
             I have gained thus far to solve real-world problems. I am particularly excited about the opportunitites 
             to take on new challenges, meet new people, and use new technologies. I am always seeking to contribute
-            to meaningful projects and expand upon my current skill set through continuous learning and collaboration,
+            to meaningful 
+
+            <a target="_blank" rel='noreferrer' className='purple-text-description'
+            href='https://alanzhang.onrender.com/Projects' 
+            > projects </a>
+            and expand upon my current skill set through continuous learning and collaboration,
             and am excited for whats to come.
             <br></br>
             If you have any further questions or would just like to say hello, feel free to navigate to the contact 
