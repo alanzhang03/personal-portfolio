@@ -138,7 +138,7 @@ export default function AboutMe() {
             > contact page </a>of this
 
             <a target="_blank" rel='noreferrer' className='purple-text-description'
-            href='https://alanzhang.onrender.com/Home' 
+            href='https://alanzhang.onrender.com/' 
             > portfolio </a>and shoot me a message! 
             </p> 
             
