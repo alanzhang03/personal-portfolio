@@ -36,7 +36,13 @@ export default function AboutMe() {
             <a target="_blank" rel='noreferrer' className='purple-text-description'
             href='https://apstudents.collegeboard.org/courses/ap-computer-science-a' 
             > AP Computer Science A </a> 
-            the next year, where I learned Java. I found both courses immensely enjoyable, thus leading to my 
+            the next year, where I learned 
+             
+            <a target="_blank" rel='noreferrer' className='purple-text-description'
+            href='https://www.java.com/en/' 
+            > Java. </a> 
+            
+            I found both courses immensely enjoyable, thus leading to my 
             decision to study 
             <a target="_blank" rel='noreferrer' className='purple-text-description'
             href='https://www.cs.umd.edu/' 
