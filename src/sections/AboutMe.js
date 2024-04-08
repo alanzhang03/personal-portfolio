@@ -23,7 +23,12 @@ export default function AboutMe() {
             > Conestoga High School </a> 
             
             located in Berwyn, Pennsylvania.
-            I began my software development journey with Python in a high school course titled 
+            I began my software development journey with 
+            
+            <a target="_blank" rel='noreferrer' className='purple-text-description'
+            href='https://www.python.org/' 
+            > Python </a>
+            in a high school course titled 
             <a target="_blank" rel='noreferrer' className='purple-text-description'
             href='https://apcentral.collegeboard.org/courses/ap-computer-science-principles/course' 
             > AP Computer Science Principles </a>.
