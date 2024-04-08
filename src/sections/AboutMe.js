@@ -16,7 +16,7 @@ export default function AboutMe() {
             Originally from the outskirts of 
             <a target="_blank" rel='noreferrer' className='purple-text-description'
             href='https://www.google.com/maps/place/Philadelphia,+PA/@40.0026443,-75.2828353,11z/data=!3m1!4b1!4m6!3m5!1s0x89c6b7d8d4b54beb:0x89f514d88c3e58c1!8m2!3d39.9525839!4d-75.1652215!16zL20vMGRjbGc?entry=ttu' 
-            > Philadelphia, PA</a>, 
+            > Philadelphia</a>,
             I attended 
             <a target="_blank" rel='noreferrer' className='purple-text-description'
             href='https://www.usnews.com/education/best-high-schools/pennsylvania/districts/tredyffrin-easttown-school-district/conestoga-high-school-17378' 
@@ -106,7 +106,7 @@ export default function AboutMe() {
 
             <a target="_blank" rel='noreferrer' className='purple-text-description'
             href='https://nodejs.org/en' 
-            > Nodejs, </a> which I decided to use to build this 
+            > Nodejs, </a> which I decided to use to build this
 
             <a target="_blank" rel='noreferrer' className='purple-text-description'
             href='https://alanzhang.onrender.com/' 
