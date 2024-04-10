@@ -14,10 +14,12 @@ export default function Navbar(){
         <StarField></StarField>
 
         <ul>
-            <CustomLink to=""></CustomLink>
-
             <CustomLink to="/Home"> 
                 <IoHomeOutline className="link-icon" /> Home
+            </CustomLink>
+
+            <CustomLink to="/AboutMePage"> 
+                <div className="link-icon" /> About Me!
             </CustomLink>
             
             <CustomLink to="/Projects">

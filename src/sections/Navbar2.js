@@ -6,10 +6,12 @@ import Contact from "./Contact";
 import Skills from "./Skills";
 import StarField from "../pages/StarField";
 
+
 export default function Navbar2() {
     const aboutMeRef = useRef(null); 
     const contactRef = useRef(null);
     const skillsRef = useRef(null);
+    
 
     const scrollToSection = (elementRef) => {
         window.scrollTo({

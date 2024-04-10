@@ -6,6 +6,7 @@ import Contact from './pages/Contact';
 import { Route, Routes } from "react-router-dom"
 import StarField from './pages/StarField';
 import Footer from './pages/Footer';
+import AboutMePage from './pages/AboutMePage';
 
 
 
@@ -21,6 +22,7 @@ export default function App() {
           <Route path="/Resume"element={<Resume/>} />
           <Route path="/Contact"element={<Contact/>} />
           <Route path="/Projects"element={<Projects/>} />
+          <Route path="/AboutMePage"element={<AboutMePage/>} />
         </Routes>
       </div>
       <Footer />
