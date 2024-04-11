@@ -1,8 +1,13 @@
-import React from 'react';
+
+import React, {useEffect} from 'react';
 import WeatherImg from "../Assets/Weather.png"
 
 
 export default function Projects() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+  
   const projects = [
     {
       title: "Weather Tracker",

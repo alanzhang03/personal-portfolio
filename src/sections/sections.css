@@ -117,8 +117,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    text-decoration: none;
-    outline: none;
+
     
 }
 .button-to-about-me, button-to-contact{
@@ -128,22 +127,20 @@ a {
     height: 6vh;
     border-radius: 10px;
     cursor: pointer;
-    text-decoration: none;
-    outline: none;
+
 }
 
 .button-text{
     font-size: 2.5vh;
     color: white;
     text-decoration: none;
-    outline: none;
+
 
 }
 
-.button-to-about-me:hover
-.button-to-contact:hover{
-    transform: scale(1.05);
-    outline: none;
+.button-to{
+    transform: scale(1.10);
+
 
 }
 
@@ -152,9 +149,6 @@ a {
     font-size: 2vh;
     border-radius: 5%;
 }
-
-
-
 
 @keyframes bobbing {
     0%, 100% { transform: translateY(0); }

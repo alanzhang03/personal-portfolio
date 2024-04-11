@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import Navbar2 from "../sections/Navbar2";
 import MainPic from "../Assets/MainPic.png";
 import Typewriter from "../sections/Typewriter";
@@ -11,6 +11,10 @@ import './pages.css';
 
 export default function Home() {
   const roles = ["Full Stack Developer","React Expert", "Soccer Enthusiast",];
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   return (
     <>

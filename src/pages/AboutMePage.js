@@ -128,25 +128,19 @@ export default function AboutMePage() {
             href='https://nodejs.org/en' 
             > Nodejs, </a> which I decided to use to build this
 
-            <a target="_blank" rel='noreferrer' className='purple-text-description'
-            href='https://alanzhang.onrender.com/' 
-            > Web Portfolio.</a>
+            <Link to="/Home" className='purple-text-description'> web portfolio </Link>
 
             <br></br><br></br>
 
             {/*4th paragraph*/}
             As I approach the end of my academic journey, I am excited and hopeful to apply the 
-            <a target="_blank" rel='noreferrer' className='purple-text-description'
-            href='https://alanzhang.onrender.com/' 
-            > skills and knowledge </a>
+            <Link to="/Home" className='purple-text-description'> skills and knowledge </Link>
 
             I have gained thus far to solve real-world problems. I am particularly excited about the opportunitites 
             to take on new challenges, meet new people, and use new technologies. I am always seeking to contribute
             to meaningful 
 
-            <a target="_blank" rel='noreferrer' className='purple-text-description'
-            href='https://alanzhang.onrender.com/' 
-            > projects </a>
+            <Link to="/Projects" className='purple-text-description'> projects </Link>
             and expand upon my current skill set through continuous learning and collaboration,
             and am excited for whats to come.
             <br></br><br></br>
@@ -154,17 +148,14 @@ export default function AboutMePage() {
             {/*5th paragraph*/}
             If you have any further questions or would just like to say hello, feel free to navigate to the 
             <Link to="/Contact" className='purple-text-description'> contact page </Link>
-
             of this
-
-            <Link to="/Contact" className='purple-text-description'> portfolio </Link>
-            
+            <Link to="/Home" className='purple-text-description'> portfolio </Link>
             and shoot me a message! 
             <br></br><br></br>
 
             <Link to="/Contact">
                 <div className='button-container'>
-                    <button className='button-to-about-me'>
+                    <button className='button-to'>
                         <div className='button-text'>
                             Contact me!
                             <FaArrowRight className='right-arrow'></FaArrowRight>                 

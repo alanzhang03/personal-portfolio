@@ -53,7 +53,7 @@ export default function AboutMe() {
 
             <Link to="/AboutMePage">
                 <div className='button-container'>
-                    <button className='button-to-about-me'>
+                    <button className='button-to'>
                         <div className='button-text'>
                             Read More!
                             <FaArrowRight className='right-arrow'></FaArrowRight>                 
