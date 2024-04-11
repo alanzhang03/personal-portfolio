@@ -153,13 +153,13 @@ export default function AboutMePage() {
             
             {/*5th paragraph*/}
             If you have any further questions or would just like to say hello, feel free to navigate to the 
-            <a target="_blank" rel='noreferrer' className='purple-text-description'
-            href='https://alanzhang.onrender.com/' 
-            > contact page </a>of this
+            <Link to="/Contact" className='purple-text-description'> contact page </Link>
 
-            <a target="_blank" rel='noreferrer' className='purple-text-description'
-            href='https://alanzhang.onrender.com/' 
-            > portfolio </a>and shoot me a message! 
+            of this
+
+            <Link to="/Contact" className='purple-text-description'> portfolio </Link>
+            
+            and shoot me a message! 
             <br></br><br></br>
 
             <Link to="/Contact">
