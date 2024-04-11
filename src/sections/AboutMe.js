@@ -6,11 +6,8 @@ import { FaArrowRight } from "react-icons/fa";
 export default function AboutMe() {
     return (
             <>
-            <h1 className='intro-header'>
-            Hi, I'm <span className='purple-text'>Alan</span>, 
-            a dedicated 
-            <br></br>
-            <span className='purple-text'> Software Developer!</span>
+            <h1 className='about-me-header'>
+                About me!
             </h1>
 
             {/*1st paragraph*/}

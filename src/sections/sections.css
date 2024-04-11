@@ -3,6 +3,12 @@ a {
     outline: none; 
 }
 
+.intro-header {
+    color: white;
+    font-size: 3vw;
+    font-weight: bold;
+}
+
   /*Nav2 section*/
 .Nav2{
     display: flex;
@@ -60,12 +66,7 @@ a {
     width: 100%;
 }
 
-.intro-header {
-    color: white;
-    font-size: 3vw;
-    font-weight: normal;
 
-}
 
 .intro-header-technologies{
     color: white;
@@ -76,18 +77,28 @@ a {
 
 
 /*About me section*/
+
+.AboutMe {
+    margin: 5vh auto ; 
+    padding-top: 3vh;
+    max-width: 70%;  
+    
+}
+
+.about-me-header{
+    color: white;
+    font-size: 8vh;
+    text-align: center;
+}
+
+
 .purple-text{
     color: #cd54eb;
     font-size: 3vw;
     font-weight: bold;
 }
 
-.AboutMe {
-    margin: 5vh auto ; 
-    padding-top: 10vh;
-    max-width: 70%;  
-    
-}
+
 
 .about-me-description{
     color: white;
@@ -170,10 +181,11 @@ a {
     margin-bottom: 10vh; 
 }
 
-.about-me-header, .about-me-footer{
+.about-me-footer{
     color: #cd54eb;
     font-size: 4vh;
     text-align: center;
+    padding-top: 10vh;
 }
 
 
