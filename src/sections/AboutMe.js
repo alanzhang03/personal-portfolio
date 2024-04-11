@@ -55,10 +55,8 @@ export default function AboutMe() {
                 <div className='button-container'>
                     <button className='button-to-about-me'>
                         <div className='button-text'>
-
                             Read More!
-                            <FaArrowRight className='right-arrow'></FaArrowRight>
-                        
+                            <FaArrowRight className='right-arrow'></FaArrowRight>                 
                         </div>
                     </button>
                 </div>

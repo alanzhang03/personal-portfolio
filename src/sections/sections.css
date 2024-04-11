@@ -1,4 +1,7 @@
-
+a {
+    text-decoration: none; 
+    outline: none; 
+}
 
   /*Nav2 section*/
 .Nav2{
@@ -109,6 +112,7 @@
 
 }
 
+
 .button-container{
     display: flex;
     justify-content: center;
@@ -147,6 +151,8 @@
     font-size: 2vh;
     border-radius: 5%;
 }
+
+
 
 
 @keyframes bobbing {
