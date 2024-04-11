@@ -5,6 +5,7 @@ import './pages.css';
 export default function AboutMePage() {  
     return (
         <>
+            <div className='AboutMePage'>
             <h1 className='intro-header'>
             Hi, I'm <span className='purple-text'>Alan</span>, 
             a dedicated 
@@ -153,7 +154,7 @@ export default function AboutMePage() {
             href='https://alanzhang.onrender.com/' 
             > portfolio </a>and shoot me a message! 
             </p> 
-            
+            </div>     
         </>
     )
 }
