@@ -4,6 +4,7 @@ import { IoHomeOutline } from "react-icons/io5";
 import { GrDocumentText } from "react-icons/gr";
 import { AiOutlineFundProjectionScreen } from "react-icons/ai";
 import { BsTelephone } from "react-icons/bs";
+import { IoPersonOutline } from "react-icons/io5";
 
 export default function Navbar(){
     return <nav className="nav">
@@ -19,7 +20,7 @@ export default function Navbar(){
             </CustomLink>
 
             <CustomLink to="/AboutMePage"> 
-                <div className="link-icon" /> About Me!
+                <IoPersonOutline classname='link-icon'/> About me!
             </CustomLink>
             
             <CustomLink to="/Projects">

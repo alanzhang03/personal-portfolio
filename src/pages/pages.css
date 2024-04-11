@@ -288,6 +288,62 @@ body, html{
   }
 }
 
+/*AboutMe Page*/
+.purple-text{
+  color: #cd54eb;
+  font-size: 3vw;
+  font-weight: bold;
+}
+
+.AboutMePage {
+  margin: 10vh auto 0 auto; 
+  max-width: 70%;  
+  box-sizing: border-box; 
+  min-height: 1000vh;
+}
+
+.about-me-description{
+  color: white;
+
+}
+
+
+
+.purple-text-description{
+  color: #cd54eb;
+  font-weight: bold;
+  text-decoration: none;
+
+  
+}
+
+.purple-text-description:hover{
+  color: #db7ff1; 
+
+}
+
+#href{
+  text-decoration: none;
+}
+
+@media (min-width: 1800px) {
+  .about-me-description, .purple-text-description {
+      font-size: 1vw;
+  }
+}
+
+@media (max-width: 1799px) and (min-width: 900px) {
+  .about-me-description, .purple-text-description {
+      font-size: 1.5vw;
+  }
+}
+
+@media (max-width: 899px) {
+  .about-me-description, .purple-text-description {
+      font-size: 2vw;
+  }
+}
+
 
 
 
