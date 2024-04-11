@@ -16,14 +16,18 @@ export default function App() {
       <Navbar />
       <StarField numberOfStars={100}></StarField>
       <div className='container'>
-        <Routes>
-          <Route path=""element={<Home/>} />
-          <Route path="/Home"element={<Home/>} />
-          <Route path="/Resume"element={<Resume/>} />
-          <Route path="/Contact"element={<Contact/>} />
-          <Route path="/Projects"element={<Projects/>} />
-          <Route path="/AboutMePage"element={<AboutMePage/>} />
-        </Routes>
+
+
+          <Routes>
+            <Route path=""element={<Home/>} />
+            <Route path="/Home"element={<Home/>} />
+            <Route path="/Resume"element={<Resume/>} />
+            <Route path="/Contact"element={<Contact/>} />
+            <Route path="/Projects"element={<Projects/>} />
+            <Route path="/AboutMePage"element={<AboutMePage/>} />
+            
+          </Routes>
+        
       </div>
       <Footer />
       </>

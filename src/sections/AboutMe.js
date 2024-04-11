@@ -1,4 +1,5 @@
 import './sections.css';
+import { Link } from 'react-router-dom';
 import { FaArrowDownLong } from "react-icons/fa6";
 import { FaArrowRight } from "react-icons/fa";
 
@@ -50,7 +51,7 @@ export default function AboutMe() {
             > Computer Science at the University of Maryland, College Park.</a> 
             <br></br><br></br>
 
-            <a href="http://localhost:3001/AboutMePage">
+            <Link to="/AboutMePage">
                 <button className='button-to-about-me'>
                     <div className='button-text'>
                         Read More!
@@ -58,10 +59,9 @@ export default function AboutMe() {
                     
                     </div>
                 </button>
-            </a>
-            </p>
+            </Link>
 
-            
+            </p>
 
             <div>
                 <h1 className='about-me-footer'>My Tech Stack!</h1>

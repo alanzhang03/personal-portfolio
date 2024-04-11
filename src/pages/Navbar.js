@@ -1,5 +1,4 @@
 import { Link, useMatch, useResolvedPath } from "react-router-dom"
-import StarField from "./StarField"
 import { IoHomeOutline } from "react-icons/io5";
 import { GrDocumentText } from "react-icons/gr";
 import { AiOutlineFundProjectionScreen } from "react-icons/ai";
