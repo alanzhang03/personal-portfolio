@@ -109,30 +109,36 @@
 
 }
 
+.button-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    outline: none;
+    
+}
 .button-to-about-me{
     background-color: #cd54eb; 
     font-size: large;
     width: 10vw;
     height: 6vh;
     border-radius: 10px;
-    justify-content: center;
-
-
-
+    cursor: pointer;
+    text-decoration: none;
+    outline: none;
 }
 
 .button-text{
     font-size: 2.5vh;
     color: white;
+    text-decoration: none;
+    outline: none;
 
-}
-
-.button-text:hover{
-    color: #cd54eb;
 }
 
 .button-to-about-me:hover{
-    background-color: white;
+    transform: scale(1.05);
+    outline: none;
 
 }
 

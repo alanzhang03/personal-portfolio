@@ -52,13 +52,16 @@ export default function AboutMe() {
             <br></br><br></br>
 
             <Link to="/AboutMePage">
-                <button className='button-to-about-me'>
-                    <div className='button-text'>
-                        Read More!
-                        <FaArrowRight className='right-arrow'></FaArrowRight>
-                    
-                    </div>
-                </button>
+                <div className='button-container'>
+                    <button className='button-to-about-me'>
+                        <div className='button-text'>
+
+                            Read More!
+                            <FaArrowRight className='right-arrow'></FaArrowRight>
+                        
+                        </div>
+                    </button>
+                </div>
             </Link>
 
             </p>
