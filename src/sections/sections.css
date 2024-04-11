@@ -80,9 +80,10 @@
 }
 
 .AboutMe {
-    margin: 5vh auto; 
+    margin: 5vh auto ; 
+    padding-top: 10vh;
     max-width: 70%;  
-
+    
 }
 
 .about-me-description{
@@ -90,7 +91,7 @@
     font-size: 1.25vw; 
     line-height: 1.5; 
     text-align: justify; 
-    margin-bottom: 5vh; 
+    
 }
 
 
@@ -152,7 +153,7 @@
     color: white;
     height: 7.5vh;
     width: 10vh;
-
+    margin-bottom: 10vh; 
 }
 
 .about-me-header, .about-me-footer{
