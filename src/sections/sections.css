@@ -129,6 +129,7 @@ a {
     justify-content: center;
     align-items: center;
 
+
     
 }
 .button-text{
@@ -181,14 +182,15 @@ a {
     margin-bottom: 10vh; 
 }
 
-.about-me-footer{
+.about-me-footer-text{
     color: #cd54eb;
-    font-size: 4vh;
-    text-align: center;
-    padding-top: 10vh;
+    font-size: 5vh;
+    text-align: center;  
 }
 
-
+.add-padding{
+    padding-top: 10vh;
+}
 
 @media (min-width: 1800px) {
     .about-me-description, .purple-text-description {

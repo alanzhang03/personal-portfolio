@@ -61,8 +61,12 @@ export default function AboutMe() {
 
             </p>
 
-            <div>
-                <h1 className='about-me-footer'>My Tech Stack!</h1>
+            <div className='about-me-footer'>
+                <h1 className='about-me-footer-text'>
+                    <div className='add-padding'>
+                        My Tech Stack!
+                    </div>
+                </h1>
                 <FaArrowDownLong className='arrow-down'></FaArrowDownLong>
             </div>
 
