@@ -74,8 +74,8 @@ export default function Contact() {
                             onChange={handleChange}
                             placeholder="Enter your message"
                         ></textarea>
-                    </div>
-                    <button type="submit" className="send-button"> Send →</button>
+                    </div>                  
+                    <button type="submit" className="send-button"> Send →</button>                   
                 </form>
             </div>
         </div>
