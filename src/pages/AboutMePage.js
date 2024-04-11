@@ -1,9 +1,15 @@
-import React from 'react'
+import React, { useEffect } from 'react';
 import './pages.css';
 
 
-export default function AboutMePage() {  
+export default function AboutMePage() { 
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+      }, []);
+
     return (
+    
         <>
             <div className='AboutMePage'>
             <h1 className='intro-header'>
