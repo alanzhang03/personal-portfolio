@@ -297,8 +297,8 @@ body, html{
 
 .AboutMePage {
   margin: 10vh auto 0 auto; 
-  max-width: 70%;  
-  box-sizing: border-box; 
+  max-width: 80%;  
+  height: 150vh;
 
 }
 
