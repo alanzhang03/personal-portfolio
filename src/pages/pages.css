@@ -322,13 +322,16 @@ body, html{
 
 }
 
+
+
 #href{
   text-decoration: none;
 }
 
 @media (min-width: 1800px) {
   .about-me-description, .purple-text-description {
-      font-size: 1vw;
+      font-size: 1.5vw;
+      height: 40vh;
   }
 }
 

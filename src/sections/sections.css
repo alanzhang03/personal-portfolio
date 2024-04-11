@@ -1,23 +1,4 @@
-/*About me section*/
 
-@keyframes bobbing {
-0%, 100% { transform: translateY(0); }
-50% { transform: translateY(-20px); }
-}
-
-.arrow-down{
-    animation: bobbing 1s ease-in-out infinite;
-    color: white;
-    height: 7.5vh;
-    width: 10vh;
-
-}
-
-.about-me-header, .about-me-footer{
-    color: #cd54eb;
-    font-size: 4vh;
-    text-align: center;
-}
 
   /*Nav2 section*/
 .Nav2{
@@ -91,7 +72,7 @@
 }
 
 
-
+/*About me section*/
 .purple-text{
     color: #cd54eb;
     font-size: 3vw;
@@ -102,7 +83,8 @@
     margin: 10vh auto 0 auto; 
     max-width: 70%;  
     box-sizing: border-box; 
-    
+    padding-top: 10vh;
+
 }
 
 .about-me-description{
@@ -123,6 +105,44 @@
 .purple-text-description:hover{
     color: #db7ff1; 
 
+}
+
+.button-to-about-me{
+    background-color: #cd54eb; 
+    font-size: large;
+    width: 8vw;
+    height: 4vh;
+
+}
+
+.button-text{
+    font-size: 1.5vh;
+}
+
+.button-to-about-me:hover{
+    background-color: #db7ff1;
+    transform: scale(1.1);
+}
+
+
+
+@keyframes bobbing {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-20px); }
+}
+
+.arrow-down{
+    animation: bobbing 1s ease-in-out infinite;
+    color: white;
+    height: 7.5vh;
+    width: 10vh;
+
+}
+
+.about-me-header, .about-me-footer{
+    color: #cd54eb;
+    font-size: 4vh;
+    text-align: center;
 }
 
 #href{
