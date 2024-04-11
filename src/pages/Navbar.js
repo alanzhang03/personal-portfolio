@@ -8,11 +8,10 @@ import { IoPersonOutline } from "react-icons/io5";
 
 export default function Navbar(){
     return <nav className="nav">
+
         <ul>
             <Link to="/"className="title">Alan Zhang</Link>
         </ul>
-
-        <StarField></StarField>
 
         <ul>
             <CustomLink to="/Home"> 

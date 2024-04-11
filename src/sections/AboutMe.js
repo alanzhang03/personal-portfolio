@@ -49,12 +49,16 @@ export default function AboutMe() {
             href='https://www.cs.umd.edu/' 
             > Computer Science at the University of Maryland, College Park.</a> 
             <br></br><br></br>
-            <button className='button-to-about-me'>
-                <div className='button-text'>
-                    Read more!<FaArrowRight />
-                
-                </div>
-            </button>
+
+            <a href="http://localhost:3001/AboutMePage">
+                <button className='button-to-about-me'>
+                    <div className='button-text'>
+                        Read More!
+                        <FaArrowRight className='right-arrow'></FaArrowRight>
+                    
+                    </div>
+                </button>
+            </a>
             </p>
 
             

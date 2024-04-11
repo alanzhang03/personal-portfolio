@@ -110,20 +110,34 @@
 .button-to-about-me{
     background-color: #cd54eb; 
     font-size: large;
-    width: 8vw;
-    height: 4vh;
+    width: 10vw;
+    height: 6vh;
+    border-radius: 10px;
+
+
 
 }
 
 .button-text{
-    font-size: 1.5vh;
+    font-size: 2.5vh;
+    color: white;
+
+}
+
+.button-text:hover{
+    color: #cd54eb;
 }
 
 .button-to-about-me:hover{
-    background-color: #db7ff1;
-    transform: scale(1.1);
+    background-color: white;
+
 }
 
+.right-arrow{
+    margin-left: .5vw;
+    font-size: 2vh;
+    border-radius: 5%;
+}
 
 
 @keyframes bobbing {
@@ -145,9 +159,7 @@
     text-align: center;
 }
 
-#href{
-    text-decoration: none;
-}
+
 
 @media (min-width: 1800px) {
     .about-me-description, .purple-text-description {
