@@ -121,7 +121,7 @@ a {
     outline: none;
     
 }
-.button-to-about-me{
+.button-to-about-me, button-to-contact{
     background-color: #cd54eb; 
     font-size: large;
     width: 10vw;
@@ -140,7 +140,8 @@ a {
 
 }
 
-.button-to-about-me:hover{
+.button-to-about-me:hover
+.button-to-contact:hover{
     transform: scale(1.05);
     outline: none;
 

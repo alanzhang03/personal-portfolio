@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import './pages.css';
-
+import { Link } from 'react-router-dom';
+import { FaArrowRight } from "react-icons/fa";
 
 export default function AboutMePage() { 
 
@@ -159,7 +160,21 @@ export default function AboutMePage() {
             <a target="_blank" rel='noreferrer' className='purple-text-description'
             href='https://alanzhang.onrender.com/' 
             > portfolio </a>and shoot me a message! 
-            </p> 
+            <br></br><br></br>
+
+            <Link to="/Contact">
+                <div className='button-container'>
+                    <button className='button-to-about-me'>
+                        <div className='button-text'>
+                            Contact me!
+                            <FaArrowRight className='right-arrow'></FaArrowRight>                 
+                        </div>
+                    </button>
+                </div>
+            </Link>
+
+            </p>
+
             </div>     
         </>
     )
