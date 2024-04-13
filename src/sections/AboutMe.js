@@ -7,7 +7,7 @@ export default function AboutMe() {
     return (
             <>
             <h1 className='about-me-header'>
-                <div>
+                <div className='purple-text'>
                     About me!
                 </div>
             </h1>

@@ -89,6 +89,8 @@ a {
     color: white;
     font-size: 8vh;
     text-align: center;
+    font-style: italic;
+    padding-top: 10vh;
     
 
 }
@@ -193,7 +195,7 @@ a {
 }
 
 .add-padding{
-    padding-top: 20vh;
+    padding-top: 10vh;
 }
 
 @media (min-width: 1800px) {
