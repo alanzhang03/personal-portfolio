@@ -36,7 +36,11 @@ export default function Home() {
       </body>
 
       <div className='about-me-footer'>
-        <h1 className='about-me-footer-text'>About me!</h1>
+        <h1 className='about-me-footer-text'>
+          <div className='add-padding'>
+            About me!
+          </div>
+        </h1>
         <FaArrowDownLong className='arrow-down'></FaArrowDownLong>
       </div>
 

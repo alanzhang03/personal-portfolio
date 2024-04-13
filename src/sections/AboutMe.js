@@ -7,7 +7,9 @@ export default function AboutMe() {
     return (
             <>
             <h1 className='about-me-header'>
-                About me!
+                <div>
+                    About me!
+                </div>
             </h1>
 
             {/*1st paragraph*/}
