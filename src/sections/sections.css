@@ -142,8 +142,8 @@ a {
 .button-to{
     background-color: #cd54eb; 
     font-size: large;
-    width: 10vw;
-    height: 8vh;
+    width: 11vw;
+    height: 6.5vh;
     border-radius: 10px;
     cursor: pointer;
 
@@ -194,7 +194,7 @@ a {
 
 @media (min-width: 1800px) {
     .about-me-description, .purple-text-description {
-        font-size: 1vw;
+        font-size: 1.5vw;
     }
 }
 
