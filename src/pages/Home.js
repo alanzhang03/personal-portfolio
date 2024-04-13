@@ -10,7 +10,7 @@ import './pages.css';
 
 
 export default function Home() {
-  const roles = ["Full Stack Developer","React Expert", "Soccer Enthusiast",];
+  const roles = ["Full Stack Developer","React Expert", "Soccer Fanatic", "Esports Fan"];
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -25,6 +25,7 @@ export default function Home() {
             <p>I'm <span className="purple-text">Alan Zhang </span><PiHandWaving className='wave-hand'></PiHandWaving></p>
             </p>
             <div className='typing'>
+              
               <Typewriter textArray={roles} typingDelay={100} backspaceDelay={100} />
               <span className="typewriter-cursor">|</span>
             </div>  
