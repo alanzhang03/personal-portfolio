@@ -114,6 +114,7 @@ a {
     color: #cd54eb;
     font-weight: bold;
     text-decoration: none;
+    font-style: italic;
 
     
 }
@@ -128,7 +129,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 6vh;
+    padding-top: 2vh;
 
 
     
