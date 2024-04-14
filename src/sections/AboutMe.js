@@ -44,10 +44,10 @@ export default function AboutMe() {
             <a target="_blank" rel='noreferrer' className='purple-text-description'
             href='https://planetterp.com/course/CMSC422' 
             > Machine Learning, </a>
-
+            and 
             <a target="_blank" rel='noreferrer' className='purple-text-description'
             href='https://www.geeksforgeeks.org/web-development/' 
-            > and Web Development</a>,
+            > Web Development</a>,
             (using technologies like 
             <a target="_blank" rel='noreferrer' className='purple-text-description'
             href='https://react.dev/' 
