@@ -16,7 +16,7 @@ export default function Projects() {
       demoLink: "https://weatherapp-7fu2.onrender.com/",
       githubLink: "https://github.com/alanzhang03/weather-app"
     },
-    // ... more projects
+
   ];
 
   return (
@@ -40,6 +40,8 @@ export default function Projects() {
           ))}
         </div>
       </div>
+      <p className='more-project-description'>More Coming soon!</p>
     </>
   );
+  
 }

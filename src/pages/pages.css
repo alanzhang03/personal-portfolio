@@ -185,6 +185,12 @@ body, html{
   color: #ccc; 
 }
 
+.more-project-description{
+  color: white;
+  font-size: 4vh;
+  font-weight: bold;
+}
+
 .project-actions {
   margin-top: 1rem;
   display: flex;
