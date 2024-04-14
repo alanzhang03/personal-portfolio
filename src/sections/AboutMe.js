@@ -20,8 +20,7 @@ export default function AboutMe() {
             href='https://www.google.com/search?q=chesterbrook+pennsylvania&rlz=1C1CHBF_enUS1035US1035&oq=chesterbrook+penn&gs_lcrp=EgZjaHJvbWUqCggAEAAY4wIYgAQyCggAEAAY4wIYgAQyBwgBEC4YgAQyBggCEEUYOTIHCAMQABiABDIHCAQQABiABDIQCAUQLhivARjHARiABBiOBTIICAYQABgWGB4yCAgHEAAYFhgeMggICBAAGBYYHjIICAkQABgWGB7SAQg1MDI2ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8' 
             > Philadelphia suburbs (Chesterbrook, PA)</a>,
              
-            I discovered my passion for software development during high school
-            where I learned 
+            I discovered my passion for software development during high school, where I learned 
             <a target="_blank" rel='noreferrer' className='purple-text-description'
             href='https://www.python.org/' 
             > Python </a>
@@ -48,7 +47,7 @@ export default function AboutMe() {
 
             <a target="_blank" rel='noreferrer' className='purple-text-description'
             href='https://www.geeksforgeeks.org/web-development/' 
-            > and Web Development </a>,
+            > and Web Development</a>,
             (using technologies like 
             <a target="_blank" rel='noreferrer' className='purple-text-description'
             href='https://react.dev/' 
@@ -62,7 +61,7 @@ export default function AboutMe() {
             I am eager to apply my skills to solve real-world problems and continue learning in the tech industry.
             Feel free to 
             <Link to="/AboutMePage" className='purple-text-description'> read more </Link>
-            about me by clicking the button below, as well as 
+            about me as well as 
             <Link to="/Contact" className='purple-text-description'> contacting me </Link> 
             to connect or ask questions!
             <Link to="/AboutMePage">
