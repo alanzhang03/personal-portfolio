@@ -62,7 +62,7 @@ export default function AboutMe() {
             Feel free to 
             <Link to="/AboutMePage" className='purple-text-description'> read more </Link>
             about me as well as 
-            <Link to="/Contact" className='purple-text-description'> contacting me </Link> 
+            <Link to="/Contact" className='purple-text-description'> contact me </Link> 
             to connect or ask questions!
             <Link to="/AboutMePage">
                 <div className='button-container'>
