@@ -126,7 +126,7 @@ export default function AboutMePage() {
 
             <a target="_blank" rel='noreferrer' className='purple-text-description'
             href='https://nodejs.org/en' 
-            > Nodejs, </a> which I decided to use to build this
+            > Node.js, </a> which I decided to use to build this
 
             <Link to="/Home" className='purple-text-description'> web portfolio </Link>
 

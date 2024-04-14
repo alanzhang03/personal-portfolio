@@ -39,10 +39,6 @@ export default function AboutMe() {
             </Link>
             </p>
 
-
-
-
-
             <div className='about-me-footer'>
                 <h1 className='about-me-footer-text'>
                     <div className='add-padding'>
