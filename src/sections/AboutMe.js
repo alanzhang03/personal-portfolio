@@ -31,13 +31,40 @@ export default function AboutMe() {
             > Java. </a> 
             Now at the 
             <a target="_blank" rel='noreferrer' className='purple-text-description'
-            href='https://www.java.com/en/' 
+            href='https://www.cs.umd.edu/' 
             > University Of Maryland, College Park, </a> 
-            I am pursuing a Computer science degree and am particularly interested in the fields of AI, Machine Learning,
-            and web development (using technologies like React and Node.JS). As I approach graduation in May 2025,
+            I am pursuing a 
+            <a target="_blank" rel='noreferrer' className='purple-text-description'
+            href='https://www.cs.umd.edu/' 
+            > Computer Science </a> 
+            degree and am particularly interested in the fields of 
+
+            <a target="_blank" rel='noreferrer' className='purple-text-description'
+            href='https://planetterp.com/course/CMSC421' 
+            > AI, </a> 
+            <a target="_blank" rel='noreferrer' className='purple-text-description'
+            href='https://planetterp.com/course/CMSC422' 
+            > Machine Learning, </a>
+
+            <a target="_blank" rel='noreferrer' className='purple-text-description'
+            href='https://www.geeksforgeeks.org/web-development/' 
+            > and Web Development </a>,
+            (using technologies like 
+            <a target="_blank" rel='noreferrer' className='purple-text-description'
+            href='https://react.dev/' 
+            > React </a> 
+            and 
+            <a target="_blank" rel='noreferrer' className='purple-text-description'
+            href='https://nodejs.org/en' 
+            > Node.js</a>). 
+            
+            As I approach graduation in May 2025,
             I am eager to apply my skills to solve real-world problems and continue learning in the tech industry.
-            Feel free to read more about me by clicking the button below, as well as contacting me here to connect or
-            ask questions!
+            Feel free to 
+            <Link to="/AboutMePage" className='purple-text-description'> read more </Link>
+            about me by clicking the button below, as well as 
+            <Link to="/Contact" className='purple-text-description'> contacting me </Link> 
+            to connect or ask questions!
             <Link to="/AboutMePage">
                 <div className='button-container'>
                     <button className='button-to'>
