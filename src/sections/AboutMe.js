@@ -14,14 +14,25 @@ export default function AboutMe() {
 
             {/*1st paragraph*/}
             <p className='about-me-description'>
-            Originally from the Philadelphia suburbs, I discovered my passion for software development during high school in
-            Berwyn, Pennsylvania,
+            Originally from the 
+
+            <a target="_blank" rel='noreferrer' className='purple-text-description'
+            href='https://www.google.com/search?q=chesterbrook+pennsylvania&rlz=1C1CHBF_enUS1035US1035&oq=chesterbrook+penn&gs_lcrp=EgZjaHJvbWUqCggAEAAY4wIYgAQyCggAEAAY4wIYgAQyBwgBEC4YgAQyBggCEEUYOTIHCAMQABiABDIHCAQQABiABDIQCAUQLhivARjHARiABBiOBTIICAYQABgWGB4yCAgHEAAYFhgeMggICBAAGBYYHjIICAkQABgWGB7SAQg1MDI2ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8' 
+            > Philadelphia suburbs (Chesterbrook, PA)</a>,
+             
+            I discovered my passion for software development during high school
             where I learned 
-            Python
+            <a target="_blank" rel='noreferrer' className='purple-text-description'
+            href='https://www.python.org/' 
+            > Python </a>
             and
-            Java.
+            <a target="_blank" rel='noreferrer' className='purple-text-description'
+            href='https://www.java.com/en/' 
+            > Java. </a> 
             Now at the 
-            University of Maryland,
+            <a target="_blank" rel='noreferrer' className='purple-text-description'
+            href='https://www.java.com/en/' 
+            > University Of Maryland, College Park, </a> 
             I am pursuing a Computer science degree and am particularly interested in the fields of AI, Machine Learning,
             and web development (using technologies like React and Node.JS). As I approach graduation in May 2025,
             I am eager to apply my skills to solve real-world problems and continue learning in the tech industry.
