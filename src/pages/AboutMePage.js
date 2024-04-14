@@ -40,7 +40,7 @@ export default function AboutMePage() {
             in a high school course titled 
             <a target="_blank" rel='noreferrer' className='purple-text-description'
             href='https://apcentral.collegeboard.org/courses/ap-computer-science-principles/course' 
-            > AP Computer Science Principles </a>.
+            > AP Computer Science Principles</a>.
             This initial experience ignited my passion for Computer Science, leading me to register for the course
             <a target="_blank" rel='noreferrer' className='purple-text-description'
             href='https://apstudents.collegeboard.org/courses/ap-computer-science-a' 
