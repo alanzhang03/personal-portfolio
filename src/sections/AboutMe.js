@@ -47,7 +47,7 @@ export default function AboutMe() {
             and 
             <a target="_blank" rel='noreferrer' className='purple-text-description'
             href='https://www.geeksforgeeks.org/web-development/' 
-            > Web Development</a>,
+            > Web Development</a>
             (using technologies like 
             <a target="_blank" rel='noreferrer' className='purple-text-description'
             href='https://react.dev/' 
