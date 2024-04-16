@@ -14,7 +14,7 @@ export default function AboutMePage() {
         <>
             <div className='AboutMePage'>
 
-            <h1 className='intro-header'>
+            <h1 className='header'>
                 About Me
                 <br></br>
             </h1>
@@ -63,7 +63,7 @@ export default function AboutMePage() {
             fundamental conecepts such as 
             <a target="_blank" rel='noreferrer' className='purple-text-description'
             href='https://planetterp.com/course/CMSC351' 
-            > Alorithms, </a> 
+            > Algorithms, </a> 
              
             <a target="_blank" rel='noreferrer' className='purple-text-description'
             href='https://planetterp.com/course/CMSC132' 
@@ -105,12 +105,12 @@ export default function AboutMePage() {
 
 
             <center>
-                <h1 className='intro-header'>
-                About Me
+                <h1 className='header'>
+                Web Development
                 <br></br>
                 </h1>
             </center>
-            
+
             {/*3rd paragraph*/}
             Throughout my software development journey thus far, I was particularlly interested in 
             <a target="_blank" rel='noreferrer' className='purple-text-description'

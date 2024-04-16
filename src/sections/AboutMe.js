@@ -7,7 +7,7 @@ export default function AboutMe() {
     return (
             <>
             <h1 className='header'>
-                <div className='add-padding'>
+                <div className='add-padding-header'>
                 About me!
                 </div>
             </h1>

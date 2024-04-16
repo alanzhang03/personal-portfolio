@@ -86,12 +86,14 @@ a {
 }
 
 .header{
-    color: #cd54eb;
-    font-size: 7vh;
+    color: white;
+    font-size: 9vh;
     text-align: center;
 
-    
+}
 
+.add-padding-header{
+    padding-top: 6.5vh;
 }
 
 
