@@ -38,7 +38,7 @@ export default function Contact() {
 
     return (
         <div className="contact-container">
-            <h1 className="header">Contact me!</h1>
+            <div className="resume-header">Contact me!</div>
             <p className="contact-description">Got a question, or just want to say hello? Send me a message!</p>
             {isEmailSent && <p className="success-message">Your message has been sent successfully!</p>}
             <div className="form-container">
