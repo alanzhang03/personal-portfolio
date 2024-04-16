@@ -6,9 +6,9 @@ import { FaArrowRight } from "react-icons/fa";
 export default function AboutMe() {
     return (
             <>
-            <h1 className='about-me-header'>
-                <div className='purple-text'>
-                    About me!
+            <h1 className='header'>
+                <div className='add-padding'>
+                About me!
                 </div>
             </h1>
 

@@ -81,16 +81,15 @@ a {
 .AboutMe {
     margin: 5vh auto ; 
     padding-top: 3vh;
-    max-width: 70%;  
+    max-width: 65%;  
     
 }
 
-.about-me-header{
+.header{
     color: white;
-    font-size: 8vh;
+    font-size: 7vh;
     text-align: center;
-    font-style: italic;
-    padding-top: 10vh;
+
     
 
 }
@@ -110,6 +109,7 @@ a {
     font-size: 1.25vw; 
     line-height: 1.5; 
     text-align: justify; 
+   
     
 }
 

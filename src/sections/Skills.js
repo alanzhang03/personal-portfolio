@@ -51,8 +51,8 @@ export default function Skills() {
 
     return (
         <div className="Skills">
-            <h1 className="intro-header">
-                <span className="purple-text">Programming Languages</span>
+            <h1 className="header">
+                Programming Languages
             </h1>
             <div className="skills-grid">
                 {skills.map(skill => (
@@ -63,8 +63,8 @@ export default function Skills() {
                     
                 ))}
             </div>
-            <h1 className="intro-header-technologies">
-                <span className="purple-text">Technologies</span>
+            <h1 className="header">
+                Technologies
             </h1>
             <div className="technologies-grid">
                 {technologies.map(tech => (
