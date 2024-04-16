@@ -13,15 +13,15 @@ export default function AboutMePage() {
     
         <>
             <div className='AboutMePage'>
+
             <h1 className='intro-header'>
-            Hi, I'm <span className='purple-text'>Alan</span>, 
-            a dedicated 
-            <br></br>
-            <span className='purple-text'> Software Developer!</span>
+                About Me
+                <br></br>
             </h1>
             
             {/*1st paragraph*/}
             <p className='about-me-description'>
+            
             Originally from the outskirts of 
             <a target="_blank" rel='noreferrer' className='purple-text-description'
             href='https://www.google.com/maps/place/Philadelphia,+PA/@40.0026443,-75.2828353,11z/data=!3m1!4b1!4m6!3m5!1s0x89c6b7d8d4b54beb:0x89f514d88c3e58c1!8m2!3d39.9525839!4d-75.1652215!16zL20vMGRjbGc?entry=ttu' 
@@ -103,6 +103,14 @@ export default function AboutMePage() {
             
             <br></br><br></br>
 
+
+            <center>
+                <h1 className='intro-header'>
+                About Me
+                <br></br>
+                </h1>
+            </center>
+            
             {/*3rd paragraph*/}
             Throughout my software development journey thus far, I was particularlly interested in 
             <a target="_blank" rel='noreferrer' className='purple-text-description'

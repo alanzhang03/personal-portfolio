@@ -309,9 +309,8 @@ body, html{
 
 .AboutMePage {
   margin: 10vh auto 0 auto; 
-  max-width: 80%;  
-  height: 150vh;
-
+  max-width: 55%;  
+  height: 220vh;
 }
 
 .about-me-description{
