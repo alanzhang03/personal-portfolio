@@ -21,9 +21,9 @@ export default function Projects() {
 
   return (
     <>
-      <h1 className="header">
+      <div className="resume-header">
         Projects
-      </h1>
+      </div>
       
       <div className="projects-container">
         <div className="projects-grid">

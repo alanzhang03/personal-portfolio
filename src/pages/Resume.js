@@ -6,10 +6,8 @@ import ResumeFile from '../Assets/Alan_Zhang_Resume.pdf';
 export default function Resume(){
     return (
         <>
+        <div className='resume-header'>Resume</div>
             <div className='resume-container'>
-                <h1 className='header'>
-                    Resume
-                </h1>
                 <a href={ResumeFile} download="Alan_Zhang_Resume.pdf" class="download-button">
                     <i class="fa fa-download"></i> Download Resume
                 </a>
