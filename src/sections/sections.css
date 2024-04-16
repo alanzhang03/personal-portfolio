@@ -86,7 +86,7 @@ a {
 }
 
 .header{
-    color: white;
+    color: #cd54eb;
     font-size: 7vh;
     text-align: center;
 
@@ -125,7 +125,7 @@ a {
 }
 
 .purple-text-description:hover{
-    color: #db7ff1; 
+    color: #927bea; 
 
 }
 
@@ -156,18 +156,9 @@ a {
 
 }
 
-
-
 .button-to:hover, 
 .button-to:focus{
-
-    background-color: white;
-
-}
-
-.button-to:hover .button-text,
-.button-to:focus .button-text{
-    color: #cd54eb;
+    background-color: #927bea;
 }
 
 .right-arrow{
