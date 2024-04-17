@@ -115,7 +115,7 @@ export default function AboutMePage() {
             Throughout my software development journey thus far, I have been particularly interested in 
             <a target="_blank" rel='noreferrer' className='purple-text-description'
             href='https://www.geeksforgeeks.org/web-development/' 
-            > web development </a>,
+            > web development</a>,
             
             a field I first explored in the summer of 2023. I was especially interested in what the process was 
             like, creating an 
