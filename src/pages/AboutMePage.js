@@ -112,7 +112,7 @@ export default function AboutMePage() {
             </center>
 
             {/*3rd paragraph*/}
-            Throughout my software development journey thus far, I was particularlly interested in 
+            Throughout my software development journey thus far, I was particularly interested in 
             <a target="_blank" rel='noreferrer' className='purple-text-description'
             href='https://www.geeksforgeeks.org/web-development/' 
             > web development </a>,
