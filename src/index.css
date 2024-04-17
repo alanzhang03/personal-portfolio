@@ -209,7 +209,7 @@ body {
 .twitter-icon:focus,
 .facebook-icon:focus,
 .insta-icon:focus {
-  color: white; 
+  color: #927bea;
   transform: scale(1.2); 
 
 }
