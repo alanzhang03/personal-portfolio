@@ -154,7 +154,7 @@ export default function AboutMePage() {
             <br></br><br></br>
             
             {/*5th paragraph*/}
-            If you have any further questions or would just like to say hello, feel free to navigate to the 
+            If you have any further questions or even if you would just like to say hello, feel free to navigate to the 
             <Link to="/Contact" className='purple-text-description'> contact page </Link>
             of this
             <Link to="/Home" className='purple-text-description'> portfolio </Link>
