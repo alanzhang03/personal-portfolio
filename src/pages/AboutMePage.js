@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import './pages.css';
 import { Link } from 'react-router-dom';
 import { FaArrowRight } from "react-icons/fa";
+import ScrollToTop from '../sections/ScrollToTop';
 
 export default function AboutMePage() { 
 
@@ -12,6 +13,7 @@ export default function AboutMePage() {
     return (
     
         <>
+            <ScrollToTop></ScrollToTop>
             <div className='AboutMePage'>
 
             <h1 className='header'>

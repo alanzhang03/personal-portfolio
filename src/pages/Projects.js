@@ -1,7 +1,7 @@
 
 import React, {useEffect} from 'react';
 import WeatherImg from "../Assets/Weather.png"
-
+import ScrollToTop from '../sections/ScrollToTop';
 
 export default function Projects() {
   useEffect(() => {
@@ -21,6 +21,7 @@ export default function Projects() {
 
   return (
     <>
+      <ScrollToTop></ScrollToTop>
       <div className="resume-header">
         Projects
       </div>

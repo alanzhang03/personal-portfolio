@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-
 export default function Contact() {
 
     useEffect(() => {
@@ -37,6 +36,8 @@ export default function Contact() {
     };
 
     return (
+        <>
+
         <div className="contact-container">
             <div className="resume-header">Contact me!</div>
             <p className="contact-description">Got a question, or just want to say hello? Send me a message!</p>
@@ -79,5 +80,6 @@ export default function Contact() {
                 </form>
             </div>
         </div>
+        </>
     );
 }
