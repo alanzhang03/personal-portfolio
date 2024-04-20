@@ -10,7 +10,7 @@ import './pages.css';
 
 
 export default function Home() {
-  const roles = ["Full-Stack Developer","React Expert", "Soccer Fanatic", "Esports Fan"];
+  const roles = ["Full-Stack Developer","React Expert", "Soccer Fanatic", "Esports Fan", "Avid Learner"];
 
   useEffect(() => {
     window.scrollTo(0, 0);
