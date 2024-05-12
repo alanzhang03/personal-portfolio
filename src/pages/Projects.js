@@ -21,8 +21,8 @@ export default function Projects() {
       title: "Etch-a-Sketch",
       description: "An application which performs similarly to an etch-a-sketch",
       image: EtchASketch,
-      demoLink: "https://weatherapp-7fu2.onrender.com/",
-      githubLink: "https://github.com/alanzhang03/weather-app"
+      demoLink: "https://alanetchasketch.onrender.com/",
+      githubLink: "https://github.com/alanzhang03/Etch-a-Sketch"
     },
 
   ];
