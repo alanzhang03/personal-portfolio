@@ -154,10 +154,10 @@ body, html{
 
 .projects-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(1, 1fr)); 
-  gap: 2rem; 
-  padding: 2%;
-  justify-content: center;
+  grid-template-columns: 1fr 1fr; 
+  gap: 5rem; 
+  padding: 2%; 
+  justify-content: center; 
   margin: 0 auto; 
 }
 
