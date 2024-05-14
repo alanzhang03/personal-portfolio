@@ -24,6 +24,7 @@ export default function Projects() {
       demoLink: "https://alanetchasketch.onrender.com/",
       githubLink: "https://github.com/alanzhang03/Etch-a-Sketch"
     },
+    
 
   ];
 
