@@ -3,6 +3,7 @@ import React, {useEffect} from 'react';
 import WeatherImg from "../Assets/Weather.png";
 import ScrollToTop from '../sections/ScrollToTop';
 import EtchASketch from "../Assets/EtchASketch.png";
+import CalcApp from "../Assets/CalcApp.png";
 
 export default function Projects() {
   useEffect(() => {
@@ -15,11 +16,18 @@ export default function Projects() {
       description: "A weather app tracker that can retrieve weather statistics for a given city.",
       image: WeatherImg,
       demoLink: "https://weatherapp-7fu2.onrender.com/",
-      githubLink: "https://github.com/alanzhang03/weather-app"
+      githubLink: "https://github.com/alanzhang03/calculator"
     },
     {
       title: "Etch-a-Sketch",
       description: "An application which performs similarly to an etch-a-sketch",
+      image: CalcApp,
+      demoLink: "https://alancalculator.onrender.com/",
+      githubLink: "https://github.com/alanzhang03/Etch-a-Sketch"
+    },
+    {
+      title: "Calculator App",
+      description: "Calculator application",
       image: EtchASketch,
       demoLink: "https://alanetchasketch.onrender.com/",
       githubLink: "https://github.com/alanzhang03/Etch-a-Sketch"
