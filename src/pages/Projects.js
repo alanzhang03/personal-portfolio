@@ -19,15 +19,15 @@ export default function Projects() {
       githubLink: "https://github.com/alanzhang03/calculator"
     },
     {
-      title: "Etch-a-Sketch",
-      description: "An application which performs similarly to an etch-a-sketch",
+      title: "Calculator App",
+      description: "Calculator application",
       image: CalcApp,
       demoLink: "https://alancalculator.onrender.com/",
       githubLink: "https://github.com/alanzhang03/Etch-a-Sketch"
     },
     {
-      title: "Calculator App",
-      description: "Calculator application",
+      title: "Etch-a-Sketch",
+      description: "An application which performs similarly to an etch-a-sketch",
       image: EtchASketch,
       demoLink: "https://alanetchasketch.onrender.com/",
       githubLink: "https://github.com/alanzhang03/Etch-a-Sketch"
