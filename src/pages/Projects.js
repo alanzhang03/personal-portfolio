@@ -35,7 +35,7 @@ export default function Projects() {
     },
     {
       title: "Library Storage App",
-      description: "An application which performs similarly to an etch-a-sketch",
+      description: "A library storage app, saved on your local device",
       image: LibraryStorage,
       demoLink: "https://library-storage-app.onrender.com/",
       githubLink: "https://github.com/alanzhang03/Library"
