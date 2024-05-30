@@ -4,6 +4,7 @@ import WeatherImg from "../Assets/Weather.png";
 import ScrollToTop from '../sections/ScrollToTop';
 import EtchASketch from "../Assets/EtchASketch.png";
 import CalcApp from "../Assets/CalcApp.png";
+import LibraryStorage from "../Assets/LibraryStorage.png";
 
 export default function Projects() {
   useEffect(() => {
@@ -31,6 +32,13 @@ export default function Projects() {
       image: EtchASketch,
       demoLink: "https://alanetchasketch.onrender.com/",
       githubLink: "https://github.com/alanzhang03/Etch-a-Sketch"
+    },
+    {
+      title: "Library Storage App",
+      description: "An application which performs similarly to an etch-a-sketch",
+      image: LibraryStorage,
+      demoLink: "https://library-storage-app.onrender.com/",
+      githubLink: "https://github.com/alanzhang03/Library"
     },
     
 
