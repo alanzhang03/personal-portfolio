@@ -239,7 +239,7 @@ a {
     padding: 30px;
     background-color: transparent;
     border-radius: 15px;
-    transition: transform 0.3s ease; 
+    transition: transform 0.4s; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     border: 2px solid #cd54eb; 
     opacity: 0.8; 
@@ -252,7 +252,7 @@ a {
 }
 
 .skill-item:hover, .technology-item:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
     opacity: 1;
     box-shadow: 0 8px 16px #cd54eb;
     border-color: #cd54eb; 
