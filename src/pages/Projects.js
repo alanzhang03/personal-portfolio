@@ -5,6 +5,7 @@ import ScrollToTop from '../sections/ScrollToTop';
 import EtchASketch from "../Assets/EtchASketch.png";
 import CalcApp from "../Assets/CalcApp.png";
 import LibraryStorage from "../Assets/LibraryStorage.png";
+import TicTacToe from "../Assets/TicTacToe.png";
 
 export default function Projects() {
   useEffect(() => {
@@ -12,6 +13,13 @@ export default function Projects() {
   }, []);
   
   const projects = [
+    {
+      title: "Tic-Tac-Toe",
+      description: "Tic Tac Toe game, played against an AI (using minimax algorithm) or another player.",
+      image: TicTacToe,
+      demoLink: "https://library-storage-app.onrender.com/",
+      githubLink: "https://github.com/alanzhang03/tictactoe"
+    },
     {
       title: "Weather Tracker",
       description: "A weather app tracker that can retrieve weather statistics for a given city.",
