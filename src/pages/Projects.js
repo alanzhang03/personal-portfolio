@@ -17,7 +17,7 @@ export default function Projects() {
       title: "Tic-Tac-Toe",
       description: "Tic Tac Toe game, played against an AI (using minimax algorithm) or another player.",
       image: TicTacToe,
-      demoLink: "https://library-storage-app.onrender.com/",
+      demoLink: "https://alantictactoe.onrender.com/",
       githubLink: "https://github.com/alanzhang03/tictactoe"
     },
     {
