@@ -5,7 +5,7 @@ This personal portfolio website showcases my projects, skills, and professional 
 
 ## Features
 - **Interactive UI**: Utilizes React for a dynamic and responsive user interface.
-- **Backend API**: Developed with Node.js to handle data management and server-side logic.
+- **Backend API**: Developed with Node.js to handle data management and server-side logic (contact me page).
 - **Portfolio Sections**: Includes sections for projects, about me, skills, and contact information.
 
 ## Technologies Used
