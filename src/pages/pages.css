@@ -79,7 +79,7 @@ body, html{
 
 .resume-header{
   color: white;
-  font-size: 9vh;
+  font-size: 7vh;
   text-align: center;
   padding: 0px;
   font-weight: bold;
@@ -113,7 +113,7 @@ body, html{
 
 .ResumePic{
   display: block;
-  height: 100vh;
+  height: 90vh;
   width: 100%; 
 }
 
