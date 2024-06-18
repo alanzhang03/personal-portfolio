@@ -1,52 +1,59 @@
-import React, {useEffect} from 'react';
+import React, { useEffect } from "react";
 import Navbar2 from "../sections/Navbar2";
 import MainPic from "../Assets/MainPic.png";
 import Typewriter from "../sections/Typewriter";
 import { FaArrowDownLong } from "react-icons/fa6";
 import { PiHandWaving } from "react-icons/pi";
-import './pages.css';
-
-
-
+import "./pages.css";
 
 export default function Home() {
-  const roles = ["Full-Stack Developer","React Expert", "Soccer Fanatic", "Esports Fan", "Avid Learner"];
+	const roles = [
+		"Full-Stack Developer",
+		"React Expert",
+		"Soccer Fanatic",
+		"Avid Learner",
+	];
 
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
+	useEffect(() => {
+		window.scrollTo(0, 0);
+	}, []);
 
-  return (
-    <>
-      <body> 
-        <div className="home-container">
-          <div className="typewriter-effect">
-            <p className='intro-header'> Welcome to my Portfolio!<br></br>
-            <p>I'm <span className="purple-text">Alan Zhang </span><PiHandWaving className='wave-hand'></PiHandWaving></p>
-            </p>
-            <div className='typing'>
-              
-              <Typewriter textArray={roles} typingDelay={100} backspaceDelay={100} />
-              <span className="typewriter-cursor">|</span>
-            </div>  
-          </div>
-          <div>
-            <img className="MainPic" src={MainPic} alt="MainPic"></img>
-          </div>
-        </div>
-      </body>
+	return (
+		<>
+			<body>
+				<div className="home-container">
+					<div className="typewriter-effect">
+						<p className="intro-header">
+							{" "}
+							Welcome to my Portfolio!<br></br>
+							<p>
+								I'm <span className="purple-text">Alan Zhang </span>
+								<PiHandWaving className="wave-hand"></PiHandWaving>
+							</p>
+						</p>
+						<div className="typing">
+							<Typewriter
+								textArray={roles}
+								typingDelay={100}
+								backspaceDelay={100}
+							/>
+							<span className="typewriter-cursor">|</span>
+						</div>
+					</div>
+					<div>
+						<img className="MainPic" src={MainPic} alt="MainPic"></img>
+					</div>
+				</div>
+			</body>
 
-      <div className='about-me-footer'>
-        <h1 className='about-me-footer-text'>
-          <div className='more-about-me-padding'>
-            More about me!
-          </div>
-        </h1>
-        <FaArrowDownLong className='arrow-down'></FaArrowDownLong>
-      </div>
+			<div className="about-me-footer">
+				<h1 className="about-me-footer-text">
+					<div className="more-about-me-padding">More about me!</div>
+				</h1>
+				<FaArrowDownLong className="arrow-down"></FaArrowDownLong>
+			</div>
 
-
-      <Navbar2></Navbar2>
-    </>
-  );
+			<Navbar2></Navbar2>
+		</>
+	);
 }
