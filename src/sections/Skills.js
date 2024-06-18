@@ -36,8 +36,8 @@ export default function Skills() {
 
 	const technologies = [
 		{ name: "React", icon: ReactIcon },
-		{ name: "Node", icon: NodejsIcon },
 		{ name: "Webpack", icon: webpackIcon },
+		{ name: "Node", icon: NodejsIcon },
 		{ name: "Vite", icon: viteIcon },
 		{ name: "Vue", icon: vueIcon },
 		{ name: "Django", icon: DjangoIcon },
