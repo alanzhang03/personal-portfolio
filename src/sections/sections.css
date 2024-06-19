@@ -53,9 +53,9 @@ a {
 
 .top-btn-style:hover {
 	animation: none;
-	background-color: white;
+	background-color: #927bea;
 	color: black;
-	border: 2px solid white;
+	border: 2px solid #927bea;
 }
 .flex-container {
 	display: flex;
