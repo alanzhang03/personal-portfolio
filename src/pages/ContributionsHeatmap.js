@@ -61,7 +61,7 @@ const ContributionsHeatmap = () => {
 
 	return (
 		<div className="heatmap-container">
-			<h2 className="heatmap-title">Days I Code</h2>
+			<h2 className="heatmap-title">Days I've Coded</h2>
 			<div className="heatmap-wrapper">
 				<CalendarHeatmap
 					startDate={
