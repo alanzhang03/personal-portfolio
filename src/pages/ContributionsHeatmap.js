@@ -11,6 +11,7 @@ const ContributionsHeatmap = () => {
 	useEffect(() => {
 		const fetchContributions = async () => {
 			const token = process.env.REACT_APP_GITHUB_TOKEN;
+			console.log("testing");
 			const query = `
                 query {
                     viewer {
