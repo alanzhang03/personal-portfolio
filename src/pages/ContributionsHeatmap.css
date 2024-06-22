@@ -1,0 +1,62 @@
+.color-empty {
+	fill: #ffffff; /* White color for empty squares */
+}
+.color-github-1 {
+	fill: #d4bff9; /* Lightest purple */
+}
+.color-github-2 {
+	fill: #a371f7; /* Light purple */
+}
+.color-github-3 {
+	fill: #6e40c9; /* Darker purple */
+}
+.color-github-4 {
+	fill: #482070; /* Darkest purple */
+}
+
+/* Target the text elements within the heatmap */
+.react-calendar-heatmap text {
+	fill: #ffffff;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.heatmap-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 20px;
+	color: white;
+}
+
+.heatmap-title {
+	margin-bottom: 20px;
+	font-size: 3.5rem;
+	color: #a371f7;
+}
+
+.react-calendar-heatmap .react-calendar-heatmap-tooltip {
+	color: white;
+	background: rgba(0, 0, 0, 0.7);
+	border-radius: 4px;
+	padding: 4px 8px;
+}
+
+.heatmap-wrapper {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
+
+.react-calendar-heatmap {
+	transform: scale(0.8); /* Scale the heatmap down */
+	transform-origin: top center; /* Ensure it scales from the center */
+}
+
+.react-calendar-heatmap
+	.react-calendar-heatmap-week
+	.react-calendar-heatmap-day {
+	width: 10px; /* Adjust the width */
+	height: 10px; /* Adjust the height */
+	margin: 2px; /* Adjust the margin if needed */
+}
