@@ -121,7 +121,7 @@ a {
 	padding-top: 2vh;
 }
 .button-text {
-	font-size: 2.3vh;
+	font-size: 1.5vh;
 	color: white;
 	text-decoration: none;
 	font-weight: bold;
@@ -130,8 +130,8 @@ a {
 .button-to {
 	background-color: #cd54eb;
 	font-size: large;
-	width: 9vw;
-	height: 6.5vh;
+	width: 6vw;
+	height: 5vh;
 	border-radius: 10px;
 	cursor: pointer;
 }
@@ -143,7 +143,7 @@ a {
 
 .right-arrow {
 	margin-left: 0.5vw;
-	font-size: 2vh;
+	font-size: 1.3vh;
 	border-radius: 5%;
 }
 
@@ -173,27 +173,6 @@ a {
 
 .add-padding {
 	padding-top: 10vh;
-}
-
-@media (min-width: 1800px) {
-	.about-me-description,
-	.purple-text-description {
-		font-size: 1.5vw;
-	}
-}
-
-@media (max-width: 1799px) and (min-width: 900px) {
-	.about-me-description,
-	.purple-text-description {
-		font-size: 1.5vw;
-	}
-}
-
-@media (max-width: 899px) {
-	.about-me-description,
-	.purple-text-description {
-		font-size: 2vw;
-	}
 }
 
 /*skills section*/

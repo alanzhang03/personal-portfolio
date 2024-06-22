@@ -304,25 +304,6 @@ export default function AboutMePage() {
 					</Link>
 					<br></br>
 					<br></br>
-					{/*4th paragraph*/}
-					As I approach the end of my academic journey, I am excited and hopeful
-					to apply the
-					<Link to="/Home" className="purple-text-description">
-						{" "}
-						skills and knowledge{" "}
-					</Link>
-					I have gained thus far to solve real-world problems. I am particularly
-					excited about the opportunitites to take on new challenges, meet new
-					people, and use new technologies. I am always seeking to contribute to
-					meaningful
-					<Link to="/Projects" className="purple-text-description">
-						{" "}
-						projects{" "}
-					</Link>
-					and expand upon my current skill set through continuous learning and
-					collaboration, and am excited for whats to come.
-					<br></br>
-					<br></br>
 					{/*5th paragraph*/}
 					If you have any further questions or even if you would just like to
 					say hello, feel free to navigate to the
