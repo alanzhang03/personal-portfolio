@@ -10,7 +10,7 @@ const ContributionsHeatmap = () => {
 
 	useEffect(() => {
 		const fetchContributions = async () => {
-			const token = "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";
+			const token = process.env.REACT_APP_GITHUB_TOKEN;
 			const query = `
                 query {
                     viewer {
