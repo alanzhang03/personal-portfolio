@@ -65,7 +65,7 @@
 .heatmap-info {
 	display: flex;
 	justify-content: space-between;
-	width: 800px;
+	width: 64vw;
 	margin-top: 20px;
 	font-size: 1.2rem;
 }

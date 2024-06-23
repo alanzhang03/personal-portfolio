@@ -90,9 +90,9 @@ const ContributionsHeatmap = () => {
 				<ReactTooltip />
 			</div>
 			<div className="heatmap-info">
-				<p className="total-contributions">
+				<div className="total-contributions">
 					{totalContributions} contributions in the last year
-				</p>
+				</div>
 				<div className="contribution-legend">
 					<span>Less</span>
 					<span className="color-empty legend-color"></span>
