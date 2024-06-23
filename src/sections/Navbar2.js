@@ -25,9 +25,6 @@ export default function Navbar2() {
             <ScrollToTop />
             <div className="Nav2">
                 <ul2>
-                    <li2 onClick={() => scrollToSection(aboutMeRef)} className="link">
-                        <i class="fa-solid fa-circle"></i>
-                    </li2>
                     <li2 onClick={() => scrollToSection(skillsRef)} className="link">
                         <i class="fa-solid fa-circle"></i>
                     </li2>
@@ -36,11 +33,7 @@ export default function Navbar2() {
                     </li2>
                 </ul2>
             </div>
-            <div ref={aboutMeRef} className="AboutMe">
-                <AboutMe />
-                <StarField></StarField>
-                
-            </div>
+
 
             <div ref={skillsRef} className="Skills">
                 <Skills />

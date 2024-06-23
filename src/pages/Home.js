@@ -45,10 +45,9 @@ export default function Home() {
 					</div>
 				</div>
 			</body>
-
 			<div className="about-me-footer">
 				<h1 className="about-me-footer-text">
-					<div className="more-about-me-padding">More about me!</div>
+					<div className="add-padding">My Tech Stack!</div>
 				</h1>
 				<FaArrowDownLong className="arrow-down"></FaArrowDownLong>
 			</div>
