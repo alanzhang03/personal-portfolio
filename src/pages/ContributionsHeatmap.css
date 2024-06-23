@@ -1,16 +1,16 @@
-.react-calendar-heatmap .color-empty {
+.react-calendar-heatmap {
 	fill: #ffffff !important;
 }
-.react-calendar-heatmap .color-github-1 {
+.react-calendar-heatmap {
 	fill: #d4bff9 !important;
 }
-.react-calendar-heatmap .color-github-2 {
+.react-calendar-heatmap {
 	fill: #a371f7 !important;
 }
-.react-calendar-heatmap .color-github-3 {
+.react-calendar-heatmap {
 	fill: #6e40c9 !important;
 }
-.react-calendar-heatmap .color-github-4 {
+.react-calendar-heatmap {
 	fill: #482070 !important;
 }
 
@@ -60,4 +60,54 @@
 	width: 10px;
 	height: 10px;
 	margin: 2px;
+}
+
+.heatmap-info {
+	display: flex;
+	justify-content: space-between;
+	width: 800px;
+	margin-top: 20px;
+	font-size: 1.2rem;
+}
+
+.total-contributions {
+	margin-left: 20px;
+}
+
+.contribution-legend {
+	display: flex;
+	align-items: center;
+	padding-top: 0;
+}
+
+.color-empty {
+	fill: #ffffff !important;
+}
+
+.color-github-1 {
+	fill: #d4bff9 !important;
+	background-color: #d4bff9 !important;
+}
+
+.color-github-2 {
+	fill: #a371f7 !important;
+	background-color: #a371f7 !important;
+}
+
+.color-github-3 {
+	fill: #6e40c9 !important;
+	background-color: #6e40c9 !important;
+}
+
+.color-github-4 {
+	fill: #482070 !important;
+	background-color: #482070 !important;
+}
+.legend-color {
+	width: 20px;
+	height: 20px;
+	margin: 0 4px;
+	border-radius: 3px;
+	display: inline-block;
+	background-color: white;
 }

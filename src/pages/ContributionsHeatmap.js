@@ -11,7 +11,6 @@ const ContributionsHeatmap = () => {
 	useEffect(() => {
 		const fetchContributions = async () => {
 			const token = process.env.REACT_APP_GITHUB_TOKEN;
-			console.log("testing");
 			const query = `
                 query {
                     viewer {
@@ -59,6 +58,11 @@ const ContributionsHeatmap = () => {
 		fetchContributions();
 	}, []);
 
+	const totalContributions = contributions.reduce(
+		(acc, day) => acc + day.count,
+		0
+	);
+
 	return (
 		<div className="heatmap-container">
 			<h2 className="heatmap-title">Days I've Coded</h2>
@@ -83,8 +87,22 @@ const ContributionsHeatmap = () => {
 						};
 					}}
 				/>
+				<ReactTooltip />
 			</div>
-			<ReactTooltip />
+			<div className="heatmap-info">
+				<p className="total-contributions">
+					{totalContributions} contributions in the last year
+				</p>
+				<div className="contribution-legend">
+					<span>Less</span>
+					<span className="color-empty legend-color"></span>
+					<span className="color-github-1 legend-color"></span>
+					<span className="color-github-2 legend-color"></span>
+					<span className="color-github-3 legend-color"></span>
+					<span className="color-github-4 legend-color"></span>
+					<span>More</span>
+				</div>
+			</div>
 		</div>
 	);
 };
