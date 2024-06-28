@@ -18,7 +18,7 @@ export default function Navbar(){
             </CustomLink>
 
             <CustomLink to="/AboutMePage"> 
-                <IoPersonOutline classname='link-icon'/> About me!
+                <IoPersonOutline className='link-icon'/> About me!
             </CustomLink>
             
             <CustomLink to="/Projects">

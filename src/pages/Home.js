@@ -20,31 +20,30 @@ export default function Home() {
 
 	return (
 		<>
-			<body>
-				<div className="home-container">
-					<div className="typewriter-effect">
-						<p className="intro-header">
-							{" "}
-							Welcome to my Portfolio!<br></br>
-							<p>
-								I'm <span className="purple-text">Alan Zhang </span>
-								<PiHandWaving className="wave-hand"></PiHandWaving>
-							</p>
+			<div className="home-container">
+				<div className="typewriter-effect">
+					<div className="intro-header">
+						{" "}
+						Welcome to my Portfolio!<br></br>
+						<p>
+							I'm <span className="purple-text">Alan Zhang </span>
+							<PiHandWaving className="wave-hand"></PiHandWaving>
 						</p>
-						<div className="typing">
-							<Typewriter
-								textArray={roles}
-								typingDelay={100}
-								backspaceDelay={100}
-							/>
-							<span className="typewriter-cursor">|</span>
-						</div>
 					</div>
-					<div>
-						<img className="MainPic" src={MainPic} alt="MainPic"></img>
+					<div className="typing">
+						<Typewriter
+							textArray={roles}
+							typingDelay={100}
+							backspaceDelay={100}
+						/>
+						<span className="typewriter-cursor">|</span>
 					</div>
 				</div>
-			</body>
+				<div>
+					<img className="MainPic" src={MainPic} alt="MainPic"></img>
+				</div>
+			</div>
+
 			<div className="about-me-footer">
 				<h1 className="about-me-footer-text">
 					<div className="add-padding">My Tech Stack!</div>

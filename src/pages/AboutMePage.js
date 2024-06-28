@@ -96,11 +96,13 @@ export default function AboutMePage() {
 						{" "}
 						Computer Science at the University of Maryland, College Park.
 					</a>
-					<br></br>
-					<br></br>
-					{/*2nd paragraph*/}
+				</p>
+				<br></br>
+				<br></br>
+				{/*2nd paragraph*/}
+				<p className="about-me-description">
 					Currently in College, I am on track to graduate in May 2025. I have
-					taken classes which have covered fundamental conecepts such as
+					taken classes which have covered fundamental concepts such as
 					<a
 						target="_blank"
 						rel="noreferrer"
@@ -195,15 +197,17 @@ export default function AboutMePage() {
 						Handheld Systems{" "}
 					</a>{" "}
 					in the near future.
-					<br></br>
-					<br></br>
-					<center>
-						<h1 className="header">
-							Web Development
-							<br></br>
-						</h1>
-					</center>
-					{/*3rd paragraph*/}
+				</p>
+				<br></br>
+				<br></br>
+				<div className="centered-section">
+					<h1 className="header">
+						Web Development
+						<br></br>
+					</h1>
+				</div>
+				{/*3rd paragraph*/}
+				<p className="about-me-description">
 					Throughout my software development journey thus far, I have been
 					particularly interested in
 					<a
@@ -224,7 +228,7 @@ export default function AboutMePage() {
 						href="https://www.geeksforgeeks.org/web-development/#front_dev"
 					>
 						{" "}
-						eye catching and responsive{" "}
+						eye-catching and responsive{" "}
 					</a>{" "}
 					page as well as some of the core features behind how these websites
 					were
@@ -262,9 +266,11 @@ export default function AboutMePage() {
 						{" "}
 						web portfolio{" "}
 					</Link>
-					<br></br>
-					<br></br>
-					{/*5th paragraph*/}
+				</p>
+				<br></br>
+				<br></br>
+				{/*5th paragraph*/}
+				<p className="about-me-description">
 					If you have any further questions or even if you would just like to
 					say hello, feel free to navigate to the
 					<Link to="/Contact" className="purple-text-description">
@@ -277,19 +283,19 @@ export default function AboutMePage() {
 						portfolio{" "}
 					</Link>
 					and shoot me a message!
-					<br></br>
-					<br></br>
-					<Link to="/Contact">
-						<div className="button-container">
-							<button className="button-to">
-								<div className="button-text">
-									Contact me!
-									<FaArrowRight className="right-arrow"></FaArrowRight>
-								</div>
-							</button>
-						</div>
-					</Link>
 				</p>
+				<br></br>
+				<br></br>
+				<Link to="/Contact">
+					<div className="button-container">
+						<button className="button-to">
+							<div className="button-text">
+								Contact me!
+								<FaArrowRight className="right-arrow"></FaArrowRight>
+							</div>
+						</button>
+					</div>
+				</Link>
 			</div>
 			{/* Heatmap Section */}
 			<ContributionsHeatmap />

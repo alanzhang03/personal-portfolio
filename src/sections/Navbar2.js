@@ -19,17 +19,14 @@ export default function Navbar2() {
 		<>
 			<ScrollToTop />
 			<div className="Nav2">
-				<ul2>
-					<li2 onClick={() => scrollToSection(skillsRef)} className="link">
-						<i class="fa-solid fa-circle"></i>
-					</li2>
-					<li2
-						onClick={() => scrollToSection(technologiesRef)}
-						className="link"
-					>
-						<i class="fa-solid fa-circle"></i>
-					</li2>
-				</ul2>
+				<ul>
+					<li onClick={() => scrollToSection(skillsRef)} className="link">
+						<i className="fa-solid fa-circle"></i>
+					</li>
+					<li onClick={() => scrollToSection(technologiesRef)} className="link">
+						<i className="fa-solid fa-circle"></i>
+					</li>
+				</ul>
 			</div>
 
 			<div ref={skillsRef} className="Skills">

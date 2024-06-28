@@ -17,8 +17,8 @@ export default function Resume(){
                         </a>
                     </div>
                 </div>
-                <a href={ResumeFile} download="Alan_Zhang_Resume.pdf" class="download-button">
-                    <i class="fa fa-download"></i> Download Resume
+                <a href={ResumeFile} download="Alan_Zhang_Resume.pdf" className="download-button">
+                    <i className="fa fa-download"></i> Download Resume
                 </a>
             </div>
         </>
