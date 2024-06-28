@@ -2,16 +2,11 @@ const express = require("express");
 const nodemailer = require("nodemailer");
 const cors = require("cors");
 const bodyParser = require("body-parser");
-const path = require("path");
 
 const app = express();
 
 app.use(cors());
 app.use(bodyParser.json());
-
-
-app.use(express.static(path.join(__dirname, "../build")));
-
 
 const transporter = nodemailer.createTransport({
 	service: "gmail",
@@ -25,7 +20,6 @@ if (!process.env.EMAIL || !process.env.APP_SPECIFIC_PASSWORD) {
 	console.error("The EMAIL and PASSWORD environment variables must be set.");
 	process.exit(1);
 }
-
 
 app.post("/send-email", (req, res) => {
 	const { name, email, message } = req.body;
@@ -66,11 +60,6 @@ app.post("/send-email", (req, res) => {
 			return res.status(200).send("Email successfully sent");
 		}
 	});
-});
-
-
-app.get("/*", (req, res) => {
-	res.sendFile(path.join(__dirname, "../build", "index.html"));
 });
 
 const PORT = process.env.PORT || 3001;
