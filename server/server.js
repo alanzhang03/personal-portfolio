@@ -9,9 +9,7 @@ const app = express();
 app.use(cors());
 app.use(bodyParser.json());
 
-// Log environment variables to verify they are loaded correctly
-console.log("Email from .env:", process.env.EMAIL);
-console.log("App Specific Password from .env:", process.env.APP_SPECIFIC_PASSWORD);
+
 
 if (!process.env.EMAIL || !process.env.APP_SPECIFIC_PASSWORD) {
     console.error("The EMAIL and APP_SPECIFIC_PASSWORD environment variables must be set.");
@@ -24,11 +22,10 @@ const transporter = nodemailer.createTransport({
         user: process.env.EMAIL,
         pass: process.env.APP_SPECIFIC_PASSWORD,
     },
-    debug: true, // Enable debug mode
-    logger: true, // Log to console
+    debug: true, 
+    logger: true, 
 });
 
-// Add a simple route to handle GET requests to the root URL
 app.get("/", (req, res) => {
     res.send("Hello, your server is running!");
 });
