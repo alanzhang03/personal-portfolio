@@ -66,14 +66,7 @@ const ContributionsHeatmap = () => {
 	return (
 		<div className="heatmap-container">
 			<h2 className="heatmap-title">Days I've Coded</h2>
-			<a
-				className="click-to-github"
-				href="https://github.com/alanzhang03"
-				target="_blank"
-				rel="noreferrer"
-			>
-				(Click me to view!)
-			</a>
+
 			<div className="heatmap-wrapper">
 				<CalendarHeatmap
 					startDate={
@@ -101,6 +94,14 @@ const ContributionsHeatmap = () => {
 				<div className="total-contributions">
 					{totalContributions} contributions in the last year
 				</div>
+				<a
+					className="click-to-github"
+					href="https://github.com/alanzhang03"
+					target="_blank"
+					rel="noreferrer"
+				>
+					(Click me to view!)
+				</a>
 				<div className="contribution-legend">
 					<span>Less</span>
 					<span className="color-empty legend-color"></span>
