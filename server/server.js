@@ -6,7 +6,7 @@ const bodyParser = require("body-parser");
 
 const app = express();
 
-// Serve static files from the "public" directory
+
 app.use(express.static(path.join(__dirname, "../public")));
 
 app.use(cors());
@@ -29,7 +29,7 @@ const transporter = nodemailer.createTransport({
 	logger: true,
 });
 
-app.get("/", (req, res) => {
+app.get("/api", (req, res) => {
 	res.send("Hello, your server is running!");
 });
 
@@ -84,6 +84,11 @@ app.post("/send-email", (req, res) => {
 			return res.status(200).send("Email successfully sent");
 		}
 	});
+});
+
+
+app.get("*", (req, res) => {
+	res.sendFile(path.join(__dirname, "../public", "index.html"));
 });
 
 const PORT = process.env.PORT || 3001;
