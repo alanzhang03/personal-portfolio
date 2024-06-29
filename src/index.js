@@ -11,7 +11,6 @@ root.render(
 		<BrowserRouter>
 			<App />
 		</BrowserRouter>
-	</React.StrictMode>,
-	document.getElementById("root")
+	</React.StrictMode>
 );
 reportWebVitals();
