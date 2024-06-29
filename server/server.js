@@ -6,7 +6,6 @@ const bodyParser = require("body-parser");
 
 const app = express();
 
-
 app.use(express.static(path.join(__dirname, "../public")));
 
 app.use(cors());
@@ -86,8 +85,8 @@ app.post("/send-email", (req, res) => {
 	});
 });
 
-
 app.get("*", (req, res) => {
+	console.log("Serving index.html for request:", req.url);
 	res.sendFile(path.join(__dirname, "../public", "index.html"));
 });
 
