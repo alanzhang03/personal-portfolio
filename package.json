@@ -1,60 +1,60 @@
 {
-  "name": "personal-portfolio",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "@emotion/react": "^11.11.3",
-    "@emotion/styled": "^11.11.0",
-    "@mui/material": "^5.15.11",
-    "@testing-library/jest-dom": "^5.17.0",
-    "@testing-library/react": "^13.4.0",
-    "@testing-library/user-event": "^13.5.0",
-    "@types/react": "^18.2.67",
-    "@types/react-dom": "^18.2.22",
-    "axios": "^1.7.2",
-    "body-parser": "^1.20.2",
-    "cors": "^2.8.5",
-    "dotenv": "^16.4.5",
-    "express": "^4.19.2",
-    "nodemailer": "^6.9.14",
-    "react": "^18.2.0",
-    "react-calendar-heatmap": "^1.9.0",
-    "react-dom": "^18.2.0",
-    "react-icons": "^5.0.1",
-    "react-router-dom": "^6.22.3",
-    "react-scripts": "^5.0.1",
-    "react-tooltip": "^5.27.0",
-    "web-vitals": "^2.1.4",
-    "ws": "^8.17.1"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  },
-  "devDependencies": {
-    "@vitejs/plugin-react": "^4.2.1",
-    "vite": "^5.1.6",
-    "vite-plugin-svgr": "^4.2.0",
-    "vite-tsconfig-paths": "^4.3.2"
-  }
+	"name": "personal-portfolio",
+	"version": "0.1.0",
+	"private": true,
+	"dependencies": {
+		"@emotion/react": "^11.11.3",
+		"@emotion/styled": "^11.11.0",
+		"@mui/material": "^5.15.11",
+		"@testing-library/jest-dom": "^5.17.0",
+		"@testing-library/react": "^13.4.0",
+		"@testing-library/user-event": "^13.5.0",
+		"@types/react": "^18.2.67",
+		"@types/react-dom": "^18.2.22",
+		"axios": "^1.7.2",
+		"body-parser": "^1.20.2",
+		"cors": "^2.8.5",
+		"dotenv": "^16.4.5",
+		"express": "^4.19.2",
+		"nodemailer": "^6.9.14",
+		"react": "^18.2.0",
+		"react-calendar-heatmap": "^1.9.0",
+		"react-dom": "^18.2.0",
+		"react-icons": "^5.0.1",
+		"react-router-dom": "^6.22.3",
+		"react-scripts": "^5.0.1",
+		"react-tooltip": "^5.27.0",
+		"web-vitals": "^2.1.4",
+		"ws": "^8.17.1"
+	},
+	"scripts": {
+		"start": "node server/server.js",
+		"build": "react-scripts build",
+		"test": "react-scripts test",
+		"eject": "react-scripts eject"
+	},
+	"eslintConfig": {
+		"extends": [
+			"react-app",
+			"react-app/jest"
+		]
+	},
+	"browserslist": {
+		"production": [
+			">0.2%",
+			"not dead",
+			"not op_mini all"
+		],
+		"development": [
+			"last 1 chrome version",
+			"last 1 firefox version",
+			"last 1 safari version"
+		]
+	},
+	"devDependencies": {
+		"@vitejs/plugin-react": "^4.2.1",
+		"vite": "^5.1.6",
+		"vite-plugin-svgr": "^4.2.0",
+		"vite-tsconfig-paths": "^4.3.2"
+	}
 }
