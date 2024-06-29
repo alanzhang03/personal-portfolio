@@ -1,12 +1,11 @@
 const express = require("express");
-const path = require("path");
+
 const nodemailer = require("nodemailer");
 const cors = require("cors");
 const bodyParser = require("body-parser");
 
 const app = express();
 
-app.use(express.static(path.join(__dirname, "../build")));
 
 app.use(cors());
 app.use(bodyParser.json());
@@ -86,9 +85,7 @@ app.post("/send-email", (req, res) => {
 });
 
 
-app.get("*", (req, res) => {
-	res.sendFile(path.join(__dirname, "../build", "index.html"));
-});
+
 
 const PORT = process.env.PORT || 3001;
 app.listen(PORT, () => {
