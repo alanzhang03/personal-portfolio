@@ -100,7 +100,7 @@ const ContributionsHeatmap = () => {
 					target="_blank"
 					rel="noreferrer"
 				>
-					(Click me to view!)
+					(Click here to view!)
 				</a>
 				<div className="contribution-legend">
 					<span>Less</span>
