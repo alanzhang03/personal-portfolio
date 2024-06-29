@@ -17,8 +17,7 @@ export default function AboutMePage() {
 			<ScrollToTop></ScrollToTop>
 			<div className="AboutMePage">
 				<h1 className="header">
-					About Me
-					<br></br>
+					About Me					
 				</h1>
 
 				{/*1st paragraph*/}
@@ -97,8 +96,7 @@ export default function AboutMePage() {
 						Computer Science at the University of Maryland, College Park.
 					</a>
 				</p>
-				<br></br>
-				<br></br>
+
 				{/*2nd paragraph*/}
 				<p className="about-me-description">
 					Currently in College, I am on track to graduate in May 2025. I have
@@ -198,8 +196,7 @@ export default function AboutMePage() {
 					</a>{" "}
 					in the near future.
 				</p>
-				<br></br>
-				<br></br>
+
 				<div className="centered-section">
 					<h1 className="header">
 						Web Development
@@ -267,8 +264,6 @@ export default function AboutMePage() {
 						web portfolio{" "}
 					</Link>
 				</p>
-				<br></br>
-				<br></br>
 				{/*5th paragraph*/}
 				<p className="about-me-description">
 					If you have any further questions or even if you would just like to
@@ -284,8 +279,6 @@ export default function AboutMePage() {
 					</Link>
 					and shoot me a message!
 				</p>
-				<br></br>
-				<br></br>
 				<Link to="/Contact">
 					<div className="button-container">
 						<button className="button-to">
