@@ -6,7 +6,7 @@ const bodyParser = require("body-parser");
 
 const app = express();
 
-app.use(express.static(path.join(__dirname, "../public")));
+app.use(express.static(path.join(__dirname, "../build")));
 
 app.use(cors());
 app.use(bodyParser.json());
@@ -85,9 +85,9 @@ app.post("/send-email", (req, res) => {
 	});
 });
 
+
 app.get("*", (req, res) => {
-	console.log("Serving index.html for request:", req.url);
-	res.sendFile(path.join(__dirname, "../public", "index.html"));
+	res.sendFile(path.join(__dirname, "../build", "index.html"));
 });
 
 const PORT = process.env.PORT || 3001;
