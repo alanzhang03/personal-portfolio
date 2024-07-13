@@ -15,7 +15,8 @@ export default function Projects() {
 	const projects = [
 		{
 			title: "Cv Builder",
-			description: "Cv Builder for software developers",
+			description:
+				"A powerful CV builder designed specifically for software developers.",
 			image: CvResumeBuilder,
 			demoLink: "https://resume-cv-app.onrender.com/",
 			githubLink: "https://github.com/alanzhang03/Resume-CV-App",
