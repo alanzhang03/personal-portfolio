@@ -5,6 +5,7 @@ import EtchASketch from "../Assets/EtchASketch.png";
 import CalcApp from "../Assets/CalcApp.png";
 import LibraryStorage from "../Assets/LibraryStorage.png";
 import TicTacToe from "../Assets/TicTacToe.png";
+import CvResumeBuilder from "../Assets/CvResumeBuilder.png";
 
 export default function Projects() {
 	useEffect(() => {
@@ -13,6 +14,13 @@ export default function Projects() {
 
 	const projects = [
 		{
+			title: "Cv Builder",
+			description: "Cv Builder for software developers",
+			image: CvResumeBuilder,
+			demoLink: "https://resume-cv-app.onrender.com/",
+			githubLink: "https://github.com/alanzhang03/Resume-CV-App",
+		},
+		{
 			title: "Tic-Tac-Toe",
 			description:
 				"Tic Tac Toe game, played against an AI (using minimax algorithm) or another player.",
@@ -20,6 +28,7 @@ export default function Projects() {
 			demoLink: "https://alantictactoe.onrender.com/",
 			githubLink: "https://github.com/alanzhang03/tictactoe",
 		},
+
 		{
 			title: "Weather Tracker",
 			description:
@@ -28,6 +37,7 @@ export default function Projects() {
 			demoLink: "https://weatherapp-7fu2.onrender.com/",
 			githubLink: "https://github.com/alanzhang03/weather-app",
 		},
+
 		{
 			title: "Calculator App",
 			description: "Calculator application",
